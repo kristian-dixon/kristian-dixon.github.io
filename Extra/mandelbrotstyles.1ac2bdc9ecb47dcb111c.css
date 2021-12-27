@@ -1,0 +1,7 @@
+body {
+    margin: 1rem;
+    background-color:  rgb(10, 10, 10);
+    color: antiquewhite;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
