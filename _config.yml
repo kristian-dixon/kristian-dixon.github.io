@@ -28,7 +28,7 @@ twitter_username: kris_1206
 
 
 # Build settings
-theme: minima
+theme: Architect
 plugins:
   - jekyll-feed
 
