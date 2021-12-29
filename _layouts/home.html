@@ -1,0 +1,141 @@
+---
+layout: default
+---
+
+
+<style>
+    .page-content{
+        overflow: auto;
+  position: relative;
+    }
+
+    .page-content::before {
+        content: "";
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 100px;
+        z-index: -1;
+
+        display: block;
+
+        background-image: url("assets/screenshots/cropped-rendering-screenshot.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter:blur(10px) brightness(0.3);
+        width: 100%;
+        height: 100%;
+    }
+
+    .site-header
+    {
+        background-color: #181818;
+    }
+
+    .site-footer
+    {
+        background-color: #181818;
+    }
+
+    .home
+    {
+        /*display: flex;*/
+    }
+
+    .main-box
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .title-text
+    {
+        font-weight: 700;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    body
+    {
+        font-family: Lato;
+        color: #cccccc;
+    }
+
+</style>
+
+<div class="home">
+
+    <div class="main-box">
+        <h1 class="title-text">KRISTIAN DIXON</h1>
+        <p>Hi, I'm Kris. I'm currently a Senior Mixed Reality Engineer at ViSR Dynamics in Hull.</p> 
+        <p>This website is a portfolio of the work I've done at University as well as a blog that covers the smaller projects I've worked on in my spare time. 
+            My interests primarilly lay in graphics programming and producing procedural content.</p>
+        <p>-</p>
+        <p>Languages used: C++, C#, TypeScript, JavaScript, HLSL, GLSL</p>
+        <p>Libraries, Tools, Engines worked with: DXR, DirectX 11 and 12, Vulkan, OpenGL, WebGL, Unity, Unreal, PCL (Point Cloud Library), OpenFrameworks, Babylon.js, ShaderToy, Oculus, SteamVR</p>
+
+    </div>
+
+<!--    
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }} and dogs</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+  <div>
+      <p>Don't you think dogs are cool?</p>
+  </div>
+
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+    <ul class="post-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for post in posts -%}
+      <li>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    {% if site.paginate %}
+      <div class="pager">
+        <ul class="pagination">
+        {%- if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+          <li><div class="current-page">{{ paginator.page }}</div></li>
+        {%- if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+        </ul>
+      </div>
+    {%- endif %}
+
+  {%- endif -%}
+!-->
+</div>
