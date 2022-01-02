@@ -1,0 +1,23 @@
+<footer class="site-footer h-card">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  
+    <div class="wrapper">
+  
+      <div class="footer-col-wrapper">
+        <div class="footer-col">
+          
+        {%- if site.author %}
+          <ul class="contact-list">
+            <li><a href="https://twitter.com/Kris_1206">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/kristian-dixon-651020115/">Linkedin</a></li>
+          </ul>
+        {%- endif %}
+        </div>
+        <div class="footer-col">
+          <p>{{ site.description | escape }}</p>
+        </div>
+      </div>
+  
+    </div>
+  
+  </footer>
