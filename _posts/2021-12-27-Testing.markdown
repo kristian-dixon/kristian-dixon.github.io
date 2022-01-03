@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Testing to Jekyll!"
+title:  "Testing to Jekyllw!"
 date:   2021-12-27 18:39:52 +0100
-categories: jekyll update
+categories: jekyll
 ---
 CHICKEN CHICKEN CHICKEN!
 
