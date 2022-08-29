@@ -27,16 +27,17 @@ layout: default
         height: 100%;
     }
 
+    .wrapper
+    {
+        max-width: none;
+    }
+
     .site-header {
         background-color: #181818;
     }
 
     .site-footer {
         background-color: #181818;
-    }
-
-    .home {
-        /*display: flex;*/
     }
 
     .main-box {
@@ -55,7 +56,7 @@ layout: default
 
     body {
         font-family: Lato;
-        color: #cccccc;
+        color: #dddddd;
     }
 
     .interesting-stuff {
@@ -71,10 +72,6 @@ layout: default
         width: 100%;
     }
 
-    .portfolio {
-        /* border-right: 1px solid #cccccc;*/
-    }
-
     .blog {
         border-left: 1px solid #cccccc;
     }
@@ -86,28 +83,106 @@ layout: default
     p{
         margin-bottom: 4px;
     }
+
+    .outer_container{
+        height: 500px;
+        display:flex;
+        flex-direction: row;
+    }
+
+    .bio_container{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .socials_card{
+        flex-grow: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bio_words{
+        flex-grow: 5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .socials_container{
+        width: 80%;
+        height: 85%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .social-icon{
+        width: 40px;
+        height: 40px;
+        margin:4px;
+    }
+
+    .icon-scale{
+        transform:scale(2);
+    }
+
+    .social_list_item
+    {
+        display: inline;
+        margin: 0;
+    }
+
+    .social-media-list2
+    {
+        margin:0;
+    }
+
+    .grey{
+        color:#dddddd;
+        filter:drop-shadow(0.5px, 0.5px, 1px, black)
+
+    }
+
+    .home{
+        text-shadow: 1px 1px black;
+    }
+
 </style>
 
 <div class="home">
+    <div class="outer_container">
+        <div class="bio_container">
+            <div class="socials_card"  >
+                <div class="socials_container">
+                    <h2>Kristian Dixon</h3>
+                    <h4>Software Engineer</h4>
 
-    <div class="main-box">
-        <div class="About">
-            <h1 class="title-text">KRISTIAN DIXON</h1>
-            <p>Hi, I'm Kris. I'm currently a Senior Mixed Reality Engineer at ViSR Dynamics in Hull.</p>
-            <p>This website is a portfolio of the work I've done at University as well as a blog that covers the smaller
-                projects I've worked on in my spare time.
-                My interests primarily lay in graphics programming and producing procedural content.</p>
-            <p>-</p>
-            <p><b>Languages used:</b> C++, C#, TypeScript, JavaScript, Python, HLSL, GLSL, Prolog</p>
-            <p><b>Libraries, Tools, Engines worked with:</b> DXR, DirectX 11 and 12, Vulkan, OpenGL, WebGL, Unity,
-                Unreal, PCL (Point Cloud Library), OpenCV, OpenFrameworks, Babylon.js, ShaderToy, Oculus VR, SteamVR,
-                MonoGame,
-                XNA</p>
+                    {%- include social.html -%}
+                </div>
+            </div>
+
+            <div class="bio_words" >
+                <h3> Biography </h3>
+                <p> Currently working as a Senior Mixed Reality Developer at VISR Dynamics </p>
+                <h4> Education </h4>
+                <p> Distinction level MSc in Computer Science for Games Development </p>
+                <small>University of Hull - 2018 to 2020</small>
+                <p> First class honours BSc in Computer Science with Games Development</p>
+                <small>University of Hull - 2014 to 2017</small>
+            </div>
         </div>
+    </div>
+</div>
 
-        <div class="interesting-stuff">
 
-            <!--Fetching all posts-->
+
+<!--
+    Fetching all posts
+     <div class="interesting-stuff d-none">
             {% assign posts = site.posts %}
 
             <div class="portfolio content">
@@ -168,8 +243,4 @@ layout: default
 
             </div>
         </div>
-
-    </div>
-
-
-</div>
+-->
