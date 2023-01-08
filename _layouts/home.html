@@ -7,6 +7,7 @@ layout: default
     .page-content {
         overflow: auto;
         position: relative;
+        padding: unset;
     }
 
     .page-content::before {
@@ -30,10 +31,18 @@ layout: default
     .wrapper
     {
         max-width: none;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .site-header {
         background-color: #181818;
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-top: unset;
     }
 
     .site-footer {
@@ -152,6 +161,17 @@ layout: default
         height: 80vh;
     }
 
+    .about{
+        background-color: #181818;
+        width: 100%;
+
+        height: 400px;
+    }
+
+    .linebreak{
+        border-top: 1px solid #404040;
+        border-bottom: 1px solid #404040;
+    }
 </style>
 
 <div class="home">
@@ -181,8 +201,10 @@ layout: default
     </div>
 </div>
 
+<div class="about linebreak">
 
-{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}{%- include social.html -%}
+</div>
+
 <!--
     Fetching all posts
      <div class="interesting-stuff d-none">
