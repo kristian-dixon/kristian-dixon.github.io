@@ -17,7 +17,7 @@ minima:
     youtube_channel: UCkSFuJXKNmo073pa_snVsog
 
 # Build settings
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@0e58c18c1f943731e76bdbd681a7748c0b36340c
 plugins:
   - jekyll-remote-theme
 
