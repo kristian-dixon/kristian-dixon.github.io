@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" />
 
 <style>
     .page-content {
@@ -163,7 +163,20 @@ layout: default
     }
 
     .about{
-        background-color: #181818;
+        background-color: #181818F0;
+        width: 100%;
+        padding: 30px;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .blogwrapper{
+        background-color: #151515;
         width: 100%;
         padding: 30px;
 
@@ -183,7 +196,8 @@ layout: default
         width: 80%;
         padding:30px;
         margin: auto;
-        min-width: 100%;
+        max-width: 1200px;
+        
     }
 
     .leftverticalbreak{
@@ -193,11 +207,11 @@ layout: default
     .interestcollageparent{
         display: flex;
         flex-direction: row;
-
-       
+        max-width: 1200px;;
+        margin:auto;
     }
 
-    @media (max-width: 700px)  {
+    @media (max-width: 800px)  {
         .interestcollageparent{
             flex-direction:column;
         }
@@ -241,18 +255,16 @@ layout: default
 </div>
 
 <div class="about linebreak">
-    <h2 style="text-align: center">About</h2>
+    <h2>About</h2>
     <div class="linebreak"></div>
     <div class="aboutwrapper">
         <p>Hi I’m Kris, I make lots of technical stuff both as a hobby and professionally and I wanted somewhere that I could share the things I’ve worked on.</p> 
         <br>
-        
         <p>I’ve made this website partly as something for myself so that I can look back on what I’ve done at the end of the year and feel proud of what I’ve achieved. My other goal is for something I’ve written to be helpful or inspire someone else. I’ll try to link sources and inspirations where I can and whilst this website doesn’t have a comments system I will try to respond to any social media messages asap.</p>
         <br>
-        <p>Below is a sort of HTML collage of the things I'm interested in so you know what you can expect to find in the blog posts.</p>
+        <p>Below is a sort of HTML table of the things I'm interested in so you know what you can expect to find in the blog posts.</p>
     </div>
-    <div class="linebreak"></div>
-
+    
     <div class="interestcollageparent rightverticalbreak leftverticalbreak">
         <div class="interestcollageentry rightverticalbreak leftverticalbreak">
             <h5>Languages</h5>
@@ -290,9 +302,48 @@ layout: default
         </div>
 
     </div>
-    <div class="linebreak"></div>
 </div>
 
+<div class="blogwrapper linebreak">
+    <h2 style="text-align: center">Blog</h2>
+    <div class="linebreak"></div>
+    
+    <div class="interesting-stuff">
+        <div class="blog content">
+            <h4> Recent Blog Posts</h4>
+
+            <div class="jekyll-auto-populate">
+                {% assign posts = site.posts %}
+                {%- if posts.size > 0 -%}
+                    <ul class="post-list">
+                        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                        {%- for post in posts -%}
+                            {%- if post.categories contains "update" -%}
+                                <li>
+                                    <span class="post-meta">{{ post.date | date: date_format }}</span>
+                                    <h3>
+                                        <a class="post-link" href="{{ post.url | relative_url }}">
+                                            {{ post.title | escape }}
+                                        </a>
+                                    </h3>
+                                    {%- if site.show_excerpts -%}
+                                    {{ post.excerpt }}
+                                    {%- endif -%}
+                                </li>
+                            {%- endif -%}
+
+                        {%- endfor -%}
+                    </ul>
+
+                    <a href="">More posts</a>
+                {%- endif -%}
+            </div>
+
+        </div>
+    </div>
+   
+    <div class="linebreak"></div>
+</div>
 <!--
     Fetching all posts
      <div class="interesting-stuff d-none">
