@@ -78,7 +78,12 @@ layout: default
     }
 
     .latestposts{
+        width:100%;
         flex-grow: 1;
+    }
+
+    .previewwrapper{
+        padding: 5%;
     }
 
     .postexcerpt{
@@ -284,47 +289,16 @@ layout: default
     <div class="aboutwrapper">
         <p>Hi I’m Kris, I make lots of technical stuff both as a hobby and professionally and I wanted somewhere that I could share the things I’ve worked on.</p> 
         <br>
-        <p>I’ve made this website partly as something for myself so that I can look back on what I’ve done at the end of the year and feel proud of what I’ve achieved. My other goal is for something I’ve written to be helpful or inspire someone else. I’ll try to link sources and inspirations where I can and whilst this website doesn’t have a comments system I will try to respond to any social media messages asap.</p>
+        <p>I have a MSc in Computer Science from the University of Hull and I currently work as a Senior Mixed Reality Engineer at <a href="https://visr-vr.com/"> VISR Dynamics</a> 
+            where I've been able to grow over the past four years as well as being able to work with some great people.</p>
+        <p> My core area of interest is in graphics programming, I love everything about it to the point that I spend most of my weekends trying to implement things that I've either read about or seen in a game during the week. 
+            This is likely what a lot of this blog will cover, however I can get dragged into other research rabbitholes quite easily. <br>
+            I also am really interested in computer vision and photogrammetry. I quite like how they're almost the inverse of a lot of graphics programming stuff in that you usually are taking a 2D image and translating it back into 3D.  
+        </p>
+
         <br>
-        <p>Below is a sort of HTML table of the things I'm interested in so you know what you can expect to find in the blog posts.</p>
-    </div>
-    
-    <div class="interestcollageparent rightverticalbreak leftverticalbreak">
-        <div class="interestcollageentry rightverticalbreak leftverticalbreak">
-            <h5>Languages</h5>
-            <div class="linebreak"></div>
-            <div style="padding-top:16px">
-                <p>C++, C#, HLSL, GLSL, TypeScript, JavaScript, Python, Prolog</p>
-
-                <p>I'm also interested in looking into Rust when I get the spare time.</p>
-            </div>
-        </div>
-        
-        <div class="interestcollageentry rightverticalbreak leftverticalbreak">
-            <h5>Tools and Technologies</h5>
-            <div class="linebreak"></div>
-
-            <div style="padding-top:16px">
-                <p>DirectX Raytracing, DirectX 12, DirectX 11, Vulkan, OpenGL, OpenCV, Open3D, OpenFrameworks, OpenXR, WebRTC, Babylon.js, Point Cloud Library, Shadertoy</p>
-                <p><b>Engines:</b> Unity, Unreal 4</p>
-                <p><b>Source Control:</b> Git, SVN</p>
-            </div>
-        </div>
-
-        <div class="interestcollageentry rightverticalbreak leftverticalbreak">
-            <h5>Areas of Interest</h5>
-            <div class="linebreak"></div>
-
-            <div style="padding-top:16px">
-                <p>Graphics Programming.</p>
-                <p>Generative Art.</p>
-                <p>Computer Vision.</p>
-                <p>Game Development.</p>
-                <p>Mixed Reality.</p>
-                <p>Networked game logic.</p>
-            </div>
-        </div>
-
+        <p>Outside of programming I also love football, however I'm a bit of an outlier because I only actually care about Hull City and I find it quite hard to watch other teams as a neutral. I quite enjoy obsessing over the 
+            data side of things and trying to figure out what we need to get promoted. I also enjoy playing it as a sport, I find it quite useful for clearing out my brain.</p>
     </div>
 </div>
 
@@ -461,9 +435,10 @@ layout: default
         </div>
             
         <div class="postexcerpt leftverticalbreak">
-            
-            {% assign p = site.posts[0] %}
-            {{ p.content | strip_html | truncatewords:75}}
+            <div class="previewwrapper">
+                {% assign p = site.posts[0] %}
+                {{ p.content | strip_html | truncatewords:75}}
+            </div>
         </div>
     </div>
         
