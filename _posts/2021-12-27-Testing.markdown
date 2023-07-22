@@ -2,6 +2,7 @@
 layout: post
 title:  "Testing to Jekyllw!"
 date:   2021-12-27 18:39:52 +0100
+tags: test
 categories: jekyll
 ---
 CHICKEN CHICKEN CHICKEN!
