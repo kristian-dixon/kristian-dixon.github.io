@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+{%- include head.html -%}
+{%- include css.html -%}
+
+<style>
+    body{
+        overflow: hidden;
+    }
+    .postexcerpt {
+        overflow: scroll;
+        overflow-x: hidden;
+        min-height: 88vh;
+        max-height: 88vh;
+    }
+
+    .latestposts {
+        overflow: scroll;
+        overflow-x: hidden;
+        min-height: 88vh;
+        max-height: 88vh;
+
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+    width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #181818;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    }
+
+    .blogwrapper{
+        padding-top: unset;
+    }
+
+    .site-footer{
+        border-top:unset;
+    }
+</style>
+
+
+<body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            {% assign posts = site.posts %}
+            {%- if posts.size > 0 -%}
+            <div class="blogwrapper linebreak">
+                <h2 style="text-align: center">Blog</h2>
+                <div class="linebreak"></div>
+
+                <div class="blog">
+                    <div class="latestposts ">
+
+                        <h2>Posts</h2>
+
+                        <ul class="post-list">
+                            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                            {%- for post in posts -%}
+                            <li>
+                                <h4 style="margin: 0px;">
+                                    <a style="text-align: left;" class="post-link" href="{{ post.url | relative_url }}">
+                                        {{ post.title | escape }}
+                                    </a>
+                                    <div style="display: flex; flex-direction:row; margin:auto;">
+                                        <span class="post-meta post-meta-tags">Tags:
+
+                                            {% for tag in post.tags %}
+                                            {{ tag }}
+
+                                            {% endfor %}
+
+                                        </span>
+                                        <span class="post-meta post-meta-date">{{ post.date | date: date_format
+                                            }}</span>
+                                    </div>
+                                </h4>
+                                {%- if site.show_excerpts -%}
+                                {{ post.excerpt }}
+                                {%- endif -%}
+                            </li>
+                            <!--{%- if post.categories contains "update" -%}-->
+                            <!--{%- endif -%}-->
+
+
+                            
+                            {%- endfor -%}
+                        </ul>
+
+                        <a href="">More posts</a>
+                    </div>
+
+                    <div class="postexcerpt leftverticalbreak">
+                        <div class="previewwrapper">
+                            {{ content }}
+                        </div>
+                    </div>
+                </div>
+
+                {%- endif -%}
+            </div>
+
+
+        </div>
+    </main>
+
+    {%- include footer.html -%}
+
+</body>
+
+</html>

@@ -5,6 +5,8 @@ date: 2022-01-02 14:21:00 +0000
 categories: jekyll 
 ---
 
+## C++ Programming and Design + Realtime Graphics
+
 <p align=center>
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_q_MZ7ccnyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
