@@ -49,6 +49,30 @@
     .site-footer{
         border-top:unset;
     }
+
+
+    @media (max-width: 900px)  {
+        .interestcollageparent{
+            flex-direction:column;
+        }
+
+        .aboutwrapper{
+            width: 100%;
+            padding: 0;
+            padding-top:30px;
+            padding-bottom:30px;
+        }
+
+        .postexcerpt{
+            display: unset;
+        }
+
+        .latestposts{
+            width: 100%;
+            max-width: 100%;
+            display:none;
+        }
+    }
 </style>
 
 
@@ -101,8 +125,6 @@
                             
                             {%- endfor -%}
                         </ul>
-
-                        <a href="">More posts</a>
                     </div>
 
                     <div class="postexcerpt leftverticalbreak">

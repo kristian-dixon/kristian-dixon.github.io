@@ -1,7 +1,7 @@
 title: Kris makes stuff
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Programming blog and portfolio by Kristian Dixon :)
+  Programming blog and portfolio by Kristian Dixon 🐯
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 

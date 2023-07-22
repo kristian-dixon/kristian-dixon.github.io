@@ -15,18 +15,6 @@ layout: default
                     {%- include social.html -%}
                 </div>
             </div>
-
-            <!--
-            <div class="bio_words" >
-                <h3> Biography </h3>
-                <p> Currently working as a Senior Mixed Reality Developer at VISR Dynamics </p>
-                <h4> Education </h4>
-                <p> Distinction level MSc in Computer Science for Games Development </p>
-                <small>University of Hull - 2018 to 2020</small>
-                <p> First class honours BSc in Computer Science with Games Development</p>
-                <small>University of Hull - 2014 to 2017</small>
-            </div>
-            -->
         </div>
     </div>
 </div>
@@ -45,7 +33,7 @@ layout: default
         </p>
 
         <br>
-        <p>Outside of programming I also love football, however I'm a bit of an outlier because I only actually care about Hull City and I find it quite hard to watch other teams as a neutral. I quite enjoy obsessing over the 
+        <p>Outside of programming I also love Hull City AFC. I quite enjoy obsessing over the 
             data side of things and trying to figure out what we need to get promoted. I also enjoy playing it as a sport, I find it quite useful for clearing out my brain.</p>
     </div>
 </div>
@@ -99,7 +87,6 @@ layout: default
             
             
             <div class="previewwrapper">
-                <h4>{% assign h = site.posts[0]%} {{ h.title | escape }}</h4>
                 {% assign p = site.posts[0] %}
                 {{ p.content  | truncatewords:300}}
             </div>

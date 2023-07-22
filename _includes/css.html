@@ -1,6 +1,11 @@
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" />
 
 <style>
+    .page-link{
+        background-color: unset;
+        border:unset;
+    }
+
     .page-content {
         overflow: auto;
         position: relative;
@@ -76,6 +81,7 @@
 
     .latestposts{
         width:50%;
+        max-width: 50vh;
         padding-left: 2.5%;
         padding-right: 2.5%;
         padding-top:36px;
@@ -225,7 +231,7 @@
         margin:auto;
     }
 
-    @media (max-width: 800px)  {
+    @media (max-width: 900px)  {
         .interestcollageparent{
             flex-direction:column;
         }
@@ -239,6 +245,11 @@
 
         .postexcerpt{
             display: none;
+        }
+
+        .latestposts{
+            width: 100%;
+            max-width: 100%;
         }
     }
 
