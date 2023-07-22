@@ -19,7 +19,8 @@ permalink: /posts/
     <ul>
         {% for post in tag[1] %}
         
-        <li>
+            <ul class="post-list">
+
             <h4 style="margin: 0px;">
                 <a style="text-align: left;" class="post-link" href="{{ post.url | relative_url }}">
                     {{ post.title | escape }}
@@ -40,7 +41,7 @@ permalink: /posts/
             {%- if site.show_excerpts -%}
             {{ post.excerpt }}
             {%- endif -%}
-        </li>
+        </ul>
 
 
         {% endfor %}
