@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First post of the new blog"
-date: 2023-07-23 19:30:00 +0000
+date: 2023-07-23 18:30:00 +0001
 tags: Blog
 categories: General
 ---
