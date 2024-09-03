@@ -37,6 +37,6 @@ Finally you can calculate the two fog densities, I used exponential fog for both
 
 
 Below is a video of the prototype version, for this I also decided to add a scrolling texture on a plane to add water foam to give the surface a bit more grounding but I also feel like without any refraction/reflection the effect is a little bit harder to sell. 
-
+{% include youtubePlayer.html id="8EOW8XMUXxM" %}
 
 Thanks for reading :)
