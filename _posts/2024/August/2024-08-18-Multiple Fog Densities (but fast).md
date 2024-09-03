@@ -2,13 +2,14 @@
 layout: post
 title: "Multiple Fog Densities Without Depth Sampling"
 date: 2024-08-18 21:37:00 +0001
-tags: Blog
+tags: Shaders QuickPrototypes
 categories: GraphicsProgramming
 ---
 
-## Intro
 
 ![Image]({{"assets/screenshots/FogDensity.png" | relative_url}})
+
+## Intro
 
 This weekend, after reading a message from one of my friends I was really curious about how to go about rendering multiple fog densities in a scene without using any post processing effects or screen space quads so that it’d run fast on a Quest 2. My plan was to spend an evening writing a quick shader to see how the effect would look and then if it felt cool then I’d think about integrating it into future work.
 
