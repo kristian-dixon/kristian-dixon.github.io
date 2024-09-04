@@ -8,4 +8,4 @@ categories: Experimental
 
 Ignore this post, I wanted to test 3D models :) 
 
-{% include modelViewer.html %}
+{% include modelViewer.html id="floor.glb"%}
