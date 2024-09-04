@@ -6,4 +6,6 @@ tags: QuickPrototypes
 categories: Experimental
 ---
 
+Ignore this post, I wanted to test 3D models :) 
+
 {% include modelViewer.html %}
