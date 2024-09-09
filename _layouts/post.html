@@ -96,33 +96,33 @@
                             <ul class="post-list">
                                 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                                 {%- for post in posts -%}
-                                <li>
+
+                                    {%- if post.categories contains "Hidden" -%}
+                                        {% continue %}
+                                    {%- endif -%}
+
+                                    <li>
                                     <h4 style="margin: 0px;">
                                         <a style="text-align: left;" class="post-link" href="{{ post.url | relative_url }}">
                                             {{ post.title | escape }}
                                         </a>
                                         <div style="display: flex; flex-direction:row; margin:auto;">
                                             <span class="post-meta post-meta-tags">Tags:
-    
                                                 {% for tag in post.tags %}
-                                                {{ tag }}
-    
+                                                    {{ tag }}
                                                 {% endfor %}
-    
                                             </span>
-                                            <span class="post-meta post-meta-date">{{ post.date | date: date_format
-                                                }}</span>
+                                            <span class="post-meta post-meta-date">{{ post.date | date: date_format}}</span>
                                         </div>
                                     </h4>
                                     {%- if site.show_excerpts -%}
-                                    {{ post.excerpt }}
+                                        {{ post.excerpt }}
                                     {%- endif -%}
                                 </li>
                                 <!--{%- if post.categories contains "update" -%}-->
                                 <!--{%- endif -%}-->
     
     
-                                
                                 {%- endfor -%}
                             </ul>
                         </div>
