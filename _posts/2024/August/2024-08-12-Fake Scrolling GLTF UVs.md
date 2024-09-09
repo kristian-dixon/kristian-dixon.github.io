@@ -24,11 +24,11 @@ The next thing I wanted to do was try and get a similar effect with torus shaped
 
 After a bit of tinkering I realised that the occlusion element has to be a spiral shape, this makes sense when you think about looking at a spiral from the top down, it will just be a circle which is essentially the shape we’re trying to fill in. 
 
-{% include modelViewer.html id="scrolling_uv/sprial_test.glb"%}
+{% include modelViewer.html id="scrolling_uv/spiral_test.glb"%}
 
 Then for the final bit of the complete version of the effect, the spinning is simply me rotating the spiral about the Y axis. I thought this might be cool for something like a radar effect.
 
-{% include modelViewer.html id="scrolling_uv/sprial_spin.glb"%}
+{% include modelViewer.html id="scrolling_uv/spiral_spin.glb"%}
 
 
 Obviously there are some caveats with what I’ve done here, namely that different renders have different depth accuracy so it won’t necessarily work on everything. There’s also the fact that GLTF animation tends to balloon file sizes which isn’t super ideal. But I was happy enough with the prototype I made to show it to my artist friends so that if they get any ideas they can run with it.
