@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- <model-viewer> HTML element -->
-    <model-viewer ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" shadow-intensity="1" autoplay id="model" style="background-color: unset;">
+    <model-viewer camera-controls tone-mapping="neutral" shadow-intensity="1" autoplay id="model" style="background-color: unset;">
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
       </div>
@@ -20,7 +20,7 @@
       const modelName = urlParams.get("modelname");
       if(modelName === null)
       {
-        modelName = "mesh_compressed.glb";    
+        modelName = "scrolling_uv/spiral_test.glb";    
       }
       let model = document.getElementById("model");
       model["src"] = modelName;
