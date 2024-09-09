@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Multiple Fog Densities Without Depth Sampling"
+title: "Multiple fog densities without depth sampling"
 date: 2024-08-18 21:37:00 +0001
 tags: Shaders Prototypes
 categories: GraphicsProgramming
