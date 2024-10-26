@@ -16,4 +16,7 @@ A pesar de su apariencia madura, tiene un poco de aspecto infantil y suele habla
 
 Su arma es la Piñazoka, su instrumento es el Triangulín, y las pócimas de Cranky le permiten hacer los movimientos: Hunky Chunky, haciéndose gigante, Puñetazo Primate, que desencadena un potente puñetazo que puede tirar algunas puertas y paredes, y Chunky Chungo, haciéndose temporalmente invisible. Él puede levantar rocas y otros objetos pesados que los demás Kongs no pueden llevar. Cabe señalar que Chunky, siendo Hunky Chunky y usando el Puñetazo Primate, que derrotó a K. Rool en el combate de boxeo en Donkey Kong 64.
 
-Hunky Chunky might be my favourite thing I've ever read. I'm not sure what the move is called in the English version.
+Hunky Chunky might be my favourite thing I've ever read. I'm not sure what the move is called in the English version but now I have an excuse to replay the game :) I also like Chunky Chungo
+
+{% include youtubePlayer.html id="IV8h9rGc3FA" %}
+
