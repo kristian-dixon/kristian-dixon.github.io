@@ -79,3 +79,8 @@ body
     -0.07em 0 #000000,
     0 -0.07em #3b3b3b2e;
 }
+
+.embed-container
+{
+    width: 55%;
+}
