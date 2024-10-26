@@ -2,7 +2,7 @@
 layout: portfolio
 title: Chunky Kong Appreciation Society es
 engine: gltf-viewer
-modelpath: test/ChunkySmooth.glb
+modelpath: test/chunkysmooth.glb
 ---
 
 ![CHUNKY]({{"assets/screenshots/Chunky.jpg" | relative_url}}){: width="100%" }
