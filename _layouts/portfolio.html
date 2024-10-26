@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{page.title}} - Kris makes stuff</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a class="site-title" rel="author" href="/">Kris makes stuff</a>
+    </header>
+    
+    {%- if page.engine contains "gltf-viewer" -%}
+      {% assign modelpath = page.modelpath %}
+      {% include modelViewer.html id=page.modelpath %}
+    {%- endif -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="content-wrapper">
+        {{ content }}
+      </div>
+    </main>
+  </body>
+
+</html>
