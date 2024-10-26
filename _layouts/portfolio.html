@@ -2,6 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{page.title}} - Kris makes stuff</title>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" />
     <link rel="stylesheet" href="/assets/css/portfolio.css">
@@ -10,6 +11,10 @@
   <body>
     <header class="site-header">
       <a class="site-title" rel="author" href="/">Kris makes stuff</a>
+
+      <button class="buttonCircle buttonDark">
+        <i class="icon" data-char="?"></i>
+      </button>
     </header>
     
     {%- if page.engine contains "gltf-viewer" -%}
