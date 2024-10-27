@@ -54,7 +54,7 @@ body
     top:50%;
     transform: translate(0,-50%);
 
-    height: 100vh;
+    height: 100dvh;
     
 
 
@@ -86,7 +86,7 @@ body
 
 
     max-width: 600px;
-    max-height: 88vh;
+    max-height: 88dvh;
     /* min-height: 80%; */
     overflow-y: auto;
     backdrop-filter: grayscale(36%) brightness(50%) blur(16px);
