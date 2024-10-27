@@ -26,6 +26,7 @@
           document.getElementById('show_post_btn').classList.add('hidden');
           document.getElementById('hide_post_btn').classList.remove('hidden');
           document.getElementById('content-panel').classList.remove('hidden');
+          document.getElementById('navigation-wrapper').classList.add('hidden');
           //document.getElementById('demo').innerHTML = Date()
         ">
         <i class="icon" data-char="?"></i>
@@ -35,6 +36,7 @@
         document.getElementById('show_post_btn').classList.remove('hidden');
         document.getElementById('hide_post_btn').classList.add('hidden');
         document.getElementById('content-panel').classList.add('hidden');
+        document.getElementById('navigation-wrapper').classList.remove('hidden');
         //document.getElementById('demo').innerHTML = Date()
       ">
         <i class="icon" data-char="X"></i>
@@ -47,6 +49,17 @@
       </div>
 
     </main>
+
+    <div class="navigation-wrapper" id="navigation-wrapper">
+      <a href="/test" class="navigation-button">Previous Post</a>
+      <div class="post-title-container">
+        <p class="post-title">Chunky Kong</p>
+        <p class="post-subtitle">Kong grueso</p>
+      </div>
+      <a href="/test" class="navigation-button">Next Post</a>
+    </div>
+
+
   </body>
 
 </html>
