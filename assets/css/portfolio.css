@@ -361,7 +361,19 @@ button {
     }
     .content-panel{
         border-radius: 8px;
-    
+        max-height: 86dvh;
+    }
+
+    .post-hidden
+    {
+        display:none;
+        visibility: hidden;
+    }
+
+    .post-controls
+    {
+        display: unset;
+
     }
 };
 
