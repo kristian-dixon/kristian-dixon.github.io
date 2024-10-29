@@ -70,6 +70,8 @@ body
     align-items: center;
 
     pointer-events: none;
+
+    transition: all 0.5s;
     /* box-shadow: -5px 5px 5px rgba(12, 12, 12, 63%);  */
 }
 
@@ -147,6 +149,11 @@ body
     visibility: hidden;
 }
 
+.post-hidden
+{
+    transform: translate(600px,-50%);
+}
+
 button {
     position: relative;
     font-size: 12px;
@@ -161,6 +168,8 @@ button {
     margin:8px;
 
     pointer-events: all;
+
+    overflow: visible;
   }
 
 .buttonDark {
@@ -188,8 +197,20 @@ button {
     }
 }
     
+.post-controls-container{
+    overflow: visible;
+}
 
+.post-controls
+{
+    display: block;
+    transition: all 0.5s;
+    transition-delay: 0.5s;
+}
 
+.post-controls-hidden{
+    transform:translate(0,100dvh)
+}
 
 .icon:before {
     font-style: normal;
@@ -223,7 +244,16 @@ button {
 
     color:#FFFFFFDD;
     text-shadow: 0 1px 1px rgba(0,0,0, 1); 
-    
+    transition: all 0.5s;
+}
+
+.navigation-hidden
+{
+    transform: translate(0,200px);
+}
+
+.post-title-container{
+    overflow:visible;
 }
 
 .post-title{
@@ -245,6 +275,51 @@ button {
         color:#FFFFFFFF;
     }
 }
+
+
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background: linear-gradient(#73737375, #33333375);
+
+    background-size: auto 150%;
+    background-position: 0 100%;
+    backdrop-filter: grayscale(36%) brightness(50%) blur(16px);
+
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 115%;
+    left: 50%;
+    margin-left: -60px; 
+    overflow: visible;
+
+    box-shadow: -5px 5px 5px rgba(12, 12, 12, 63%); 
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #73737375 transparent;
+    overflow: visible;
+    
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+
 
 @media (max-width: 1024px){
     ::-webkit-scrollbar {

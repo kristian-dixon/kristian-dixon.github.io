@@ -21,37 +21,67 @@
     </header>
 
     <div class="navigation-wrapper" id="navigation-wrapper">
-      <a href="/test" class="navigation-button">Previous Post</a>
       <div class="post-title-container">
         <p class="post-title">Chunky Kong</p>
         <p class="post-subtitle">Kong grueso</p>
+        <div class="post-title-container">
+          <button class="buttonCircle buttonDark tooltip" onclick="window.location.href='/test';">
+            <i class="icon" data-char="<"></i> 
+            <span class="tooltiptext">Previous Post</span>
+          </button>
+
+          <button class="buttonCircle buttonDark tooltip" id="show_post_btn" onclick=
+          "
+            // document.getElementById('show_post_btn').classList.add('hidden');
+            // document.getElementById('hide_post_btn').classList.remove('hidden');
+            document.getElementById('page-content').classList.remove('post-hidden');
+            document.getElementById('navigation-wrapper').classList.add('navigation-hidden');
+            //document.getElementById('demo').innerHTML = Date()
+  
+            var controlButtons = document.getElementsByClassName('post-controls');
+            for(let i = 0; i< controlButtons.length; ++i){
+              controlButtons[i].style.transitionDelay = (0.15 + i * 0.15)+'s';
+              controlButtons[i].classList.remove('post-controls-hidden');
+            }
+  
+          ">
+            <i class="icon" data-char="?"></i> 
+            <span class="tooltiptext">Open Post Info</span>
+          </button>
+
+          <button class="buttonCircle buttonDark tooltip" onclick="window.location.href='/test';">
+            <i class="icon" data-char=">"></i> 
+            <span class="tooltiptext">Next Post</span>
+          </button>
+        </div>
+        
       </div>
-      <a href="/test" class="navigation-button">Next Post</a>
     </div>
 
-    <main class="page-content" aria-label="Content">
-      <button class="buttonCircle buttonDark" id="show_post_btn" onclick=
-        "
-          document.getElementById('show_post_btn').classList.add('hidden');
-          document.getElementById('hide_post_btn').classList.remove('hidden');
-          document.getElementById('content-panel').classList.remove('hidden');
-          document.getElementById('navigation-wrapper').classList.add('hidden');
-          //document.getElementById('demo').innerHTML = Date()
-        ">
-        <i class="icon" data-char="?"></i>
-      </button>
-      <button class="buttonCircle buttonDark hidden" id="hide_post_btn" onclick=
-      "
-        document.getElementById('show_post_btn').classList.remove('hidden');
-        document.getElementById('hide_post_btn').classList.add('hidden');
-        document.getElementById('content-panel').classList.add('hidden');
-        document.getElementById('navigation-wrapper').classList.remove('hidden');
-        //document.getElementById('demo').innerHTML = Date()
-      ">
-        <i class="icon" data-char="X"></i>
-      </button>
+    <main class="page-content post-hidden" aria-label="Content" id="page-content">
+      
 
-      <div class="content-panel hidden" id="content-panel">
+      <div id="post-controls-container" class="post-controls-container">
+        <button class="buttonCircle buttonDark post-controls post-controls-hidden" id="hide_post_btn" onclick=
+        "
+          // document.getElementById('show_post_btn').classList.remove('hidden');
+          // document.getElementById('hide_post_btn').classList.add('hidden');
+          document.getElementById('page-content').classList.add('post-hidden');
+          document.getElementById('navigation-wrapper').classList.remove('navigation-hidden');
+
+          
+          var controlButtons = document.getElementsByClassName('post-controls');
+          for(let i = 0; i< controlButtons.length; ++i){
+            controlButtons[i].style.transitionDelay = ((controlButtons.length - i) * 0.15)+'s';
+            controlButtons[i].classList.add('post-controls-hidden');
+          }
+        ">
+          <i class="icon" data-char="X"></i>
+        </button>     
+      </div>
+      
+
+      <div class="content-panel" id="content-panel">
         <div class="content-wrapper">
           {{ content }}
         </div>
