@@ -21,23 +21,19 @@
 
 }
 
-html *
-{
-    font-family: "Roboto", sans-serif;
-    
-    overflow: hidden;
-
-}
-
 html
 {
     margin: 0px;
     height: 100%;
     width: 100%;
+
+    overflow: hidden;
 }
 
 body
 { 
+    font-family: "Roboto", sans-serif;
+
     background: url("../screenshots/MoreBlobs2.gif");
     background-size: 300%;
     

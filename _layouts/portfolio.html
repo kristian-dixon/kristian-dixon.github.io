@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <script type="text/javascript" src="/assets/scripts/portfolio/main.js" defer></script>
   </head>
 
   <body>
@@ -30,21 +31,7 @@
             <span class="tooltiptext">Previous Post</span>
           </button>
 
-          <button class="buttonCircle buttonDark tooltip" id="show_post_btn" onclick=
-          "
-            // document.getElementById('show_post_btn').classList.add('hidden');
-            // document.getElementById('hide_post_btn').classList.remove('hidden');
-            document.getElementById('page-content').classList.remove('post-hidden');
-            document.getElementById('navigation-wrapper').classList.add('navigation-hidden');
-            //document.getElementById('demo').innerHTML = Date()
-  
-            var controlButtons = document.getElementsByClassName('post-controls');
-            for(let i = 0; i< controlButtons.length; ++i){
-              controlButtons[i].style.transitionDelay = (0.15 + i * 0.15)+'s';
-              controlButtons[i].classList.remove('post-controls-hidden');
-            }
-  
-          ">
+          <button class="buttonCircle buttonDark tooltip" id="show_post_btn">
             <i class="icon" data-char="?"></i> 
             <span class="tooltiptext">Open Post Info</span>
           </button>
@@ -62,20 +49,7 @@
       
 
       <div id="post-controls-container" class="post-controls-container">
-        <button class="buttonCircle buttonDark post-controls post-controls-hidden" id="hide_post_btn" onclick=
-        "
-          // document.getElementById('show_post_btn').classList.remove('hidden');
-          // document.getElementById('hide_post_btn').classList.add('hidden');
-          document.getElementById('page-content').classList.add('post-hidden');
-          document.getElementById('navigation-wrapper').classList.remove('navigation-hidden');
-
-          
-          var controlButtons = document.getElementsByClassName('post-controls');
-          for(let i = 0; i< controlButtons.length; ++i){
-            controlButtons[i].style.transitionDelay = ((controlButtons.length - i) * 0.15)+'s';
-            controlButtons[i].classList.add('post-controls-hidden');
-          }
-        ">
+        <button class="buttonCircle buttonDark post-controls post-controls-hidden" id="hide-post-btn">
           <i class="icon" data-char="X"></i>
         </button>     
       </div>
