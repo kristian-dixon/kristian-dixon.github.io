@@ -11,3 +11,16 @@ const onProgress = (event) => {
   }
 };
 document.querySelector('model-viewer').addEventListener('progress', onProgress);
+
+window.addEventListener('message', function(event){
+  let origin = event.origin; 
+  console.log("origin: " + origin);
+
+  if(typeof event.data == 'object' && event.data.call=='sendValue')
+  {
+    console.log(event.data.value);
+    let model = document.getElementById("model");
+    model["src"] = event.data.value;
+  }
+  
+}, false);

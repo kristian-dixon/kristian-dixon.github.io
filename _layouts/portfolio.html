@@ -40,6 +40,9 @@
             <i class="icon" data-char=">"></i> 
             <span class="tooltiptext">Next Post</span>
           </button>
+
+         
+
         </div>
         
       </div>
@@ -52,12 +55,24 @@
         <button class="buttonCircle buttonDark post-controls post-controls-hidden" id="hide-post-btn">
           <i class="icon" data-char="X"></i>
         </button>     
+
+        {%- if page.pagecount > 1 -%} 
+          {% assign pagecount = page.pagecount | plus: -1%}
+          {% for counter in (0..pagecount)%}
+            <button class="buttonCircle buttonDark post-controls post-controls-hidden" data-page-index={{counter}}>
+              <i class="icon" data-char="{{counter | plus: 1}}"></i>
+            </button>    
+          {% endfor %}
+        {%- endif -%}
+
       </div>
       
 
       <div class="content-panel" id="content-panel">
         <div class="content-wrapper">
-          {{ content }}
+
+        {{ content }}
+        
         </div>
       </div>
 
