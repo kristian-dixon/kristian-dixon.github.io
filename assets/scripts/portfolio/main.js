@@ -43,6 +43,9 @@ hidePostBtn.onclick = HidePost;
 let changePage = (ctx)=>{ 
     
     let pageIndex = ctx.getAttribute("data-page-index");
+    if(!pageIndex)
+        return;
+
     let pages = document.getElementsByClassName("pagnated-page-wrapper");
     for(let i = 0; i < pages.length; i++)
     {

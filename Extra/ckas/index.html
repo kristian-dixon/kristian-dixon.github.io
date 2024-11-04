@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chunky Kong Appreciation Society es - Kris makes stuff</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <script type="text/javascript" src="/assets/scripts/portfolio/main.js" defer></script>
+  </head>
+
+  <body>
+      <div class="embed-container">
+    <iframe
+        id="demo-frame"
+        name="demo-frame"
+        src="/Extra/JekyllPlugins/GLTFViewer/?modelname=test/chunkysmooth.glb"
+        width="100%"
+        height="100%"
+        frameborder="0"
+        allowfullscreen="true">
+    </iframe>
+</div><header class="site-header">
+      <a class="site-title" rel="author" href="/">Kris makes stuff</a>
+    </header>
+
+    <div class="navigation-wrapper" id="navigation-wrapper">
+      <div class="post-title-container">
+        <p class="post-title">Chunky Kong</p>
+        <p class="post-subtitle">Kong grueso</p>
+        <div class="post-title-container">
+          <button class="buttonCircle buttonDark tooltip" onclick="window.location.href='/test';">
+            <i class="icon" data-char="<"></i> 
+            <span class="tooltiptext">Previous Post</span>
+          </button>
+
+          <button class="buttonCircle buttonDark tooltip" id="show_post_btn">
+            <i class="icon" data-char="?"></i> 
+            <span class="tooltiptext">Open Post Info</span>
+          </button>
+
+          <button class="buttonCircle buttonDark tooltip" onclick="window.location.href='/test';">
+            <i class="icon" data-char=">"></i> 
+            <span class="tooltiptext">Next Post</span>
+          </button>
+        </div>
+        
+      </div>
+    </div>
+
+    <main class="page-content post-hidden" aria-label="Content" id="page-content">
+      
+
+      <div id="post-controls-container" class="post-controls-container">
+        <button class="buttonCircle buttonDark post-controls post-controls-hidden" id="hide-post-btn">
+          <i class="icon" data-char="X"></i>
+        </button>
+          
+            <button class="buttonCircle buttonDark post-controls post-controls-hidden" data-page-index=0>
+              <i class="icon" data-char="1"></i>
+            </button>    
+          
+            <button class="buttonCircle buttonDark post-controls post-controls-hidden" data-page-index=1>
+              <i class="icon" data-char="2"></i>
+            </button>    
+          </div>
+      
+
+      <div class="content-panel" id="content-panel">
+        <div class="content-wrapper">
+
+        <p><img src="/assets/screenshots/Chunky.jpg" alt="CHUNKY" width="100%" /></p>
+
+<div class="pagnated-page-wrapper" data-page-index="0" data-cmd-call="changeModel" data-cmd-args="test/chunkysmooth.glb">
+  <h2 id="chunky-kong">Chunky Kong</h2>
+
+  <p>Chunky Kong es un gorila de 2000 libras de peso y es uno de los Kongs jugables en el juego Donkey Kong 64.​Chunky es el hermano mayor de Kiddy Kong y primo de Dixie Kong y Tiny Kong. Fue liberado por Lanky en el nivel Fábrica Frenética. Antes de liberarlo, él dice “¡Ayúdame! A Chunky no le gustan las alturas”.</p>
+
+  <p>A pesar de su apariencia madura, tiene un poco de aspecto infantil y suele hablar en tercera persona. Un ejemplo es que cuando te metes en el Barril Kong, él te pide que lo elijas, pero cuando lo señalas, el te dice que a el no y te dice que mejor uses a Tiny Kong.</p>
+
+  <p>Su arma es la Piñazoka, su instrumento es el Triangulín, y las pócimas de Cranky le permiten hacer los movimientos: Hunky Chunky, haciéndose gigante, Puñetazo Primate, que desencadena un potente puñetazo que puede tirar algunas puertas y paredes, y Chunky Chungo, haciéndose temporalmente invisible. Él puede levantar rocas y otros objetos pesados que los demás Kongs no pueden llevar. Cabe señalar que Chunky, siendo Hunky Chunky y usando el Puñetazo Primate, que derrotó a K. Rool en el combate de boxeo en Donkey Kong 64.</p>
+
+  <p>Hunky Chunky might be my favourite thing I’ve ever read. I’m not sure what the move is called in the English version but now I have an excuse to replay the game :) I also like Chunky Chungo</p>
+
+</div>
+
+<div class="pagnated-page-wrapper hidden" data-page-index="1" data-cmd-call="changeModel" data-cmd-args="test/discochunky.glb">
+  <p>HELLO this is <strong>page</strong> 2</p>
+
+  <p>So the cool thing about this is that I am calling code into an iframe to change model. This will mean that as part of posts I can step through the shader creation process or even allow the user to edit bits of the shader at runtime.</p>
+</div>
+
+        
+        </div>
+      </div>
+
+    </main>
+
+    
+
+
+  </body>
+
+</html>
