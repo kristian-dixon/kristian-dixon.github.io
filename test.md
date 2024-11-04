@@ -8,7 +8,7 @@ pagecount: 2
 
 ![CHUNKY]({{"assets/screenshots/Chunky.jpg" | relative_url}}){: width="100%" }
 
-<div markdown="1" class="pagnated-page-wrapper" data-page-index="0" data-cmd-call='sendValue' data-cmd-args='test/chunkysmooth.glb'>
+<div markdown="1" class="pagnated-page-wrapper" data-page-index="0" data-cmd-call='changeModel' data-cmd-args='test/chunkysmooth.glb'>
 ## Chunky Kong
 
 Chunky Kong es un gorila de 2000 libras de peso y es uno de los Kongs jugables en el juego Donkey Kong 64.​Chunky es el hermano mayor de Kiddy Kong y primo de Dixie Kong y Tiny Kong. Fue liberado por Lanky en el nivel Fábrica Frenética. Antes de liberarlo, él dice "¡Ayúdame! A Chunky no le gustan las alturas".
@@ -23,7 +23,7 @@ Hunky Chunky might be my favourite thing I've ever read. I'm not sure what the m
 
 </div>
 
-<div markdown="1" class="pagnated-page-wrapper hidden" data-page-index="1" data-cmd-call='sendValue' data-cmd-args='test/discochunky.glb'>
+<div markdown="1" class="pagnated-page-wrapper hidden" data-page-index="1" data-cmd-call='changeModel' data-cmd-args='test/discochunky.glb'>
 HELLO this is **page** 2
 
 So the cool thing about this is that I am calling code into an iframe to change model. This will mean that as part of posts I can step through the shader creation process or even allow the user to edit bits of the shader at runtime.
