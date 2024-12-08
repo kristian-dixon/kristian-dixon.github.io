@@ -77,3 +77,26 @@ for(let i = 0; i < pageBtns.length; i++)
         changePage(btn);
     })
 }
+
+let inPostButtons = document.getElementsByClassName("in-post-inputfield");
+
+for(let i = 0; i < inPostButtons.length; i++)
+{
+    let btn = inPostButtons[i];
+
+    btn.addEventListener('input',(x)=>{
+        if(btn.type == 'file')
+        {
+            let modelUrl = URL.createObjectURL( btn.files[0] );
+            sendToDemo(btn.getAttribute('data-cmd-call'), modelUrl)
+        }
+        else if(btn.type == "checkbox")
+        {
+            sendToDemo(btn.getAttribute('data-cmd-call'), btn.checked);
+        }
+        else
+        {
+            sendToDemo(btn.getAttribute('data-cmd-call'), btn.value);
+        }
+    })
+}

@@ -17,14 +17,19 @@
       {% include modelViewer.html id=page.modelpath %}
     {%- endif -%}
 
+    {%- if page.engine contains "threejs-viewer" -%}
+      {% assign modelpath = page.modelpath %}
+      {% include threejsViewer.html demo=page.demo %}
+    {%- endif -%}
+
     <header class="site-header">
       <a class="site-title" rel="author" href="/">Kris makes stuff</a>
     </header>
 
     <div class="navigation-wrapper" id="navigation-wrapper">
       <div class="post-title-container">
-        <p class="post-title">Chunky Kong</p>
-        <p class="post-subtitle">Kong grueso</p>
+        <p class="post-title">{{ page.title }}</p>
+        <p class="post-subtitle">{{ page.subtitle }}</p>
         <div class="post-title-container">
           <button class="buttonCircle buttonDark tooltip" onclick="window.location.href='/test';">
             <i class="icon" data-char="<"></i> 

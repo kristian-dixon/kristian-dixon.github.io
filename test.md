@@ -1,7 +1,8 @@
 ---
 layout: portfolio
 title: Chunky Kong Appreciation Society es
-engine: gltf-viewer
+subtitle: Sociedad de Apreciación de Chunky Kong
+engine: threejs-viewer
 modelpath: test/chunkysmooth.glb
 pagecount: 2
 ---
