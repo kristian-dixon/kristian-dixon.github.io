@@ -4,7 +4,7 @@ title: Fast Runtime Texture Painting on a Mesh
 subtitle: Click or touch the model to begin painting
 engine: threejs-viewer
 demo: whiteboard
-pagecount: 4
+pagecount: 3
 ---
 
 <div markdown="1" class="pagnated-page-wrapper" data-page-index="0">
