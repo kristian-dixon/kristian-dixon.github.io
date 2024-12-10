@@ -146,8 +146,3 @@ Load Model: <input type="file" accept='.glb' class="in-post-inputfield" data-cmd
 
 </div>
 
-
-
-
-
-<input type="checkbox" value="true" data-cmd-call='setCameraOrbit' class="in-post-inputfield" checked/>
