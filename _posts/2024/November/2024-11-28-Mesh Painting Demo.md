@@ -11,9 +11,11 @@ pagecount: 3
 
 # Intro
 
-This technical demo showcases one of my favourite solutions to a problem which is quite tricky to solve, drawing a texture onto a mesh at runtime. The solution makes use of the GPU to paint on a render texture and leverages the standard drawing pipeline rather than making use of compute shaders so it’s both fast and portable. The usage of the GPU is also what makes me love this solution so much, when I first learnt about the approach it fundamentally changed my understanding of what the vertex shader does and it forced me to imagine coordinate spaces in a different way.
+This technical demo showcases one of my favourite solutions to a problem which is quite tricky to solve, drawing a texture onto a mesh at runtime. 
 
-To interact with the demo, click or touch the model to paint on it. On mobile, multi-touch is also supported. If you wish to change properties of the painter, or access additional settgings, the 'open controls' button in the top right will allow you to do so. Whilst this demo should just be considered a toy rather than serious texture painting software, if you wish to export the painted texture the settings menu also includes the ability to do that, as well as uploading a custom base texture and model. 
+The solution makes use of the GPU to paint on a render texture and leverages the standard drawing pipeline rather than making use of compute shaders so it’s both fast and portable. The usage of the GPU is also what makes me love this solution so much, when I first learnt about the approach it fundamentally changed my understanding of what the vertex shader does and it forced me to imagine coordinate spaces in a different way.
+
+To interact with the demo, click or touch the model to paint on it. If you wish to change properties of the painter, or access additional settgings, the 'open controls' button in the top right will allow you to do so. Whilst this demo should just be considered a toy rather than serious texture painting software, if you wish to export the painted texture the settings menu also includes the ability to do that, as well as uploading a custom base texture and model. 
 
 This demo is implemented using ThreeJS, however I have also implemented this effect in Unity and I am certain that it’d be relatively simple to implement in other engines and rendering platforms. The only requirement to replicate this feature in your engine of choice is that you must be able to render content to a separate render target using a different material to the one you’d usually render with.
 
@@ -71,7 +73,7 @@ Use the toggle below to switch between the unfolded model in UV space and the mo
 <!-- Rounded switch -->
 <div style="margin: auto; width: 20%; padding: 10px;">
     <label class="switch switch-center">
-        <input type="checkbox" data-cmd-call='setUnfolded' class="in-post-inputfield" checked>
+        <input type="checkbox" data-cmd-call='setUnfolded' class="in-post-inputfield">
         <span class="slider round"></span>
     </label>
 </div>
