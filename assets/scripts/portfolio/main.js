@@ -100,3 +100,45 @@ for(let i = 0; i < inPostButtons.length; i++)
         }
     })
 }
+
+
+//Workaround for IOS bug
+// window.addEventListener('contextmenu', function(e){
+//     sendToDemo('event:contextmenu', e);
+//     e.preventDefault();
+// })
+
+// window.addEventListener('pointerdown', function(e){
+//     console.log('JUMBO')
+//     console.log(e);
+//     sendToDemo('event:pointerdown', {
+//         pointerId: e.pointerId,
+//         clientX: e.clientX,
+//         clientY: e.clientY
+//     }
+//     );
+// })
+
+// window.addEventListener('pointerup', (e)=>{
+//     sendToDemo('event:pointerup', {
+//         pointerId: e.pointerId,
+//         clientX: e.clientX,
+//         clientY: e.clientY
+//     });
+// })
+
+// window.addEventListener('pointermove', (e)=>{
+//     sendToDemo('event:pointermove', {
+//         pointerId: e.pointerId,
+//         clientX: e.clientX,
+//         clientY: e.clientY
+//     });
+// })
+
+// window.addEventListener('pointercancel', (e)=>{
+//     sendToDemo('event:pointercancel', {
+//         pointerId: e.pointerId,
+//         clientX: e.clientX,
+//         clientY: e.clientY
+//     });
+// })
