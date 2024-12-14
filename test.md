@@ -1,15 +1,18 @@
 ---
-layout: portfolio
+layout: portfolio_rethink
 title: Chunky Kong Appreciation Society es
 subtitle: Sociedad de Apreciación de Chunky Kong
-engine: threejs-viewer
+engine: model-viewer
 modelpath: test/chunkysmooth.glb
 pagecount: 2
 ---
 
-![CHUNKY]({{"assets/screenshots/Chunky.jpg" | relative_url}}){: width="100%" }
+
 
 <div markdown="1" class="pagnated-page-wrapper" data-page-index="0" data-cmd-call='changeModel' data-cmd-args='test/chunkysmooth.glb'>
+
+![CHUNKY]({{"assets/screenshots/Chunky.jpg" | relative_url}}){: width="100%" }
+
 ## Chunky Kong
 
 Chunky Kong es un gorila de 2000 libras de peso y es uno de los Kongs jugables en el juego Donkey Kong 64.​Chunky es el hermano mayor de Kiddy Kong y primo de Dixie Kong y Tiny Kong. Fue liberado por Lanky en el nivel Fábrica Frenética. Antes de liberarlo, él dice "¡Ayúdame! A Chunky no le gustan las alturas".

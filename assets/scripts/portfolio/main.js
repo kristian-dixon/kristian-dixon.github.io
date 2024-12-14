@@ -32,10 +32,12 @@ let HidePost = function(){
 }
 
 let showPostBtn = document.getElementById("show_post_btn");
-showPostBtn.onclick = ShowPost;
+if(showPostBtn)
+    showPostBtn.onclick = ShowPost;
 
 let hidePostBtn = document.getElementById("hide-post-btn");
-hidePostBtn.onclick = HidePost;
+if(hidePostBtn)
+    hidePostBtn.onclick = HidePost;
 
 
 
@@ -75,7 +77,18 @@ for(let i = 0; i < pageBtns.length; i++)
     let btn = pageBtns[i];
     btn.addEventListener('click', ()=>{
         changePage(btn);
+
+        for(let j= 0; j < pageBtns.length; j++){
+            if(pageBtns[j] != btn){
+                pageBtns[j].classList.remove('active');
+            }
+        }
+        btn.classList.add('active');
     })
+
+    if(i == 0){
+        btn.classList.add('active');
+    }
 }
 
 let inPostButtons = document.getElementsByClassName("in-post-inputfield");
