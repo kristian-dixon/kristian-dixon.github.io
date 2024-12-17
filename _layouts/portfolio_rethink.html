@@ -77,12 +77,51 @@
           </div>    
               
           <div class="content-panel" id="content-panel">
-            <div class="content-wrapper" id="post_content_container">
+            <div class="content-wrapper hidden" id="post_content_container">
               {{ content }}
             </div>
 
-            <div>
+            <div class="content-wrapper "> 
               
+              <div class="post-list-container">
+
+                <h2 style="margin-top:0px; margin-bottom:8px;">
+                  More Posts
+                </h2>
+
+                <ul class="post-list">
+                  {% assign posts = site.posts %}
+                  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                  {%- for post in posts -%}
+                      {%- if post.categories contains "Hidden" -%}
+                          {% continue %}
+                      {%- endif -%}
+
+                          <li onclick="location.href=`{{ post.url | relative_url }}`;">
+                              <div style="margin: 0px;">
+                                <label style="text-align: left; font-weight: bold;" class="post-link" href="{{ post.url | relative_url }}">
+                                    {{ post.title | escape }}
+                                </label>
+                                <div style="display: flex; flex-direction:row; margin:auto;">
+                                    <!-- <span class="post-meta post-meta-tags">Tags: 
+                                        
+
+                                        {% for tag in post.tags %}
+                                        {{ tag }} 
+                                        
+                                        {% endfor %}
+                                        
+                                    </span> -->
+                                    <span class="post-meta post-meta-date">Posted: {{ post.date | date: date_format }}</span>
+                                </div>
+                              </div>
+                          </li>
+                      <!--{%- if post.categories contains "update" -%}-->
+                      <!--{%- endif -%}-->
+
+                  {%- endfor -%}
+                </ul>
+              </div>
             </div>
           </div>
     

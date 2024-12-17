@@ -326,6 +326,55 @@ body
     transform: translate(600px,-50%);
 }
 
+.post-list-container{
+  padding:8px;
+  text-shadow: unset;
+  overflow-y: auto;
+
+  a{
+    font-weight: bold;
+  }
+
+  li{
+    margin-bottom: 8px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #00000030;
+
+    &:hover {
+      background-color: #00000070;
+      cursor: pointer;
+    }
+  }
+
+  h2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 8px;
+  }
+  span{
+    font-size: 0.7rem;
+  }
+}
+
+ul{
+  padding:unset;
+  margin:unset;
+}
+
+a{
+  color:white;
+}
+
+.post-list 
+{
+    
+
+}
 
 
 .buttonDark {
