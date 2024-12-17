@@ -252,7 +252,12 @@ body
     /* display: flex; */
     color:#FFFFFFFF;
     text-shadow: 0 1px 1px rgba(0,0,0, 1);
+    background-color: #00000030;
+    width:600px;
 
+
+    border-radius: 8px;
+  
     /* box-shadow: inset 4px -3px 8px rgb(105 105 105 / 25%), inset -4px 3px 8px rgb(0 0 0 / 33%); */
     
     /* min-height:84dvh; */
@@ -507,9 +512,7 @@ body
 
 
   div.content-wrapper .pagnated-page-wrapper{
-    background-color: #00000030;
     padding:8px;
-    border-radius: 8px;
     overflow-y:auto;
   }
 

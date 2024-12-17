@@ -64,7 +64,7 @@
 
         <main class="page-content" aria-label="Content" id="page-content">
 
-          <div class="top_page_wrapper" id="display_post">
+          <div class="top_page_wrapper">
             <button class="top_page_btn page_btn active">
               <img src="./assets/icons/sticky_note_2.svg">
             </button>
@@ -77,15 +77,16 @@
           </div>    
               
           <div class="content-panel" id="content-panel">
-            <div class="content-wrapper">
-    
-            {{ content }}
-            
+            <div class="content-wrapper" id="post_content_container">
+              {{ content }}
+            </div>
+
+            <div>
+              
             </div>
           </div>
     
-          <div class="bottom_page_wrapper" id="display_post">
-
+          <div class="bottom_page_wrapper" id="page_btn_container">
             {%- if page.pagecount > 1 -%} 
               {% assign pagecount = page.pagecount | plus: -1%}
               {% for counter in (0..pagecount)%}
@@ -94,8 +95,6 @@
                 </button>    
               {% endfor %}
             {%- endif -%}
-
-
           </div>
 
         </main>
