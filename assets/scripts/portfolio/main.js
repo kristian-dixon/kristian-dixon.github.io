@@ -91,11 +91,11 @@ for(let i = 0; i < pageBtns.length; i++)
     }
 }
 
-let inPostButtons = document.getElementsByClassName("in-post-inputfield");
+let inPostInputfields = document.getElementsByClassName("in-post-inputfield");
 
-for(let i = 0; i < inPostButtons.length; i++)
+for(let i = 0; i < inPostInputfields.length; i++)
 {
-    let btn = inPostButtons[i];
+    let btn = inPostInputfields[i];
 
     btn.addEventListener('input',(x)=>{
         if(btn.type == 'file')
@@ -114,44 +114,60 @@ for(let i = 0; i < inPostButtons.length; i++)
     })
 }
 
+let writtenContentButton = document.getElementById('display_written_content');
+let postListButton = document.getElementById("display_post_list");
+let settingsButton = document.getElementById("display_settings");
 
-//Workaround for IOS bug
-// window.addEventListener('contextmenu', function(e){
-//     sendToDemo('event:contextmenu', e);
-//     e.preventDefault();
-// })
+let writtenContentContainer = document.getElementById('post_content_container');
+let postListContainer = document.getElementById('post_list_container');
+let settingsContainer = document.getElementById('settings_container');
 
-// window.addEventListener('pointerdown', function(e){
-//     console.log('JUMBO')
-//     console.log(e);
-//     sendToDemo('event:pointerdown', {
-//         pointerId: e.pointerId,
-//         clientX: e.clientX,
-//         clientY: e.clientY
-//     }
-//     );
-// })
+let pagnationButtons = document.getElementById("page_btn_container")
 
-// window.addEventListener('pointerup', (e)=>{
-//     sendToDemo('event:pointerup', {
-//         pointerId: e.pointerId,
-//         clientX: e.clientX,
-//         clientY: e.clientY
-//     });
-// })
+writtenContentButton?.addEventListener('click', (x)=>{
+    writtenContentButton.classList.add('active');
+    postListButton?.classList.remove('active');
+    settingsButton?.classList.remove('active');
 
-// window.addEventListener('pointermove', (e)=>{
-//     sendToDemo('event:pointermove', {
-//         pointerId: e.pointerId,
-//         clientX: e.clientX,
-//         clientY: e.clientY
-//     });
-// })
+    writtenContentContainer?.classList.remove('hidden');
+    postListContainer?.classList.add('hidden');
+    settingsContainer?.classList.add('hidden');
 
-// window.addEventListener('pointercancel', (e)=>{
-//     sendToDemo('event:pointercancel', {
-//         pointerId: e.pointerId,
-//         clientX: e.clientX,
-//         clientY: e.clientY
-//     });
-// })
+    page_btn_container.classList.remove('hidden');
+})
+
+postListButton?.addEventListener('click', (x)=>{
+    writtenContentButton.classList.remove('active');
+    postListButton?.classList.add('active');
+    settingsButton?.classList.remove('active');
+
+    writtenContentContainer?.classList.add('hidden');
+    postListContainer?.classList.remove('hidden');
+    settingsContainer?.classList.add('hidden');
+
+    page_btn_container.classList.add('hidden');
+})
+
+settingsButton?.addEventListener('click', (x)=>{
+    writtenContentButton.classList.remove('active');
+    postListButton?.classList.remove('active');
+    settingsButton?.classList.add('active');
+
+    writtenContentContainer?.classList.add('hidden');
+    postListContainer?.classList.add('hidden');
+    settingsContainer?.classList.remove('hidden');
+
+    page_btn_container.classList.add('hidden');
+})
+
+
+let postSettings = document.getElementById('post_settings');
+
+if(postSettings)
+{
+    let postSettingsParent = document.getElementById('settings_parent');
+    postSettingsParent.appendChild(postSettings);
+}
+else{
+    settingsButton.style.display = "none";
+}

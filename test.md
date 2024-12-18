@@ -32,3 +32,31 @@ HELLO this is **page** 2
 
 So the cool thing about this is that I am calling code into an iframe to change model. This will mean that as part of posts I can step through the shader creation process or even allow the user to edit bits of the shader at runtime.
 </div>
+
+
+
+
+
+
+
+<div id="post_settings" markdown="1">
+
+## NOTE: THESE ARE SETTINGS FROM THE POST
+
+<div class="settings_group">
+
+<label for="fumple1"> Check Test</label>
+<input type="checkbox" id="fumple1" name="fumple1"/>
+
+<label for="fumple2"> Number Test</label>
+<input type="number" id="fumple2" name="fumple2"/>
+
+<label for="fumple3"> Slider Test</label>
+<input type="range" min="0" max="10" step="0.1" id="fumple3" name="fumple3" class="slider"/>
+
+<label for="fumple5"> Text Test</label>
+
+<button>Save TExture</button>
+</div>
+
+</div>

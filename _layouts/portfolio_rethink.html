@@ -65,7 +65,7 @@
         <main class="page-content" aria-label="Content" id="page-content">
 
           <div class="top_page_wrapper">
-            <button class="top_page_btn page_btn active">
+            <button class="top_page_btn page_btn active" id="display_written_content">
               <img src="./assets/icons/sticky_note_2.svg">
             </button>
             <button class="top_page_btn page_btn" id="display_post_list">
@@ -81,7 +81,7 @@
               {{ content }}
             </div>
 
-            <div class="content-wrapper "> 
+            <div class="content-wrapper hidden" id="post_list_container"> 
               
               <div class="post-list-container">
 
@@ -97,43 +97,73 @@
                           {% continue %}
                       {%- endif -%}
 
-                          <li onclick="location.href=`{{ post.url | relative_url }}`;">
-                              <div style="margin: 0px;">
-                                <label style="text-align: left; font-weight: bold;" class="post-link" href="{{ post.url | relative_url }}">
-                                    {{ post.title | escape }}
-                                </label>
-                                <div style="display: flex; flex-direction:row; margin:auto;">
-                                    <!-- <span class="post-meta post-meta-tags">Tags: 
-                                        
+                      <li onclick="location.href=`{{ post.url | relative_url }}`;">
+                          <div style="margin: 0px;">
+                            <label style="text-align: left; font-weight: bold;" class="post-link" href="{{ post.url | relative_url }}">
+                                {{ post.title | escape }}
+                            </label>
+                            <div style="display: flex; flex-direction:row; margin:auto;">
+                                <!-- <span class="post-meta post-meta-tags">Tags: 
+                                    
 
-                                        {% for tag in post.tags %}
-                                        {{ tag }} 
-                                        
-                                        {% endfor %}
-                                        
-                                    </span> -->
-                                    <span class="post-meta post-meta-date">Posted: {{ post.date | date: date_format }}</span>
-                                </div>
-                              </div>
-                          </li>
-                      <!--{%- if post.categories contains "update" -%}-->
-                      <!--{%- endif -%}-->
+                                    {% for tag in post.tags %}
+                                    {{ tag }} 
+                                    
+                                    {% endfor %}
+                                    
+                                </span> -->
+                                <span class="post-meta post-meta-date">Posted: {{ post.date | date: date_format }}</span>
+                            </div>
+                          </div>
+                      </li>
+             
 
                   {%- endfor -%}
                 </ul>
               </div>
             </div>
+
+            <div class="content-wrapper" id="settings_container">
+              <div class="post-list-container" id="settings_parent">
+
+
+                <div class="settings_group">
+                  <label for="fumple1"> Check Test</label>
+                  <input type="checkbox" id="fumple1" name="fumple1"/>
+                  
+                  <label for="fumple2"> Number Test</label>
+                  <input type="number" id="fumple2" name="fumple2"/>
+
+                  <label for="fumple3"> Slider Test</label>
+                  <input type="range" min="0" max="10" step="0.1" id="fumple3" name="fumple3" class="slider"/>
+
+                  <label for="fumple5"> Text Test</label>
+                  <input type="text" id="fumple5" name="fumple5"/>
+
+                  <label> colour</label>
+                  <input type="color"/>
+
+                  <label> file </label>
+                  <input type="file" accept=".glb"/>
+
+                  <label> Save Texture: </label>
+                  <input type="button" accept=".glb"/>
+                </div>
+              </div>
+            </div>
           </div>
     
-          <div class="bottom_page_wrapper" id="page_btn_container">
-            {%- if page.pagecount > 1 -%} 
-              {% assign pagecount = page.pagecount | plus: -1%}
-              {% for counter in (0..pagecount)%}
-                <button class="post-controls page_btn bottom_page_btn" data-page-index={{counter}}>
-                  <span>{{counter | plus: 1}}</span>
-                </button>    
-              {% endfor %}
-            {%- endif -%}
+          <div style="height:56px;">
+            <div class="bottom_page_wrapper" id="page_btn_container">
+              {%- if page.pagecount > 1 -%} 
+                {% assign pagecount = page.pagecount | plus: -1%}
+                {% for counter in (0..pagecount)%}
+                  <button class="post-controls page_btn bottom_page_btn" data-page-index={{counter}}>
+                    <span>{{counter | plus: 1}}</span>
+                  </button>    
+                {% endfor %}
+              {%- endif -%}
+            </div>
           </div>
 
         </main>
