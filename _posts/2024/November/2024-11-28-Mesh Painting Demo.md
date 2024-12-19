@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: portfolio_rethink
 title: Fast Runtime Texture Painting on a Mesh
 subtitle: Click or touch the model to begin painting
 engine: threejs-viewer
@@ -148,3 +148,72 @@ Load Model: <input type="file" accept='.glb' class="in-post-inputfield" data-cmd
 
 </div>
 
+
+
+
+<div id="post_settings" markdown="1">
+
+## Brush Settings
+
+<div class="settings_group">
+
+<label for="brush_color">Colour</label> 
+<input type="color" id="brush_color" class="in-post-inputfield" data-cmd-call='setBrushColour' value="#FF0000"/>
+
+<label for="brush_alpha_strength">Alpha Strength</label> 
+<input type="number" id="brush_alpha_strength" class="in-post-inputfield" data-cmd-call='setBrushStrength' value="0.5"/>
+
+<label for="brush_alpha_radius">Radius</label> 
+<input type="number" id="brush_alpha_radius" class="in-post-inputfield" data-cmd-call='setBrushRadius' value="0.5"/>
+
+</div>
+
+<div markdown="1">
+
+## Camera Controls
+
+</div>
+
+<div class="settings_group">
+
+<label for="enable_camera_spin">Automatically Rotate Camera</label> 
+<input type="checkbox" id="enable_camera_spin" class="in-post-inputfield" data-cmd-call='setBrushColour' checked/>
+
+<label for="camera_pitch">Pitch</label> 
+<input type="range" id="camera_pitch" class="in-post-inputfield" data-cmd-call='setCameraPitch' value="0" min="-3.14" max="3.14" step="0.1"/>
+
+<label for="camera_yaw">Yaw</label> 
+<input type="range" id="camera_yaw" class="in-post-inputfield" data-cmd-call='setCameraYaw' value="0" min="-3.14" max="3.14" step="0.1"/>
+
+</div>
+
+<div markdown="1">
+
+## Application Options
+
+</div>
+
+<div class="settings_group">
+<label for="save_texture">Save Texture</label> 
+<button id="save_texture" class="in-post-button" data-cmd-call='export'> Click </button>
+
+<label for="import_texture">Import Texture</label>
+<input type="file" accept=".png" data-cmd-call='loadTexture' value=""/>
+
+<label for="import_model">Import Model</label>
+<input type="file" accept=".glb" data-cmd-call='loadModel'/>
+
+</div>
+
+<div markdown="1">
+
+### Information about model importing
+
+- Only uncompressed .glb files are supported 
+- The albedo texture on the first found material will be copied to the drawing buffer
+- The drawing will be applied to all materials within the model on the albedo texture slot
+- If a UV island is very small (so that it can't cover a whole pixel) it is unlikely that you can draw over it. (This can be seen on the van's windows)
+- If UV islands overlap, the drawing will appear on both faces. (This can be seen on the van's wheels)
+
+</div>
+</div>

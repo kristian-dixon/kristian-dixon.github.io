@@ -92,7 +92,6 @@ for(let i = 0; i < pageBtns.length; i++)
 }
 
 let inPostInputfields = document.getElementsByClassName("in-post-inputfield");
-
 for(let i = 0; i < inPostInputfields.length; i++)
 {
     let btn = inPostInputfields[i];
@@ -113,6 +112,18 @@ for(let i = 0; i < inPostInputfields.length; i++)
         }
     })
 }
+
+let inPostButtons = document.getElementsByClassName("in-post-button");
+for(let i = 0; i < inPostButtons.length; i++)
+{
+    let btn = inPostButtons[i];
+
+    btn.addEventListener('click',(x)=>{
+        console.log(btn.value);
+        sendToDemo(btn.getAttribute('data-cmd-call'), btn.value);
+    })
+}
+
 
 let writtenContentButton = document.getElementById('display_written_content');
 let postListButton = document.getElementById("display_post_list");

@@ -50,17 +50,32 @@ body
 .settings_group{
   display: grid;
   grid-template-columns: auto auto;
-  /* width: 70%; */
+  width: 70%;
   margin: auto;
-  justify-content: space-around;
+  justify-content: space-between;
+  justify-items: end;
+  margin-bottom: 16px;
+  grid-row-gap: 4px;
 
-  /* input[type=number]{
-    width: 72%;
+  padding-top:8px;
+  label{
+    margin-right: auto;
+    text-overflow: ellipsis;
   }
 
-  input[type=text]{
-    width: 72%;
-  } */
+  input{
+    max-width: 85px;
+    width: 100%;
+  }
+
+  button{
+    max-width:85px;
+    width:100%;
+  }
+
+  input[type=color]{
+    height:100%;
+  }
 }
 
 /* The switch - the box around the slider */
@@ -145,7 +160,7 @@ body
   justify-content: flex-end;
   align-items: flex-end;
   margin-right: 20px;
-  height:56px;
+  height:32px;
 
   .page_btn{
     border-top-left-radius: 8px;
@@ -166,7 +181,8 @@ body
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
-  height:56px;
+  height:32px;
+  margin-top: -1px;
 
   .page_btn{
     border-bottom-left-radius: 8px;
@@ -561,7 +577,7 @@ a{
   div.content-wrapper h2,h3,h4{
     box-shadow: 0 1px 0 #00000030;
     margin-bottom: 1px;
-    margin-top:32px;
+    /* margin-top:32px; */
   }
 
   div.content-wrapper p{
@@ -826,3 +842,15 @@ a{
         .highlighter-rouge .highlight {
           background: #212121; }
       
+
+          /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
