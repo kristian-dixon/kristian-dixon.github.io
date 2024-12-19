@@ -177,7 +177,7 @@ Load Model: <input type="file" accept='.glb' class="in-post-inputfield" data-cmd
 <div class="settings_group">
 
 <label for="enable_camera_spin">Automatically Rotate Camera</label> 
-<input type="checkbox" id="enable_camera_spin" class="in-post-inputfield" data-cmd-call='setBrushColour' checked/>
+<input type="checkbox" id="enable_camera_spin" class="in-post-inputfield" data-cmd-call='setCameraOrbit' checked/>
 
 <label for="camera_pitch">Pitch</label> 
 <input type="range" id="camera_pitch" class="in-post-inputfield" data-cmd-call='setCameraPitch' value="0" min="-3.14" max="3.14" step="0.1"/>
@@ -198,10 +198,10 @@ Load Model: <input type="file" accept='.glb' class="in-post-inputfield" data-cmd
 <button id="save_texture" class="in-post-button" data-cmd-call='export'> Click </button>
 
 <label for="import_texture">Import Texture</label>
-<input type="file" accept=".png" data-cmd-call='loadTexture' value=""/>
+<input type="file" accept=".png" class="in-post-inputfield" data-cmd-call='loadTexture' value=""/>
 
 <label for="import_model">Import Model</label>
-<input type="file" accept=".glb" data-cmd-call='loadModel'/>
+<input type="file" accept=".glb" class="in-post-inputfield" data-cmd-call='loadModel'/>
 
 </div>
 
