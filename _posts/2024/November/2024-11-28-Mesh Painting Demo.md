@@ -107,46 +107,7 @@ Since I only care about where in worldspace the user has selected I wrote a func
 
 </div>
 
-<div markdown="1" class="pagnated-page-wrapper hidden" data-page-index="3">
 
-### Paint Brush Settings
-
-Color: <input type="color" name="colorField" class="in-post-inputfield" data-cmd-call='setBrushColour'/>
-
-Radius: <input type="number" name="colorField" class="in-post-inputfield" data-cmd-call='setBrushRadius' value='0.1'/>
-
-### Camera Settings
-
-Camera Auto Spin: 
-<div style="margin: auto; width: 20%; padding: 10px;">
-    <label class="switch">
-        <input type="checkbox" data-cmd-call='setUnfolded' class="in-post-inputfield" checked>
-        <span class="slider round"></span>
-    </label>
-</div>
-
-Camera Pitch: <input type="range" min="-3.14" max="3.14" step="0.1" value="0" data-cmd-call='setCameraPitch' class="in-post-inputfield"/>
-
-Camera Yaw: <input type="range" min="-3.14" max="3.14" step="0.1" value="0" data-cmd-call='setCameraYaw' class="in-post-inputfield"/>
-
-
-### Model Settings
-
-Toggle 2D Visualiser: 
-<div style="margin: auto; width: 20%; padding: 10px;">
-    <label class="switch">
-        <input type="checkbox" data-cmd-call='setTexturePreviewVisibility' class="in-post-inputfield" checked>
-        <span class="slider round"></span>
-    </label>
-</div>
-
-Save Texture: <input type="file" accept='.png' class="in-post-inputfield" data-cmd-call='export'/>
-
-Load Texture: <input type="file" accept='.png' class="in-post-inputfield" data-cmd-call='loadTexture'/>
-
-Load Model: <input type="file" accept='.glb' class="in-post-inputfield" data-cmd-call='loadModel'/>
-
-</div>
 
 
 
