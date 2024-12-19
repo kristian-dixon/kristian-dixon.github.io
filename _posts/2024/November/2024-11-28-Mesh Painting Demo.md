@@ -137,7 +137,7 @@ Since I only care about where in worldspace the user has selected I wrote a func
 
 <div class="settings_group">
 
-<label for="enable_camera_spin">Automatically Rotate Camera</label> 
+<label for="enable_camera_spin">Auto Rotate</label> 
 <input type="checkbox" id="enable_camera_spin" class="in-post-inputfield" data-cmd-call='setCameraOrbit' checked/>
 
 <label for="camera_pitch">Pitch</label> 
