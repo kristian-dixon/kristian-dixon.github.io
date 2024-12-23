@@ -589,6 +589,11 @@ a{
   div.content-wrapper .pagnated-page-wrapper{
     padding:8px;
     overflow-y:auto;
+    width: 98%;
+
+    img{
+      width: 100%;
+    }
   }
 
 
