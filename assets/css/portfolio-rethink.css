@@ -77,17 +77,22 @@ body
 iframe{
   user-select: none;
   touch-action: none;
+
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
 }
 
 .scrolling-background-pattern{
       /* background-image: url("https://assets.codepen.io/1468070/Star+Pattern+3.svg"); */
       background-image: url("/assets/icons/thickergrid.svg");
-      background-size: 0.8%;
+      background-size: 0.18%;
       position: absolute;
       top: 0px;
       z-index: 1;
-      height: 200%;
-      width: 200%;
+      height: 10000px;
+      width: 10000px;
       opacity: 0.24;
       animation: pan 120s linear infinite;
       will-change: transform;
