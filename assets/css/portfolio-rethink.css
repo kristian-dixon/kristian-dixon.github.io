@@ -70,7 +70,7 @@ body
     transform: translate(-50%, -50%);
   }
   100% {
-    transform: translate(0%, 0%);
+    transform: translate(0%, -30%);
   }
 }
 
@@ -89,7 +89,7 @@ iframe{
       height: 200%;
       width: 200%;
       opacity: 0.24;
-      animation: pan 80s linear infinite;
+      animation: pan 120s linear infinite;
       will-change: transform;
       /* transform: translate3d(0, 0, 0); */
 }
@@ -917,4 +917,33 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+/*** Works on common browsers ***/
+::selection {
+  background-color: #352e7e;
+  color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+  background-color: #352e7e;
+  color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+  background-color: #352e7e;
+  color: #fff;
+}
+
+::-ms-selection {
+  background-color: #352e7e;
+  color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+  background-color: #352e7e;
+  color: #fff;
 }
