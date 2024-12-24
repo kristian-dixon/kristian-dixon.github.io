@@ -1,44 +1,131 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><title>ThreeJS Sandbox</title>
-<style>
-html, body, canvas 
-{
-    margin: 0;
-    padding: 0;
-    border: 0;overflow: 
-    hidden; user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-}
-canvas {display: block;  touch-action: none;}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>{{page.title}} - Kris makes stuff</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/portfolio-rethink.css?v=7">
+    <script type="text/javascript" src="/assets/scripts/portfolio/main.js" defer></script>
+  </head>
 
-::selection {
-  background-color: #352e7e;
-  color: #fff;
-}
+  <body>
+    <header class="site-header">
+      <a class="site-title" rel="author" href="/">Kris makes stuff</a>
+    </header>
 
-/*** Mozilla based browsers ***/
-::-moz-selection {
-  background-color: #352e7e;
-  color: #fff;
-}
+    <div data-keep class="page-background">
+      <div data-keep class="scrolling-background-pattern"></div>
+      <div data-keep class="scrolling-background-overlay"></div>
+    </div>
 
-/***For Other Browsers ***/
-::-o-selection {
-  background-color: #352e7e;
-  color: #fff;
-}
+    <div class="site-container">
+      <div id="interactive_demo_container" class="interactive_demo_container">
+        {%- if page.engine contains "model-viewer" -%}
+          {% assign modelpath = page.modelpath %}
+          {% include modelViewer.html id=page.modelpath %}
+        {%- endif -%}
 
-::-ms-selection {
-  background-color: #352e7e;
-  color: #fff;
-}
+        {%- if page.engine contains "threejs-viewer" -%}
+          {% assign modelpath = page.modelpath %}
+          {% include threejsViewer.html demo=page.demo %}
+        {%- endif -%}
 
-/*** For Webkit ***/
-::-webkit-selection {
-  background-color: #352e7e;
-  color: #fff;
-}
-</style>
-            <script defer="defer" src="bundle.62bb0c36933565a576eb.js"></script></head><body><canvas id="app" style="width:100%;height:100%;touch-action: none;"></canvas></body></html>
+        <div id="page_title" class="page_title">
+          <div class="navigation-wrapper" id="navigation-wrapper">
+            <div class="post-title-container">
+              <p class="post-title">{{ page.title }}</p>
+              <p class="post-subtitle">{{ page.subtitle }}</p>            
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="portfolio_post_container" class="portfolio_post_container">
+
+        <main class="page-content" aria-label="Content" id="page-content">
+          <div style="width: 100%;">
+            <div class="top_page_wrapper">
+              <button class="top_page_btn page_btn active" id="display_written_content">
+                <img src="/assets/icons/sticky_note_2.svg">
+              </button>
+              <button class="top_page_btn page_btn" id="display_post_list">
+                <img src="/assets/icons/list.svg">
+              </button>
+              <button class="top_page_btn page_btn" id="display_settings">
+                <img src="/assets/icons/settings.svg">
+              </button>
+            </div> 
+          </div>
+             
+              
+          <div class="content-panel" id="content-panel">
+            <div class="content-wrapper" id="post_content_container">
+              {{ content }}
+            </div>
+
+            <div class="content-wrapper hidden" id="post_list_container"> 
+              
+              <div class="post-list-container">
+
+                <h2 style="margin-top:0px; margin-bottom:8px;">
+                  More Posts
+                </h2>
+
+                <ul class="post-list">
+                  {% assign posts = site.posts %}
+                  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                  {%- for post in posts -%}
+                      {%- if post.categories contains "Hidden" -%}
+                          {% continue %}
+                      {%- endif -%}
+
+                      <li onclick="location.href=`{{ post.url | relative_url }}`;">
+                          <div style="margin: 0px;">
+                            <label style="text-align: left; font-weight: bold;" class="post-link" href="{{ post.url | relative_url }}">
+                                {{ post.title | escape }}
+                            </label>
+                            <div style="display: flex; flex-direction:row; margin:auto;">                            
+                                <span class="post-meta post-meta-date">Posted: {{ post.date | date: date_format }}</span>
+                            </div>
+                          </div>
+                      </li>
+
+                  {%- endfor -%}
+                </ul>
+              </div>
+            </div>
+
+            <div class="content-wrapper hidden" id="settings_container">
+              <div class="post-list-container" id="settings_parent">
+
+
+                
+              </div>
+            </div>
+          </div>
+    
+          <div style="height: 32px;">
+            <div class="bottom_page_wrapper" id="page_btn_container">
+              {%- if page.pagecount > 1 -%} 
+                {% assign pagecount = page.pagecount | plus: -1%}
+                {% for counter in (0..pagecount)%}
+                  <button class="post-controls page_btn bottom_page_btn" data-page-index={{counter}}>
+                    <span>{{counter | plus: 1}}</span>
+                  </button>    
+                {% endfor %}
+              {%- endif -%}
+            </div>
+          </div>
+
+        </main>
+
+      </div>
+    </div>
+
+  </body>
+
+</html>

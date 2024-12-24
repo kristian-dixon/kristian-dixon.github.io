@@ -141,6 +141,31 @@ iframe{
   }
 }
 
+
+
+
+.social-icon{
+  width: 40px;
+  height: 40px;
+  margin:4px;
+}
+
+.icon-scale{
+  transform:scale(2);
+}
+
+.social_list_item
+{
+  display: inline;
+  margin: 0;
+}
+
+.grey{
+  fill:#ffffff;
+}
+
+
+
 /* The switch - the box around the slider */
 .switch {
   position: relative;

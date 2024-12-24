@@ -1,0 +1,107 @@
+---
+layout: default
+---
+{%- include css.html -%}
+
+
+<div class="home">
+    <div class="outer_container">
+        <div class="bio_container">
+            <div class="socials_card"  >
+                <div class="socials_container">
+                    <h1>Kristian Dixon</h1>
+                    <h4>Game Developer - Graphics Researcher - Software Engineer</h4>
+
+                    {%- include social.html -%}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="about linebreak ">
+    <div class = "constrainwidth">
+        <h2>About</h2>
+        <div class="linebreak"></div>
+        <div class="aboutwrapper">
+            <p>Hi I’m Kris, I make lots of technical stuff both as a hobby and professionally and I wanted somewhere that I could share the things I’ve worked on.</p> 
+            <br>
+            <p>I have a MSc in Computer Science from the University of Hull and I currently work as a Lead Game Developer on a project called Stage at <a href="https://visr-vr.com/"> VISR Dynamics</a>.</p>
+            <p> My core area of interest is in graphics programming, I love everything about it to the point that I spend most of my weekends trying to implement things that I've either read about or seen in a game during the week. 
+                This is likely what a lot of this blog will cover, however I can get dragged into other research rabbitholes quite easily. <br>
+                I also am really interested in computer vision and photogrammetry. I quite like how they're almost the inverse of a lot of graphics programming stuff in that you usually are taking a 2D image and translating it back into 3D.  
+            </p>
+    
+            <br>
+            <p>Outside of programming I also love Hull City AFC. I quite enjoy obsessing over the 
+                data side of things and trying to figure out what we need to get promoted. I also enjoy playing it as a sport, I find it quite useful for clearing out my brain.</p>
+        </div>
+    </div>
+</div>
+
+{% assign posts = site.posts %}
+{%- if posts.size > 0 -%}
+<div class="blogwrapper linebreak">
+    <div class = "constrainwidth">
+        <h2 style="text-align: center">Blog</h2>
+        <div class="linebreak"></div>
+        
+        <div class="blog">
+            <div class="latestposts leftverticalbreak rightverticalbreak">
+    
+                    <h2>Recent Posts</h2>
+    
+                        <ul class="post-list">
+                            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                            {%- for post in posts -%}
+                                {%- if post.categories contains "Hidden" -%}
+                                    {% continue %}
+                                {%- endif -%}
+
+                                    <li>
+                                        <h4 style="margin: 0px;">
+                                            <a style="text-align: left;" class="post-link" href="{{ post.url | relative_url }}">
+                                                {{ post.title | escape }}
+                                            </a>
+                                            <div style="display: flex; flex-direction:row; margin:auto;">
+                                                <span class="post-meta post-meta-tags">Tags: 
+                                                    
+                                                    {% for tag in post.tags %}
+                                                    {{ tag }} 
+                                                    
+                                                    {% endfor %}
+                                                    
+                                                </span>
+                                                <span class="post-meta post-meta-date">{{ post.date | date: date_format }}</span>
+                                            </div>
+                                        </h4>
+                                        {%- if site.show_excerpts -%}
+                                            {{ post.excerpt }}
+                                        {%- endif -%}
+                                    </li>
+                                <!--{%- if post.categories contains "update" -%}-->
+                                <!--{%- endif -%}-->
+    
+                            {%- endfor -%}
+                        </ul>
+    
+                        <a href="">More posts</a>
+            </div>
+                
+            <div class="postexcerpt leftverticalbreak rightverticalbreak">
+                <h2>Featured Post</h2>
+                
+                
+                <div class="previewwrapper">
+                    {% assign p = site.posts[0] %}
+                    {{ p.content  | truncatewords:150}}
+                    <a href="{{p.url}}"> read more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+        
+    <div class="linebreak"></div>
+{%- endif -%}
+</div>

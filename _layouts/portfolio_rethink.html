@@ -37,27 +37,7 @@
           <div class="navigation-wrapper" id="navigation-wrapper">
             <div class="post-title-container">
               <p class="post-title">{{ page.title }}</p>
-              <p class="post-subtitle">{{ page.subtitle }}</p>
-              <!-- <div class="post-title-container">
-                <button class="buttonCircle buttonDark tooltip" onclick="window.location.href='/test';">
-                  <i class="icon" data-char="<"></i> 
-                  <span class="tooltiptext">Previous Post</span>
-                </button>
-      
-                <button class="buttonCircle buttonDark tooltip" id="show_post_btn">
-                  <i class="icon" data-char="?"></i> 
-                  <span class="tooltiptext">Open Post Info</span>
-                </button>
-      
-                <button class="buttonCircle buttonDark tooltip" onclick="window.location.href='/test';">
-                  <i class="icon" data-char=">"></i> 
-                  <span class="tooltiptext">Next Post</span>
-                </button>
-      
-               
-      
-              </div> -->
-              
+              <p class="post-subtitle">{{ page.subtitle }}</p>            
             </div>
           </div>
         </div>
@@ -108,21 +88,11 @@
                             <label style="text-align: left; font-weight: bold;" class="post-link" href="{{ post.url | relative_url }}">
                                 {{ post.title | escape }}
                             </label>
-                            <div style="display: flex; flex-direction:row; margin:auto;">
-                                <!-- <span class="post-meta post-meta-tags">Tags: 
-                                    
-
-                                    {% for tag in post.tags %}
-                                    {{ tag }} 
-                                    
-                                    {% endfor %}
-                                    
-                                </span> -->
+                            <div style="display: flex; flex-direction:row; margin:auto;">                            
                                 <span class="post-meta post-meta-date">Posted: {{ post.date | date: date_format }}</span>
                             </div>
                           </div>
                       </li>
-             
 
                   {%- endfor -%}
                 </ul>
