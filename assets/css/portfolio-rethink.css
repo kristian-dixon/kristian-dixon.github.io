@@ -61,33 +61,33 @@ body
   width: 100dvw;
   top:0px;
   z-index: -1;
+
+  overflow: hidden;
 }
 
 @keyframes pan {
   0% {
-    background-position: 0% 0%;
+    transform: translate(-50%, -50%);
   }
   100% {
-    background-position: 100% 100%;
+    transform: translate(0%, 0%);
   }
 }
 
 .scrolling-background-pattern{
   /* background-image: url("https://assets.codepen.io/1468070/Star+Pattern+3.svg"); */
-  background-image: url("/assets/icons/grid.svg");
-  background-size: 1%;
+  background-image: url("/assets/icons/circles.svg");
+  background-size: 2%;
   position: absolute;
-  left: 50%;
+  
   top: 0px;
-  translate: -50% 0%;
   z-index: 1;
-  height: 100%;
-  width: 100%;
-  min-width: 1200px;
-  opacity: 0.1;
-  animation: pan 180s linear infinite;
-  will-change: background-position;
-  filter: blur(1px);
+  height: 200%;
+  width: 200%;
+  opacity: 0.03;
+  animation: pan 80s linear infinite;
+  will-change: transform;
+  /* transform: translate3d(0, 0, 0); */
 }
 
 .scrolling-background-overlay{
