@@ -81,7 +81,7 @@ iframe{
 
 .scrolling-background-pattern{
       /* background-image: url("https://assets.codepen.io/1468070/Star+Pattern+3.svg"); */
-      background-image: url("/assets/icons/grid.svg");
+      background-image: url("/assets/icons/thickergrid.svg");
       background-size: 0.8%;
       position: absolute;
       top: 0px;
