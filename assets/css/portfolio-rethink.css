@@ -1,3 +1,9 @@
+:root {
+  --background-dark: #080531;
+
+  /* #631212 */
+}
+
 ::-webkit-scrollbar {
     width: 10px;
     border-radius: 0 8px 8px 0;
@@ -48,7 +54,7 @@ body
 }
 
 .page-background{
-  background: radial-gradient(rgb(255 155 65), rgb(255 118 0));
+  background:radial-gradient(rgb(45 28 135), var(--background-dark));
 
   position:absolute;
   height: 100dvh;
@@ -68,8 +74,8 @@ body
 
 .scrolling-background-pattern{
   /* background-image: url("https://assets.codepen.io/1468070/Star+Pattern+3.svg"); */
-  background-image: url("/assets/icons/circles.svg");
-  background-size: 4%;  
+  background-image: url("/assets/icons/grid.svg");
+  background-size: 1%;
   position: absolute;
   left: 50%;
   top: 0px;
@@ -78,13 +84,14 @@ body
   height: 100%;
   width: 100%;
   min-width: 1200px;
-  opacity: 0.085;
+  opacity: 0.1;
   animation: pan 180s linear infinite;
   will-change: background-position;
+  filter: blur(1px);
 }
 
 .scrolling-background-overlay{
-  background: radial-gradient(circle, transparent 25%, rgb(255 118 0));
+  background: radial-gradient(circle, transparent 25%, var(--background-dark));
   position: absolute;
   left: 0px;
   top: 0px;
