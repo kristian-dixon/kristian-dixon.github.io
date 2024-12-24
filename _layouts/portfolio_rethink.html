@@ -29,8 +29,11 @@
         {%- endif -%}
 
         {%- if page.engine contains "threejs-viewer" -%}
-          {% assign modelpath = page.modelpath %}
           {% include threejsViewer.html demo=page.demo %}
+        {%- endif -%}
+
+        {%- if page.engine contains "shadertoy-viewer" -%}
+          {% include shadertoyViewer.html address=page.address %}
         {%- endif -%}
 
         <div id="page_title" class="page_title">

@@ -388,6 +388,7 @@ input:checked + .slider:before {
     padding:8px;
     position: relative;
     z-index: 1;
+    pointer-events: none;
 }
 
 .site-title
@@ -404,6 +405,7 @@ input:checked + .slider:before {
     0 0.07em #000000,
     -0.07em 0 #000000,
     0 -0.07em #3b3b3b2e;
+    pointer-events: all;
 }
 
 .site-container{  
