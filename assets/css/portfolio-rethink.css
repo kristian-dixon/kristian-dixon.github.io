@@ -76,6 +76,7 @@ body
 
 iframe{
   user-select: none;
+  touch-action: none;
 }
 
 .scrolling-background-pattern{
