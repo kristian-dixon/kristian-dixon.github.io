@@ -496,6 +496,15 @@ a{
 }
 
 
+.interactive_demo_container{
+  iframe{
+    /* mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent), linear-gradient(to bottom, transparent, black 10%, black 90%, transparent); */
+    mask-image: linear-gradient(to right, transparent, black 0%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 0%, black 97%, transparent);
+    mask-composite: intersect;
+    -webkit-mask-composite: intersect;
+  }
+}
 
 .buttonDark {
 
@@ -764,6 +773,17 @@ a{
         display: unset;
 
     }
+
+    .interactive_demo_container{
+      iframe{
+        /* mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent), linear-gradient(to bottom, transparent, black 10%, black 90%, transparent); */
+        mask-image: linear-gradient(to bottom, transparent, black 0%, black 90%, transparent);
+        -webkit-mask-image: linear-gradient(to bottom, transparent, black 0%, black 97%, transparent);
+        mask-composite: intersect;
+        -webkit-mask-composite: intersect;
+      }
+    }
+
 };
 
 .highlight .c {
