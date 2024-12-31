@@ -111,6 +111,10 @@ for(let i = 0; i < inPostInputfields.length; i++)
             sendToDemo(btn.getAttribute('data-cmd-call'), btn.value);
         }
     })
+
+    btn.addEventListener('changed',(x)=>{
+        sendToDemo(btn.getAttribute('data-cmd-call'), btn.value);
+    });
 }
 
 let inPostButtons = document.getElementsByClassName("in-post-button");

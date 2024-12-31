@@ -54,6 +54,7 @@ body
 }
 
 .page-background{
+  filter: grayscale(1) brightness(0.5);
   background:radial-gradient(rgb(45 28 135), var(--background-dark));
 
   position:absolute;
@@ -94,7 +95,7 @@ iframe{
       height: 10000px;
       width: 10000px;
       opacity: 0.24;
-      animation: pan 120s linear infinite;
+      animation: pan 260s linear infinite;
       will-change: transform;
       /* transform: translate3d(0, 0, 0); */
 }
