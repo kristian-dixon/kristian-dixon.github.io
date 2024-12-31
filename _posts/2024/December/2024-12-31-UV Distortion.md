@@ -12,7 +12,7 @@ pagecount: 3
 # Intro
 
 This post showcases two individual pieces of work that happened to go together nicely. 
-The first part demonstrates how the combination of a flow map, scrolling uvs and a gradient can be used to create a simple fire effect by distorting a base texture. I made this effect around the time I first started experimenting with writing shaders in ThreeJS so it was an ideal project to play around with. I also made this because I wanted to show one of my friends how they could implement it themselves but I never got the chance to do that so I’m hoping this post works well for that too. 
+The first part demonstrates how the combination of a flow map, scrolling uvs and a gradient can be used to create a simple fire effect by distorting a base texture. I made this effect around the time I first started experimenting with writing shaders in ThreeJS so it was an ideal project to play around with. 
 
 The side window is currently showing the result of the first part of the post, the second part of the post covers a feature I added for fun in which you can draw a rudimentary flowmap. I originally anticipated this feature to be quite simple to implement, given that I have the drawing logic from a [previous post](/2024/11/28/Mesh-Painting-Demo.html "Runtime painting on a mesh") but it ended up being more technical than I expected so it became an interesting thing to write about.
 
