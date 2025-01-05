@@ -258,11 +258,17 @@ input:checked + .slider:before {
 
     /* box-shadow: -5px 5px 5px rgba(12, 12, 12, 63%), inset 0 2px 3px rgba(0, 0, 0, 0.25); */
     box-shadow: -5px 5px 5px rgba(12, 12, 12, 63%), inset -4px 3px 3px rgb(105 105 105 / 25%);
+
+    width:72px;
   }
 
   .active{
     background-color: #333333;
     z-index: 3;
+  }
+
+  label{
+    color:whitesmoke
   }
 }
 
@@ -341,7 +347,7 @@ input:checked + .slider:before {
     overflow: hidden;
     padding:8px;
 
-    background: linear-gradient(#232323ff, #333333);
+    background: linear-gradient(#23232374, #333333ad);
     background-size: auto 150%;
     background-position: 0 100%;
 
