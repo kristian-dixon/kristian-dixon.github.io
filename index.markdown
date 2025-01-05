@@ -24,7 +24,7 @@ Outside of work, I love playing games. Banjo Kazooie and Donkey Kong 64 hold a s
 
 I also can gain new interests at the drop of a hat. If someone is passionate enough about a topic to let me see the world through their eyes then I’m always really excited to learn more about that topic. For example, recently a friend sent me a Uri Tuchman video, I’d not seen his videos before but now I kinda want to make a clock because he clearly loves doing it. I also never considered that you can just make screws.  
 
-At the moment my core focus is on building out content for this website, there’s so much I’ve worked on in my spare time that I really want to show off to everyone. When that’s done, outside of looking for new opportunities, I want to finally make a game for my Mum since I think I can make her proud. 
+At the moment my core focus is on building out content for this website, there’s so much I’ve worked on in my spare time that I really want to show off to everyone. When that’s done, outside of looking for new opportunities, I want to finally make a game for my Mum since I think she'd love it. 
 
 ## Lists
 
