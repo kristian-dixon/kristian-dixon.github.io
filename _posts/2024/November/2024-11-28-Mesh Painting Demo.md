@@ -2,6 +2,8 @@
 layout: portfolio_rethink
 title: Fast Runtime Texture Painting on a Mesh
 subtitle: Click or touch the model to begin painting
+desc: A live demo that showcases painting on meshes in realtime using ThreeJS.
+img: kristian-dixon.github.io/assets/images/post_thumbnails/mesh_painting.png
 engine: threejs-viewer
 demo: whiteboard
 pagecount: 3
