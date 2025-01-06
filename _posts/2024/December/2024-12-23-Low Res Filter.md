@@ -2,6 +2,8 @@
 layout: portfolio_rethink
 title: Worldspace Low Resolution Filter
 subtitle: Drag model to rotate camera
+desc: A live demo of a post processing effect that lowers the resolution of what you're viewing through a quad.
+image: https://kristian-dixon.github.io/assets/images/post_thumbnails/googlies.gif
 engine: threejs-viewer
 demo: lowresfilter
 pagecount: 1
