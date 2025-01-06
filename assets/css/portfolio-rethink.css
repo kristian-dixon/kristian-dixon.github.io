@@ -54,7 +54,7 @@ body
 }
 
 .page-background{
-  filter: grayscale(1) brightness(0.5);
+  filter: grayscale(0.6) brightness(0.5);
   background:radial-gradient(rgb(45 28 135), var(--background-dark));
 
   position:absolute;
