@@ -165,7 +165,34 @@ iframe{
   fill:#ffffff;
 }
 
+.mini-portfolio{
+  
+  li { background: #00000050; }
+}
+.mini-post{
+  video{
+    width:100%;
+    margin:auto;
+    border-radius: 8px;
+  }
 
+  img{
+    border-radius: 8px;
+  }
+
+  
+
+  padding:8px;
+  border-radius: 8px;
+  margin-bottom:8px;
+}
+
+.date{
+  display: block;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: 0px;
+}
 
 /* The switch - the box around the slider */
 .switch {
