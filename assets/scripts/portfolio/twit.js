@@ -5397,7 +5397,7 @@ let twitterContent =
       "possibly_sensitive" : true,
       "created_at" : "Sun May 30 20:34:38 +0000 2021",
       "favorited" : false,
-      "full_text" : "Youtube mirror because twitter video compression is dogshit https://t.co/3zQWR5VgeX",
+      "full_text" : "Youtube mirror because twitter video compression is bad https://t.co/3zQWR5VgeX",
       "lang" : "en",
       "in_reply_to_screen_name" : "Kris_1206",
       "in_reply_to_user_id_str" : "498916645"
