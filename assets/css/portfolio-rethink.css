@@ -453,6 +453,8 @@ input:checked + .slider:before {
     -0.07em 0 #000000,
     0 -0.07em #3b3b3b2e;
     pointer-events: all;
+
+   
 }
 
 .site-container{  
@@ -540,9 +542,11 @@ ul{
 }
 
 a{
-  color:white;
+  color:#93aefd;
 }
-
+a:visited{
+  color:#b893fd;
+}
 
 .interactive_demo_container{
   iframe{
