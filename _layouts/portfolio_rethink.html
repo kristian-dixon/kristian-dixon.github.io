@@ -83,15 +83,14 @@
                   More Posts
                 </h2>
 
-                <ul class="post-list">
-                  {% assign posts = site.posts %}
-                  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                  {%- for post in posts -%}
-                      {%- if post.categories contains "Hidden" -%}
-                          {% continue %}
-                      {%- endif -%}
-
-                      <li onclick="location.href=`{{ post.url | relative_url }}`;">
+                {% assign posts = site.posts %}
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <div class="post-list-group">
+                  <b>Featured Posts</b>
+                  <ul class="post-list">
+                    {%- for post in posts -%}
+                      {%- if post.tags contains "Featured" -%}
+                        <li onclick="location.href=`{{ post.url | relative_url }}`;">
                           <div style="margin: 0px;">
                             <label style="text-align: left; font-weight: bold;" class="post-link" href="{{ post.url | relative_url }}">
                                 {{ post.title | escape }}
@@ -100,10 +99,50 @@
                                 <span class="post-meta post-meta-date">Posted: {{ post.date | date: date_format }}</span>
                             </div>
                           </div>
-                      </li>
-
+                        </li>
+                      {%- endif -%}                  
                   {%- endfor -%}
-                </ul>
+
+                  </ul>
+                </div>
+
+                <div class="post-list-group">
+
+                  
+                  <b>Janurary 2024</b>
+                  <ul class="post-list">
+                    
+                    {% assign listDate = null %}
+
+                    {%- for post in posts -%}
+                        {%- if post.categories contains "Hidden" -%}
+                            {% continue %}
+                        {%- endif -%}
+
+                        {% assign currentDate = post.date | date: "%B %Y" -%}
+
+                        {%- if listDate != null and listDate != currentDate-%}
+                          <p>{{currentDate | escape}}</p>
+                        {%- endif -%}
+
+                        {%- assign listDate = currentDate -%}
+
+                        <li onclick="location.href=`{{ post.url | relative_url }}`;">
+                            <div style="margin: 0px;">
+                              <label style="text-align: left; font-weight: bold;" class="post-link" href="{{ post.url | relative_url }}">
+                                  {{ post.title | escape }}
+                              </label>
+                              <div style="display: flex; flex-direction:row; margin:auto;">                            
+                                  <span class="post-meta post-meta-date">Posted: {{ post.date | date: date_format }}</span>
+                              </div>
+                            </div>
+                        </li>
+
+                    {%- endfor -%}
+
+
+                  </ul>
+                </div>
               </div>
             </div>
 

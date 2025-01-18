@@ -19353,7 +19353,7 @@ twitterContent.forEach(tweet=>{
         {
             let filename = element.media_url.split('/').pop();
             filename = filename.replace('jpg','mp4');
-            media += `<video src="/assets/archive/softportfolio/${filename}" controls loop preload=metadata>`;
+            media += `<video src="/assets/archive/softportfolio/${filename}" controls loop preload=none>`;
         }
     });
 
