@@ -16,6 +16,12 @@
             .page-content{
                 height: 76dvh;
             }
+
+            .embed-container{
+              position:absolute;
+              height: 100dvh;
+              width:100%;
+            }
         }
     </style>
 
@@ -42,6 +48,11 @@
           {% assign modelpath = page.modelpath %}
           {% include threejsViewer.html demo=page.demo %}
         {%- endif -%}
+
+        <div style="filter:blur(2px); height:100%; width:100%">
+          {% include webgpuViewer.html demo="particles" profile="home" %}
+        </div>
+        
 
         <div id="page_title" style="height:100%;" class="page_title">
           <div class="navigation-wrapper" id="navigation-wrapper" style="height: 100%; align-items: center;">

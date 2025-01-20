@@ -163,6 +163,7 @@ iframe{
 
 .grey{
   fill:#ffffff;
+  filter: drop-shadow(0px 0px 6px black);
 }
 
 .post-list-group{
@@ -658,6 +659,9 @@ a:visited{
 
 .post-title-container{
     overflow:visible;
+    p{
+      text-shadow: 0px 0px 6px black
+    }
 }
 
 .post-title{
