@@ -120,7 +120,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Mon Apr 10 22:47:55 +0000 2023",
       "favorited" : false,
-      "full_text" : "Thanks to this really cool article by @simonschreibt I was inspired to spend some of the bank holiday playing with stencil buffers https://t.co/wkBHdDgzwm\n#gamedev #indiedev #vfx #shader https://t.co/J3jpfO9pAT",
+      "full_text" : "Thanks to this really cool article by @simonschreibt I was inspired to spend some of the bank holiday playing with stencil buffers https://t.co/wkBHdDgzwm\n#gamedev #indiedev #vfx #shader",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -276,7 +276,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Oct 30 14:26:44 +0000 2022",
       "favorited" : false,
-      "full_text" : "I started this morning wanting to make Splatoon style goop, then I got a bit carried away when it ended up looking like blood but at least it's season appropriate #VFX #shaders #gamedev #indiedev https://t.co/rNcawls6Mh",
+      "full_text" : "I started this morning wanting to make Splatoon style goop, then I got a bit carried away when it ended up looking like blood but at least it's season appropriate #VFX #shaders #gamedev #indiedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -412,7 +412,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Oct 12 20:17:17 +0000 2022",
       "favorited" : false,
-      "full_text" : "Playing with noise textures again #gamedev #shaders #vfx https://t.co/98VZYDQK6C",
+      "full_text" : "Playing with noise textures again #gamedev #shaders #vfx",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -554,7 +554,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Oct 01 16:23:28 +0000 2022",
       "favorited" : false,
-      "full_text" : "A WebGPU triangle, now I can render stuff I'm excited to try cool things with it :)  #gamedev #shaders https://t.co/J45L5qHLYI",
+      "full_text" : "A WebGPU triangle, now I can render stuff I'm excited to try cool things with it :)  #gamedev #shaders",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -690,7 +690,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Aug 21 17:24:13 +0000 2022",
       "favorited" : false,
-      "full_text" : "Thought I'd give interior mapping a go, it's been a while since I've had to raytrace against a plane in a shader so it was fun trying to remember how the maths for that worked :) #gamedev #indiedev #shaders https://t.co/J4VguEZJLg",
+      "full_text" : "Thought I'd give interior mapping a go, it's been a while since I've had to raytrace against a plane in a shader so it was fun trying to remember how the maths for that worked :) #gamedev #indiedev #shaders",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -846,7 +846,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Aug 17 22:06:54 +0000 2022",
       "favorited" : false,
-      "full_text" : "Testing a quick idea I had for doing parallax textures #gamedev #indiedev #shader #vfx https://t.co/SlOPgky7Ms",
+      "full_text" : "Testing a quick idea I had for doing parallax textures #gamedev #indiedev #shader #vfx",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -1002,7 +1002,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Jul 31 22:16:30 +0000 2022",
       "favorited" : false,
-      "full_text" : "I was going to use a textured quad for drop shadows but I didn't like how much it struggled with awkward terrain so I ended up reusing my world position reconstruction from depth buffer shader to create circle decals that could be cast on the floor #gamedev #indiedev #shader #VFX https://t.co/Eu8c3ZNLnX",
+      "full_text" : "I was going to use a textured quad for drop shadows but I didn't like how much it struggled with awkward terrain so I ended up reusing my world position reconstruction from depth buffer shader to create circle decals that could be cast on the floor #gamedev #indiedev #shader #VFX",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -1151,7 +1151,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Jul 27 20:44:53 +0000 2022",
       "favorited" : false,
-      "full_text" : "Time portal #gamedev #indiedev #shader https://t.co/nevKDCMU09",
+      "full_text" : "Time portal #gamedev #indiedev #shader",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -1307,7 +1307,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Thu Jul 14 22:08:58 +0000 2022",
       "favorited" : false,
-      "full_text" : "Added a simple colour shader to the terrain just using normal direction with a bit of scaling #gamedev #indiedev #graphicsprogramming #shaders https://t.co/5X001upAcF",
+      "full_text" : "Added a simple colour shader to the terrain just using normal direction with a bit of scaling #gamedev #indiedev #graphicsprogramming #shaders",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -1443,7 +1443,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Jul 13 20:37:14 +0000 2022",
       "favorited" : false,
-      "full_text" : "Added distortion to the grid the verts are generated on for my marching cubes compute shader, it's quite fun to turn the strength up high and turn everything into something almost papercraft looking #gamedev #indiedev #shaders https://t.co/XnhEym3kFb",
+      "full_text" : "Added distortion to the grid the verts are generated on for my marching cubes compute shader, it's quite fun to turn the strength up high and turn everything into something almost papercraft looking #gamedev #indiedev #shaders",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -1651,7 +1651,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Mon Jul 11 21:19:54 +0000 2022",
       "favorited" : false,
-      "full_text" : "Finally got around to writing a marching cubes compute shader, my previous attempts relying on geometry shaders to finish off the meshing. Now to play with noise values until it stops being too warm to sleep #gamedev #graphicsprogramming #shaders https://t.co/3NHCYNFjPa",
+      "full_text" : "Finally got around to writing a marching cubes compute shader, my previous attempts relying on geometry shaders to finish off the meshing. Now to play with noise values until it stops being too warm to sleep #gamedev #graphicsprogramming #shaders",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -1801,7 +1801,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Jun 26 19:23:18 +0000 2022",
       "favorited" : false,
-      "full_text" : "Decided to add layers to test the terrain generation in the Z direction before attempting to mesh properly, might've gone a little over the top #gamedev #indiedev #shader #VFX #GraphicsProgramming https://t.co/yegE1i6NlY",
+      "full_text" : "Decided to add layers to test the terrain generation in the Z direction before attempting to mesh properly, might've gone a little over the top #gamedev #indiedev #shader #VFX #GraphicsProgramming",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -1957,7 +1957,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Jun 26 14:51:43 +0000 2022",
       "favorited" : false,
-      "full_text" : "I was playing with some terrain generation this morning, decided to switch to smoothstep to try and tidy up some of the jaggies, got the numbers the wrong way around and accidentally created Hell #gamedev #indiedev #shader #VFX https://t.co/ppPjlzaQn9",
+      "full_text" : "I was playing with some terrain generation this morning, decided to switch to smoothstep to try and tidy up some of the jaggies, got the numbers the wrong way around and accidentally created Hell #gamedev #indiedev #shader #VFX",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -2107,7 +2107,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Jun 04 15:50:21 +0000 2022",
       "favorited" : false,
-      "full_text" : "A doorway opens in the Abyss... #screenshotsaturday #shaders #VFX #gamedev #madewithunity https://t.co/Rcdt5V6VEO",
+      "full_text" : "A doorway opens in the Abyss... #screenshotsaturday #shaders #VFX #gamedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -2249,7 +2249,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue May 10 21:52:53 +0000 2022",
       "favorited" : false,
-      "full_text" : "Cow.\n#gamedev #madewithunity https://t.co/VCVImkyXNP",
+      "full_text" : "Cow.\n#gamedev #madewithunity",
       "lang" : "und",
       "extended_entities" : {
         "media" : [
@@ -2404,7 +2404,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue May 10 21:21:53 +0000 2022",
       "favorited" : false,
-      "full_text" : "Been dreaming of the day when we transition from boomer shooters to collectathons so I thought I'd make some googly eyes to try and summon a certain bear and bird and accidentally created something horrific instead #gamedev #BanjoKazooie https://t.co/iJvMIh2KIl",
+      "full_text" : "Been dreaming of the day when we transition from boomer shooters to collectathons so I thought I'd make some googly eyes to try and summon a certain bear and bird and accidentally created something horrific instead #gamedev #BanjoKazooie",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -2553,7 +2553,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun May 01 13:04:04 +0000 2022",
       "favorited" : false,
-      "full_text" : "Learning about using textures to drive vertex animations this weekend, it's really cool how such a simple technique can be used to achieve otherwise really tricky things #gamedev #shaders #VFX https://t.co/GY9HtcAiW2",
+      "full_text" : "Learning about using textures to drive vertex animations this weekend, it's really cool how such a simple technique can be used to achieve otherwise really tricky things #gamedev #shaders #VFX",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -2702,7 +2702,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Apr 10 21:13:55 +0000 2022",
       "favorited" : false,
-      "full_text" : "Made a meteor today #shaders #vfx #gamedev https://t.co/qmOJej6OL8",
+      "full_text" : "Made a meteor today #shaders #vfx #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -2858,7 +2858,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Apr 09 13:51:15 +0000 2022",
       "favorited" : false,
-      "full_text" : "Playing with polar coordinates this weekend, already got a loading screen out of it #gamedev #screenshotsaturday #shaders #VFX https://t.co/FL5Jeo7m0a",
+      "full_text" : "Playing with polar coordinates this weekend, already got a loading screen out of it #gamedev #screenshotsaturday #shaders #VFX",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -3007,7 +3007,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Mon Apr 04 22:52:00 +0000 2022",
       "favorited" : false,
-      "full_text" : "Reconstructing the world position of objects from the depth buffer was way harder than I expected because Unity's projection matrix didn't seem to work how I expected it to but I finally got it working :) #gamedev #vfx #shaders https://t.co/wTN7jvMpmn",
+      "full_text" : "Reconstructing the world position of objects from the depth buffer was way harder than I expected because Unity's projection matrix didn't seem to work how I expected it to but I finally got it working :) #gamedev #vfx #shaders",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -3156,7 +3156,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue Mar 29 21:39:45 +0000 2022",
       "favorited" : false,
-      "full_text" : "Thought I'd play with command buffers a bit more, I accidentally left the render texture cube in the opaque queue and now I want to make portals. #gamedev #shaders #vfx https://t.co/JDvRDg6gBG",
+      "full_text" : "Thought I'd play with command buffers a bit more, I accidentally left the render texture cube in the opaque queue and now I want to make portals. #gamedev #shaders #vfx",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -3323,7 +3323,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Mar 26 19:18:40 +0000 2022",
       "favorited" : false,
-      "full_text" : "Just added working checkpoints to my game (sorta)\n#gamedev #screenshotsaturday #madewithunity https://t.co/8rSCZwyg9h",
+      "full_text" : "Just added working checkpoints to my game (sorta)\n#gamedev #screenshotsaturday #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -3479,7 +3479,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Mar 05 22:56:59 +0000 2022",
       "favorited" : false,
-      "full_text" : "What's the opposite of lawn mowing simulator? Having fun learning how to draw on meshes :) #gamedev #screenshotsaturday #vfx #shader https://t.co/6p6LY9jBDL",
+      "full_text" : "What's the opposite of lawn mowing simulator? Having fun learning how to draw on meshes :) #gamedev #screenshotsaturday #vfx #shader",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -3639,7 +3639,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Jan 23 21:43:34 +0000 2022",
       "favorited" : false,
-      "full_text" : "Improved the fur shader using @HarryAlisavakis most recent stream as inspiration. Looks so much better than  the geometry shader approach I used before #gamedev  #shader #VFX https://t.co/WZfnsrjV0p",
+      "full_text" : "Improved the fur shader using @HarryAlisavakis most recent stream as inspiration. Looks so much better than  the geometry shader approach I used before #gamedev  #shader #VFX",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -3804,7 +3804,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Jan 23 20:45:30 +0000 2022",
       "favorited" : false,
-      "full_text" : "Thanks Unity #gamedev  #madewithunity https://t.co/y9EyOrzVFt",
+      "full_text" : "Thanks Unity #gamedev  #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -3953,7 +3953,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Mon Jan 17 23:29:43 +0000 2022",
       "favorited" : false,
-      "full_text" : "I decided to update my tri-planar mapping shader to fix the dodginess at the planar intersections and to flip the coordinates so that the rain doesn't go up #gamedev #shader #VFX https://t.co/pXXZD19q57",
+      "full_text" : "I decided to update my tri-planar mapping shader to fix the dodginess at the planar intersections and to flip the coordinates so that the rain doesn't go up #gamedev #shader #VFX",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -4102,7 +4102,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Oct 16 21:46:13 +0000 2021",
       "favorited" : false,
-      "full_text" : "Playing with writing a water bottle shader, needs a bit of polish but it was fun to write #gamedev #screenshotsaturday #shader https://t.co/rz74OaAWZ1",
+      "full_text" : "Playing with writing a water bottle shader, needs a bit of polish but it was fun to write #gamedev #screenshotsaturday #shader",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -4258,7 +4258,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Sep 25 20:42:29 +0000 2021",
       "favorited" : false,
-      "full_text" : "I made the mistake tonight of wondering what my water shader would look like if it was custard #gamedev  #shaders #screenshotsaturday #VFX https://t.co/bM0gRWLZPe",
+      "full_text" : "I made the mistake tonight of wondering what my water shader would look like if it was custard #gamedev  #shaders #screenshotsaturday #VFX",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -4360,7 +4360,7 @@ let twitterContent =
       "possibly_sensitive" : true,
       "created_at" : "Thu Sep 16 22:03:26 +0000 2021",
       "favorited" : false,
-      "full_text" : "Twitter's video compression never fails to disappoint - Youtube link: https://t.co/gR1vNPKMsn",
+      "full_text" : "Twitter's video compression never fails to disappoint - Youtube link:",
       "lang" : "en",
       "in_reply_to_screen_name" : "Kris_1206",
       "in_reply_to_user_id_str" : "498916645"
@@ -4458,7 +4458,7 @@ let twitterContent =
       "possibly_sensitive" : true,
       "created_at" : "Thu Sep 16 22:00:08 +0000 2021",
       "favorited" : false,
-      "full_text" : "Decided to write a shader tonight for spawning things in, also secretly works as a explosion shader in reverse :) #gamedev #shader #VFX https://t.co/xip9DiXexI",
+      "full_text" : "Decided to write a shader tonight for spawning things in, also secretly works as a explosion shader in reverse :) #gamedev #shader #VFX",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -4606,7 +4606,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Aug 08 17:17:35 +0000 2021",
       "favorited" : false,
-      "full_text" : "How it looks on something more interesting than a sphere https://t.co/WGoZebMbgO",
+      "full_text" : "How it looks on something more interesting than a sphere",
       "lang" : "en",
       "in_reply_to_screen_name" : "Kris_1206",
       "in_reply_to_user_id_str" : "498916645",
@@ -4751,7 +4751,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Aug 08 16:13:14 +0000 2021",
       "favorited" : false,
-      "full_text" : "Made a fur shader today, interested to see if it'll upset Twitter's compression #vfx #shader #gamedev #madewithunity https://t.co/lHOq7eClnI",
+      "full_text" : "Made a fur shader today, interested to see if it'll upset Twitter's compression #vfx #shader #gamedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -4907,7 +4907,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Aug 07 11:27:06 +0000 2021",
       "favorited" : false,
-      "full_text" : "Playing around with an idea of a game that's rendered largely with edge filtering but has areas that are seen by security cameras come through in full detail. Trying out a bit of distortion on top since it looked too sharp earlier. #gamedev #sceenshotsaturday #VFX #shaders https://t.co/V2yhTtMnfb",
+      "full_text" : "Playing around with an idea of a game that's rendered largely with edge filtering but has areas that are seen by security cameras come through in full detail. Trying out a bit of distortion on top since it looked too sharp earlier. #gamedev #sceenshotsaturday #VFX #shaders",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -5043,7 +5043,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Aug 04 20:14:55 +0000 2021",
       "favorited" : false,
-      "full_text" : "Sobel edge filtering is probably my favourite post processing effect. I've implemented it a few times now but I still get excited seeing it working #gamedev #shader #madewithunity https://t.co/VC0Ad0ez1g",
+      "full_text" : "Sobel edge filtering is probably my favourite post processing effect. I've implemented it a few times now but I still get excited seeing it working #gamedev #shader #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -5165,7 +5165,7 @@ let twitterContent =
       "possibly_sensitive" : true,
       "created_at" : "Sun Jul 11 17:55:11 +0000 2021",
       "favorited" : false,
-      "full_text" : "Thought I'd spend today playing with fluid dynamics, currently it's only 2D and runs on the CPU but I will probably make a version that runs on the GPU and see what it's like to have it be visualised in 3D as fog/ smoke #gamedev https://t.co/wmgRvlemfw",
+      "full_text" : "Thought I'd spend today playing with fluid dynamics, currently it's only 2D and runs on the CPU but I will probably make a version that runs on the GPU and see what it's like to have it be visualised in 3D as fog/ smoke #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -5397,7 +5397,7 @@ let twitterContent =
       "possibly_sensitive" : true,
       "created_at" : "Sun May 30 20:34:38 +0000 2021",
       "favorited" : false,
-      "full_text" : "Youtube mirror because twitter video compression is bad https://t.co/3zQWR5VgeX",
+      "full_text" : "Youtube mirror because twitter video compression is bad",
       "lang" : "en",
       "in_reply_to_screen_name" : "Kris_1206",
       "in_reply_to_user_id_str" : "498916645"
@@ -5495,7 +5495,7 @@ let twitterContent =
       "possibly_sensitive" : true,
       "created_at" : "Sun May 30 20:28:11 +0000 2021",
       "favorited" : false,
-      "full_text" : "Spent most of the bank holiday so far playing with compute shaders and looking into chaotic attractors which are super cool #shaders #graphicsprogramming #gamedev https://t.co/ltcZxmQLqi",
+      "full_text" : "Spent most of the bank holiday so far playing with compute shaders and looking into chaotic attractors which are super cool #shaders #graphicsprogramming #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -5648,7 +5648,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Feb 14 20:53:42 +0000 2021",
       "favorited" : false,
-      "full_text" : "Today I played around with the idea of using the Drunkard Walk algorithm to generate cave systems, accidentally turning off the lighting turns it into an abomination generator instead :) #gamedev https://t.co/LkicSq7VYA",
+      "full_text" : "Today I played around with the idea of using the Drunkard Walk algorithm to generate cave systems, accidentally turning off the lighting turns it into an abomination generator instead :) #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -5777,7 +5777,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Nov 25 22:20:21 +0000 2020",
       "favorited" : false,
-      "full_text" : "Fractals + badly applied AO = free horror game #gamedev #shader https://t.co/ejlFe9WKaD",
+      "full_text" : "Fractals + badly applied AO = free horror game #gamedev #shader",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -5894,7 +5894,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Nov 22 19:50:56 +0000 2020",
       "favorited" : false,
-      "full_text" : "Even cooler rotating on three axes. https://t.co/OKRTCstTkk",
+      "full_text" : "Even cooler rotating on three axes.",
       "lang" : "en",
       "in_reply_to_screen_name" : "Kris_1206",
       "in_reply_to_user_id_str" : "498916645",
@@ -6038,7 +6038,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Nov 22 18:05:05 +0000 2020",
       "favorited" : false,
-      "full_text" : "Found out today that adding a rotation to each iteration of a fractal transforms it into more cool shapes (or cauliflower) \n#shader #gamedev https://t.co/Gkck3HMy9l",
+      "full_text" : "Found out today that adding a rotation to each iteration of a fractal transforms it into more cool shapes (or cauliflower) \n#shader #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -6165,7 +6165,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Nov 15 23:48:15 +0000 2020",
       "favorited" : false,
-      "full_text" : "Spent some of today generating Julia Sets, another thing ticked off the list of things I wanted to learn about :) https://t.co/XUf8Ftqpnq",
+      "full_text" : "Spent some of today generating Julia Sets, another thing ticked off the list of things I wanted to learn about :)",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -6307,7 +6307,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue Nov 10 20:55:48 +0000 2020",
       "favorited" : false,
-      "full_text" : "I don't remember what I wanted to do this morning but I don't think it was this #gamedev #shader https://t.co/wAgShWjNll",
+      "full_text" : "I don't remember what I wanted to do this morning but I don't think it was this #gamedev #shader",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -6456,7 +6456,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Oct 25 21:38:28 +0000 2020",
       "favorited" : false,
-      "full_text" : "Tfw a broken shader produces an infinitely cooler looking thing than what you're trying to make #accidentalart #gamedev #shader https://t.co/eMIDtEBizf",
+      "full_text" : "Tfw a broken shader produces an infinitely cooler looking thing than what you're trying to make #accidentalart #gamedev #shader",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -6578,7 +6578,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Oct 18 19:33:42 +0000 2020",
       "favorited" : false,
-      "full_text" : "Wrote a very basic building generator today as a fun small hour or so project, probably going to do more with this later since I want to read a few papers before going any deeper #gamedev https://t.co/vw2CsgpEQM",
+      "full_text" : "Wrote a very basic building generator today as a fun small hour or so project, probably going to do more with this later since I want to read a few papers before going any deeper #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -6714,7 +6714,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Oct 03 20:52:49 +0000 2020",
       "favorited" : false,
-      "full_text" : "Got slightly side-tracked tonight and ended up writing a world bloom in effect, depth buffers are quite fun to play with :) #screenshotsaturday #gamedev #shader https://t.co/ENmfF1OMo3",
+      "full_text" : "Got slightly side-tracked tonight and ended up writing a world bloom in effect, depth buffers are quite fun to play with :) #screenshotsaturday #gamedev #shader",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -6856,7 +6856,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Sep 12 20:13:20 +0000 2020",
       "favorited" : false,
-      "full_text" : "Found out about triplanar mapping today, now I can have rain everywhere :) #gamedev #screenshotsaturday https://t.co/iVpODHGXfv",
+      "full_text" : "Found out about triplanar mapping today, now I can have rain everywhere :) #gamedev #screenshotsaturday",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -6998,7 +6998,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Apr 04 15:59:48 +0000 2020",
       "favorited" : false,
-      "full_text" : "Stumbled into figuring out how easy it is to make a cone of light using the atan function now I'm probably going to spend the rest of the weekend playing with it #gamedev #screenshotsaturday https://t.co/jjFaHhOsB0",
+      "full_text" : "Stumbled into figuring out how easy it is to make a cone of light using the atan function now I'm probably going to spend the rest of the weekend playing with it #gamedev #screenshotsaturday",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -7154,7 +7154,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Dec 01 20:43:20 +0000 2019",
       "favorited" : false,
-      "full_text" : "Volumetric shadow rays is something I've wanted to work on for around a year at this point, finally managed to do it this weekend #gamedev #screenshotsunday #shaders #RTX https://t.co/PQ1y8TY2Sx",
+      "full_text" : "Volumetric shadow rays is something I've wanted to work on for around a year at this point, finally managed to do it this weekend #gamedev #screenshotsunday #shaders #RTX",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -7303,7 +7303,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue Nov 26 17:04:11 +0000 2019",
       "favorited" : false,
-      "full_text" : "Finally got round to adding a variable recursion depth setting into my dissertation, important for performance but also fun to play with. #gamedev #RTX #shaders https://t.co/T90MawH8wS",
+      "full_text" : "Finally got round to adding a variable recursion depth setting into my dissertation, important for performance but also fun to play with. #gamedev #RTX #shaders",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -7459,7 +7459,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Nov 20 22:29:12 +0000 2019",
       "favorited" : false,
-      "full_text" : "Decided to reuse some old code to have an RTX shader that would colour terrain based on height since I wanted to have a scene for my dissertation to demo the water effect in a nice way. #gamedev #shaders #RTX #indiedev https://t.co/tabdawa3cI",
+      "full_text" : "Decided to reuse some old code to have an RTX shader that would colour terrain based on height since I wanted to have a scene for my dissertation to demo the water effect in a nice way. #gamedev #shaders #RTX #indiedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -7608,7 +7608,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Nov 16 19:27:45 +0000 2019",
       "favorited" : false,
-      "full_text" : "Firing a while into a castle because gamejam #screenshotsaturday #threethinggame #gamedev https://t.co/506VSIhvrq",
+      "full_text" : "Firing a while into a castle because gamejam #screenshotsaturday #threethinggame #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -7764,7 +7764,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Sep 15 10:16:18 +0000 2019",
       "favorited" : false,
-      "full_text" : "Added constant buffer support to my miss shaders which has let me do fun things like animated clouds and creating a fake sun that lights the skybox. #gamedev #screenshotsunday #rtx #shaders https://t.co/zbGn3cYaj3",
+      "full_text" : "Added constant buffer support to my miss shaders which has let me do fun things like animated clouds and creating a fake sun that lights the skybox. #gamedev #screenshotsunday #rtx #shaders",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -7913,7 +7913,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue Sep 10 16:52:37 +0000 2019",
       "favorited" : false,
-      "full_text" : "Never thought having a obj loader would make a rendering project so much more fun. Makes a nice change to just looking at generic primitives #gamedev #rtx #shader https://t.co/gGhmsOK69m",
+      "full_text" : "Never thought having a obj loader would make a rendering project so much more fun. Makes a nice change to just looking at generic primitives #gamedev #rtx #shader",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -8130,7 +8130,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Aug 18 22:21:34 +0000 2019",
       "favorited" : false,
-      "full_text" : "I took a break from the serious side of my project today to relax but then I got curious and decided to write a procedural normal map into a reflection shader to see what happens. I'm pretty impressed #gamedev #screenshotsunday #shader #RTX https://t.co/J1Aq8Tkqni",
+      "full_text" : "I took a break from the serious side of my project today to relax but then I got curious and decided to write a procedural normal map into a reflection shader to see what happens. I'm pretty impressed #gamedev #screenshotsunday #shader #RTX",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -8272,7 +8272,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Aug 14 18:34:12 +0000 2019",
       "favorited" : false,
-      "full_text" : "I forgot to switch my sphere mesh for my cube mesh when creating an infinite mirror and got a cool infinite portal instead #gamedev #rtx https://t.co/vOPnyfrH5d",
+      "full_text" : "I forgot to switch my sphere mesh for my cube mesh when creating an infinite mirror and got a cool infinite portal instead #gamedev #rtx",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -8401,7 +8401,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Mon Aug 12 17:50:18 +0000 2019",
       "favorited" : false,
-      "full_text" : "I can't wait to see the weird stuff that comes out of real time raytraced graphics even just playing around with infinite mirrors is fun #gamedev #rtx https://t.co/kURbYrSGNe",
+      "full_text" : "I can't wait to see the weird stuff that comes out of real time raytraced graphics even just playing around with infinite mirrors is fun #gamedev #rtx",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -8537,7 +8537,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Aug 10 20:14:38 +0000 2019",
       "favorited" : false,
-      "full_text" : "Been having fun playing with reflections over the past few days, next I want to add nicer lighting and try and get effects like ambient occlusion and global illumination in #gamedev #screenshotsaturday #rtx https://t.co/nNFVxz3xv4",
+      "full_text" : "Been having fun playing with reflections over the past few days, next I want to add nicer lighting and try and get effects like ambient occlusion and global illumination in #gamedev #screenshotsaturday #rtx",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -8684,7 +8684,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Aug 03 19:16:28 +0000 2019",
       "favorited" : false,
-      "full_text" : "My dissertation is coming along nicely, got bored of seeing a flat background colour so I decided to use the @bookofshaders to write something that looks a little more interesting #screenshotsaturday #gamedev #Rtx https://t.co/2kBAw2YmAv",
+      "full_text" : "My dissertation is coming along nicely, got bored of seeing a flat background colour so I decided to use the @bookofshaders to write something that looks a little more interesting #screenshotsaturday #gamedev #Rtx",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -8820,7 +8820,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Jul 27 15:21:57 +0000 2019",
       "favorited" : false,
-      "full_text" : "Not sure what I broke but I kinda like it #gamedev #screenshotsaturday #rtx https://t.co/3qWtFVX0Wr",
+      "full_text" : "Not sure what I broke but I kinda like it #gamedev #screenshotsaturday #rtx",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -8949,7 +8949,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Thu Jul 25 16:21:17 +0000 2019",
       "favorited" : false,
-      "full_text" : "Turns out it's really easy to make weird shaders in DXR, this one in particular breaks my mind. #gamedev #RTX https://t.co/B71ZTUf6k7",
+      "full_text" : "Turns out it's really easy to make weird shaders in DXR, this one in particular breaks my mind. #gamedev #RTX",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -9078,7 +9078,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Jul 21 16:45:26 +0000 2019",
       "favorited" : false,
-      "full_text" : "The first render from my RTX based dissertation, it's not much but I'm so excited to actually be getting on with the implementation #gamedev #rtx https://t.co/sYuc2pW6mU",
+      "full_text" : "The first render from my RTX based dissertation, it's not much but I'm so excited to actually be getting on with the implementation #gamedev #rtx",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -9284,7 +9284,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue Apr 09 16:16:48 +0000 2019",
       "favorited" : false,
-      "full_text" : "Improved the system to allow game objects to paint a distortion weight to a render texture #gamedev #shaders https://t.co/B8hENCIikJ",
+      "full_text" : "Improved the system to allow game objects to paint a distortion weight to a render texture #gamedev #shaders",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -9426,7 +9426,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue Apr 09 11:39:28 +0000 2019",
       "favorited" : false,
-      "full_text" : "I've wanted to do a gravity warp shader for a while, I'm glad that my group project has given me the opportunity to write one :) #gamedev #shader https://t.co/83AmiOwHNc",
+      "full_text" : "I've wanted to do a gravity warp shader for a while, I'm glad that my group project has given me the opportunity to write one :) #gamedev #shader",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -9643,7 +9643,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Mar 24 14:18:37 +0000 2019",
       "favorited" : false,
-      "full_text" : "Rendering assignment pretty much done, probably the best thing I've made so far. #gamedev #shaders #screenshotsunday https://t.co/HAznC4AaSQ",
+      "full_text" : "Rendering assignment pretty much done, probably the best thing I've made so far. #gamedev #shaders #screenshotsunday",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -9772,7 +9772,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Mar 17 02:19:02 +0000 2019",
       "favorited" : false,
-      "full_text" : "Dumb feature I decided to implement into my coursework: making the Sierpinski Gasket blow in the wind.  #gamedev #shaders https://t.co/nvtE2i9TIK",
+      "full_text" : "Dumb feature I decided to implement into my coursework: making the Sierpinski Gasket blow in the wind.  #gamedev #shaders",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -9921,7 +9921,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Mar 09 23:22:18 +0000 2019",
       "favorited" : false,
-      "full_text" : "Grass particle system/ shader just about done. I'd like to add some noise to the height cutoff but other than that I'm quite happy with it  #gamedev #shaders #screenshotsaturday https://t.co/5aFES7tiLu",
+      "full_text" : "Grass particle system/ shader just about done. I'd like to add some noise to the height cutoff but other than that I'm quite happy with it  #gamedev #shaders #screenshotsaturday",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -10063,7 +10063,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Mon Mar 04 21:13:02 +0000 2019",
       "favorited" : false,
-      "full_text" : "I'm working on the grass particle system for my advanced rendering project and I decided to give it the noise function that my terrain uses. It's almost loading screen material #gamedev #shaders https://t.co/pzEbDq0hPv",
+      "full_text" : "I'm working on the grass particle system for my advanced rendering project and I decided to give it the noise function that my terrain uses. It's almost loading screen material #gamedev #shaders",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -10205,7 +10205,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Fri Mar 01 15:16:20 +0000 2019",
       "favorited" : false,
-      "full_text" : "Working on a raymarched terrain for my rendering coursework, I am tempted to keep the complexity bloom and use it as a fog of some sort #gamedev #shaders https://t.co/ye6HUPFHAv",
+      "full_text" : "Working on a raymarched terrain for my rendering coursework, I am tempted to keep the complexity bloom and use it as a fog of some sort #gamedev #shaders",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -10354,7 +10354,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Feb 20 10:50:13 +0000 2019",
       "favorited" : false,
-      "full_text" : "We had a raymarching lab last week and then in yesterday's lecture we were told we'd be making an alien planet for our assignment so I've made a raymarched alien just for fun. #gamedev #shader #raymarching https://t.co/x9rFEW4QQe",
+      "full_text" : "We had a raymarching lab last week and then in yesterday's lecture we were told we'd be making an alien planet for our assignment so I've made a raymarched alien just for fun. #gamedev #shader #raymarching",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -10503,7 +10503,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Feb 17 18:27:44 +0000 2019",
       "favorited" : false,
-      "full_text" : "My new hobby seems to be spending the weekend writing random shaders, here's a sludge portal thing #gamedev #indiedev #shader https://t.co/iT0ftXBwel",
+      "full_text" : "My new hobby seems to be spending the weekend writing random shaders, here's a sludge portal thing #gamedev #indiedev #shader",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -10706,7 +10706,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Thu Feb 07 20:46:29 +0000 2019",
       "favorited" : false,
-      "full_text" : "Been working on raytracing today at Uni, slightly blown away by it. My personal favourite is the reflections of reflections #gamedev #shader https://t.co/XRPmXSJCfa",
+      "full_text" : "Been working on raytracing today at Uni, slightly blown away by it. My personal favourite is the reflections of reflections #gamedev #shader",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -10950,7 +10950,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Jan 20 12:12:26 +0000 2019",
       "favorited" : false,
-      "full_text" : "Here is a gif of my tetris bot being relatively competent. I've only really had a week to work on it do I'm happy with the progress so far. This is essentially a best case scenario as it occasionally still does freak out but some final polish will hopefully fix that #gamedev #ai https://t.co/p9goL5B592",
+      "full_text" : "Here is a gif of my tetris bot being relatively competent. I've only really had a week to work on it do I'm happy with the progress so far. This is essentially a best case scenario as it occasionally still does freak out but some final polish will hopefully fix that #gamedev #ai",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -11092,7 +11092,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Dec 30 23:29:17 +0000 2018",
       "favorited" : false,
-      "full_text" : "Getting close to finishing my second Uni assignment my main goal was to make an engine that I could reuse next semester so I don't have to waste time redoing things but also I wanted to avoid over-engineering everything so I actually had time to finish #gamedev #computerscience https://t.co/QTO0eNmBbp",
+      "full_text" : "Getting close to finishing my second Uni assignment my main goal was to make an engine that I could reuse next semester so I don't have to waste time redoing things but also I wanted to avoid over-engineering everything so I actually had time to finish #gamedev #computerscience",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -11227,7 +11227,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Dec 16 15:14:31 +0000 2018",
       "favorited" : false,
-      "full_text" : "This weekend I've learnt how to implement shadow mapping. I was always curious how it worked throughout undergrad so I'm glad it's a part of my masters coursework. #gamedev https://t.co/Tu6yCdzvCH",
+      "full_text" : "This weekend I've learnt how to implement shadow mapping. I was always curious how it worked throughout undergrad so I'm glad it's a part of my masters coursework. #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -11362,7 +11362,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Dec 01 15:39:39 +0000 2018",
       "favorited" : false,
-      "full_text" : "With the deadline coming up on Monday this is probably the final version of the physics demo barring some final polishing #screenshotsaturday https://t.co/oGF8vcLxD8",
+      "full_text" : "With the deadline coming up on Monday this is probably the final version of the physics demo barring some final polishing #screenshotsaturday",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -11497,7 +11497,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Thu Nov 22 21:26:16 +0000 2018",
       "favorited" : false,
-      "full_text" : "The best thing about working on physics stuff is definitely how quickly things go crazy when you make one dumb mistake. Today's bug is brought to you by forgetting to reset the impulse after applying it. #gamedev https://t.co/S1c48fR5Xz",
+      "full_text" : "The best thing about working on physics stuff is definitely how quickly things go crazy when you make one dumb mistake. Today's bug is brought to you by forgetting to reset the impulse after applying it. #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -11667,7 +11667,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Oct 31 17:39:56 +0000 2018",
       "favorited" : false,
-      "full_text" : "A quick uni update, for my simulation coursework I have to make a Galton Board. I'm currently working on collisions. I currently can simulate around 400-500 balls before it starts slowing down. I'm hoping that I can get 10 times that when I add a smarter collision system #gamedev https://t.co/xj8zAtg52V",
+      "full_text" : "A quick uni update, for my simulation coursework I have to make a Galton Board. I'm currently working on collisions. I currently can simulate around 400-500 balls before it starts slowing down. I'm hoping that I can get 10 times that when I add a smarter collision system #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -11816,7 +11816,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Thu Sep 20 20:11:38 +0000 2018",
       "favorited" : false,
-      "full_text" : "Nothing makes me want to work on a horror game more than a tree in fog #gamedev #indiedev #madewithunity https://t.co/dLh2SHJFYX",
+      "full_text" : "Nothing makes me want to work on a horror game more than a tree in fog #gamedev #indiedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -12019,7 +12019,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Aug 29 16:42:25 +0000 2018",
       "favorited" : false,
-      "full_text" : "I decided to make a quick animation for the fishing minigame, not sure what's going on with the centre of the bar, it's supposed to be green but it doesn't like being recorded #gamedev #indiedev #madewithunity https://t.co/MNqkoyKQ8p",
+      "full_text" : "I decided to make a quick animation for the fishing minigame, not sure what's going on with the centre of the bar, it's supposed to be green but it doesn't like being recorded #gamedev #indiedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -12168,7 +12168,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Aug 26 16:49:14 +0000 2018",
       "favorited" : false,
-      "full_text" : "I've been playing around with a stretch/easing shader and inverted the percentage of stretch to see what it'd look like, it now turns spheres into fish\n#gamedev #indiedev #madewithunity https://t.co/7Yd0sdUYkR",
+      "full_text" : "I've been playing around with a stretch/easing shader and inverted the percentage of stretch to see what it'd look like, it now turns spheres into fish\n#gamedev #indiedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -12361,7 +12361,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Aug 22 16:21:39 +0000 2018",
       "favorited" : false,
-      "full_text" : "The millionth water shader experiment, every time I get a new idea I can't help but try it. This time it's using a particle system recorded onto an orthographic camera and each particle grows and shrinks throughout it's lifetime to hide spawning in and out.\n#gamedev #indiedev https://t.co/I5wS0TKdce",
+      "full_text" : "The millionth water shader experiment, every time I get a new idea I can't help but try it. This time it's using a particle system recorded onto an orthographic camera and each particle grows and shrinks throughout it's lifetime to hide spawning in and out.\n#gamedev #indiedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -12517,7 +12517,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Fri Aug 17 15:05:43 +0000 2018",
       "favorited" : false,
-      "full_text" : "Last night I learnt how to use Unity's stencil buffer, I couldn't resist doing this #gamedev #indiedev #madewithunity #DoctorWho https://t.co/oQwYmtxpNG",
+      "full_text" : "Last night I learnt how to use Unity's stencil buffer, I couldn't resist doing this #gamedev #indiedev #madewithunity #DoctorWho",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -12680,7 +12680,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Aug 05 20:48:49 +0000 2018",
       "favorited" : false,
-      "full_text" : "Thanks to today's DF Retro video today I was able to update my water shader with an animated texture effect to make it look more interesting, using the result of two overlapping textures hadn't occurred to me, thanks @dark1x https://t.co/6EyRoddP9L\n#gamedev #indiedev https://t.co/NUqhKKPeNt",
+      "full_text" : "Thanks to today's DF Retro video today I was able to update my water shader with an animated texture effect to make it look more interesting, using the result of two overlapping textures hadn't occurred to me, thanks @dark1x https://t.co/6EyRoddP9L\n#gamedev #indiedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -12829,7 +12829,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Jul 28 19:14:47 +0000 2018",
       "favorited" : false,
-      "full_text" : "This week I invented the sea igloo as an excuse to use a shader effect I wrote nearly four months ago. Sea igloos are ideal for storing ocean based houses and boat garages. \n#gamedev #indiedev #screenshotsaturday https://t.co/02HUTpyCnW",
+      "full_text" : "This week I invented the sea igloo as an excuse to use a shader effect I wrote nearly four months ago. Sea igloos are ideal for storing ocean based houses and boat garages. \n#gamedev #indiedev #screenshotsaturday",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -12985,7 +12985,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Jul 21 20:16:52 +0000 2018",
       "favorited" : false,
-      "full_text" : "This is probably not how pufferfish look and swim in real life but if they did they'd immediately be my favourite fish #gamedev #indiedev #madewithunity #screenshotsaturday https://t.co/YkfEOBy7Rv",
+      "full_text" : "This is probably not how pufferfish look and swim in real life but if they did they'd immediately be my favourite fish #gamedev #indiedev #madewithunity #screenshotsaturday",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -13127,7 +13127,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Thu Jul 19 13:26:17 +0000 2018",
       "favorited" : false,
-      "full_text" : "I decided to stop putting off learning how to make 3D animations and I'm quite happy with how my attempt at a tentacle's attack animation came out #gamedev #indiedev https://t.co/EPCwV4Rn8n",
+      "full_text" : "I decided to stop putting off learning how to make 3D animations and I'm quite happy with how my attempt at a tentacle's attack animation came out #gamedev #indiedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -13276,7 +13276,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Jul 07 17:06:58 +0000 2018",
       "favorited" : false,
-      "full_text" : "Things are starting to come together now :)\n#gamedev #indiedev #screenshotsaturday https://t.co/MKF7sa0CIH",
+      "full_text" : "Things are starting to come together now :)\n#gamedev #indiedev #screenshotsaturday",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -13412,7 +13412,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Fri Jul 06 14:04:57 +0000 2018",
       "favorited" : false,
-      "full_text" : "First pass of a rock generator that I'm working on. Could also work as a somewhat overcooked brownie generator.\n#gamedev #indiedev #madewithunity https://t.co/wzalhjgtcA",
+      "full_text" : "First pass of a rock generator that I'm working on. Could also work as a somewhat overcooked brownie generator.\n#gamedev #indiedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -13598,7 +13598,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue Jun 26 22:02:12 +0000 2018",
       "favorited" : false,
-      "full_text" : "Tonight I spent a few hours working on a portal effect, then after thinking I was done I messed around with some properties and made a portal that's so much better my gif recorder refuses to record it in anything other than greyscale #gamedev #indiedev #shaders https://t.co/KIyhYvpjb8",
+      "full_text" : "Tonight I spent a few hours working on a portal effect, then after thinking I was done I messed around with some properties and made a portal that's so much better my gif recorder refuses to record it in anything other than greyscale #gamedev #indiedev #shaders",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -13747,7 +13747,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Thu Jun 21 18:19:21 +0000 2018",
       "favorited" : false,
-      "full_text" : "Probably the last snow gif, I couldn't help but pile up the snow through a particle system rather than using noise, takes a while to build up but on the plus side it's a lot more bumpy.\n#gamedev #indiedev #madewithunity https://t.co/fqOnIlz79k",
+      "full_text" : "Probably the last snow gif, I couldn't help but pile up the snow through a particle system rather than using noise, takes a while to build up but on the plus side it's a lot more bumpy.\n#gamedev #indiedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -13896,7 +13896,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Jun 20 18:48:44 +0000 2018",
       "favorited" : false,
-      "full_text" : "Turns out snow shaders are really fun to work on, I want to say that I'm done for now but I keep getting new ideas for it\n#gamedev #indiedev #madewithunity https://t.co/EtKCQT6wZN",
+      "full_text" : "Turns out snow shaders are really fun to work on, I want to say that I'm done for now but I keep getting new ideas for it\n#gamedev #indiedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -14038,7 +14038,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Jun 16 18:58:12 +0000 2018",
       "favorited" : false,
-      "full_text" : "I got bored during the Peru v Denmark game so I decided to try and write a quick shader whilst watching the rest of the game. Here's a very basic snow shader #gamedev #screenshotsaturday https://t.co/QyoxUkDQQU",
+      "full_text" : "I got bored during the Peru v Denmark game so I decided to try and write a quick shader whilst watching the rest of the game. Here's a very basic snow shader #gamedev #screenshotsaturday",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -14194,7 +14194,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Jun 09 10:41:58 +0000 2018",
       "favorited" : false,
-      "full_text" : "This week's work: swinging, slow mo and small explosions. I'm quite excited to see where this will go :) #gamedev #indiedev #screenshotsaturday #UE4 https://t.co/QuRHZsQtON",
+      "full_text" : "This week's work: swinging, slow mo and small explosions. I'm quite excited to see where this will go :) #gamedev #indiedev #screenshotsaturday #UE4",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -14343,7 +14343,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Jun 02 13:05:12 +0000 2018",
       "favorited" : false,
-      "full_text" : "Spent the past few days figuring out how third person control schemes work, it's not much but it's been fun to look at other games and try to figure out how they work :)\n#gamedev #indiedev #screenshotsaturday https://t.co/eMytWYYWvP",
+      "full_text" : "Spent the past few days figuring out how third person control schemes work, it's not much but it's been fun to look at other games and try to figure out how they work :)\n#gamedev #indiedev #screenshotsaturday",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -14492,7 +14492,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Fri May 18 20:06:13 +0000 2018",
       "favorited" : false,
-      "full_text" : "Working with AI, where in the space of 20 seconds a million things will go wrong #gamedev #indiedev #madewithunity https://t.co/UfzhlpBn3o",
+      "full_text" : "Working with AI, where in the space of 20 seconds a million things will go wrong #gamedev #indiedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -14648,7 +14648,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue May 08 23:57:59 +0000 2018",
       "favorited" : false,
-      "full_text" : "Spent the night playing around with the Sobel operator and rewrote it into an image effect shader. I love how it looks on the barrier so much #GameDev #indiedev #madewithunity #shader https://t.co/ra87J9wBMx",
+      "full_text" : "Spent the night playing around with the Sobel operator and rewrote it into an image effect shader. I love how it looks on the barrier so much #GameDev #indiedev #madewithunity #shader",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -14794,7 +14794,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue May 08 18:56:41 +0000 2018",
       "favorited" : false,
-      "full_text" : "I decided to look into how to do a Gaussian blur for a ui image in my game and thanks to @computer_phile was simple to understand but then next video started and I couldn't help but also try out the Sobel operator, now I'm just sat looking at cat pictures with the filter #gamedev https://t.co/m8n7Rvii5S",
+      "full_text" : "I decided to look into how to do a Gaussian blur for a ui image in my game and thanks to @computer_phile was simple to understand but then next video started and I couldn't help but also try out the Sobel operator, now I'm just sat looking at cat pictures with the filter #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -14977,7 +14977,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Apr 14 22:10:50 +0000 2018",
       "favorited" : false,
-      "full_text" : "Getting stars into a scene wasn't as complex as I expected. I need to remember not to forget to add a moon #gamedev #indiedev #screenshotsaturday #madewithunity https://t.co/FQPycCV06m",
+      "full_text" : "Getting stars into a scene wasn't as complex as I expected. I need to remember not to forget to add a moon #gamedev #indiedev #screenshotsaturday #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -15106,7 +15106,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue Apr 03 13:58:41 +0000 2018",
       "favorited" : false,
-      "full_text" : "I feel like cats were invented to be used for temp images for testing shaders #gamedev #indiedev https://t.co/sK4aSvvhml",
+      "full_text" : "I feel like cats were invented to be used for temp images for testing shaders #gamedev #indiedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -15262,7 +15262,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Mar 24 09:21:16 +0000 2018",
       "favorited" : false,
-      "full_text" : "Decided to let cannonballs skip across the water's surface #screenshotsaturday #gamedev #indiedev #1GAM https://t.co/rnJRgpRtwp",
+      "full_text" : "Decided to let cannonballs skip across the water's surface #screenshotsaturday #gamedev #indiedev #1GAM",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -15404,7 +15404,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Mar 10 11:58:14 +0000 2018",
       "favorited" : false,
-      "full_text" : "Bobbing about #screenshotsaturday  #1gam https://t.co/Th5D6TF04q",
+      "full_text" : "Bobbing about #screenshotsaturday  #1gam",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -15553,7 +15553,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue Mar 06 17:35:14 +0000 2018",
       "favorited" : false,
-      "full_text" : "I've been spending the past few days trying to make water, it's starting to come along now :) #gamedev #indiedev #madewithunity https://t.co/qoh0NJqt7s",
+      "full_text" : "I've been spending the past few days trying to make water, it's starting to come along now :) #gamedev #indiedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -15695,7 +15695,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue Mar 06 00:53:29 +0000 2018",
       "favorited" : false,
-      "full_text" : "I've just remembered how fun writing shaders can be, I think I'll start overusing this one immediately #gamedev #madewithunity https://t.co/XdkkTQwsWL",
+      "full_text" : "I've just remembered how fun writing shaders can be, I think I'll start overusing this one immediately #gamedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -15858,7 +15858,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Feb 17 17:26:19 +0000 2018",
       "favorited" : false,
-      "full_text" : "Spent the past couple of days building a \"notemap\" editor #screenshotsaturday #madewithunity #gamedev #indiedev #1gam https://t.co/wGhb71wEmX",
+      "full_text" : "Spent the past couple of days building a \"notemap\" editor #screenshotsaturday #madewithunity #gamedev #indiedev #1gam",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -15987,7 +15987,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Feb 10 18:04:24 +0000 2018",
       "favorited" : false,
-      "full_text" : "[Flashing images warning] I found a cool use for render textures last night, I'm not sure if this is something the Guitar Hero games do but rendering the scene geometry to a secondary camera works quite nicely for ensuring nothing hides the fretboard #screenshotsaturday #1GAM https://t.co/BgaASpVzzi",
+      "full_text" : "[Flashing images warning] I found a cool use for render textures last night, I'm not sure if this is something the Guitar Hero games do but rendering the scene geometry to a secondary camera works quite nicely for ensuring nothing hides the fretboard #screenshotsaturday #1GAM",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -16108,7 +16108,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Mon Feb 05 15:30:53 +0000 2018",
       "favorited" : false,
-      "full_text" : "My third #1GAM game is available now, its a short death loop style game in which you can use your previous selves to help you solve puzzles #gamedev #indiedev https://t.co/luc6TnBZuU",
+      "full_text" : "My third #1GAM game is available now, its a short death loop style game in which you can use your previous selves to help you solve puzzles #gamedev #indiedev",
       "lang" : "en"
     }
   },
@@ -16211,7 +16211,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Feb 03 22:25:05 +0000 2018",
       "favorited" : false,
-      "full_text" : "One of my favourite thing in game dev is when something done earlier has a secondary use that I didn't think of when I originally created it, in this case my turret prefab works really nicely when added to the boss :) #1GAM #gamedev #indiedev #screenshotsaturday https://t.co/fSijfKYVEI",
+      "full_text" : "One of my favourite thing in game dev is when something done earlier has a secondary use that I didn't think of when I originally created it, in this case my turret prefab works really nicely when added to the boss :) #1GAM #gamedev #indiedev #screenshotsaturday",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -16367,7 +16367,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue Jan 30 17:46:23 +0000 2018",
       "favorited" : false,
-      "full_text" : "I'm not an artist so I'm probably doing a billion things wrong but I decided to do my own art for my current #1GAM project and I'm quite enjoying it :) #madewithunity #indiedev #gamedev https://t.co/4bmMc4iqxy",
+      "full_text" : "I'm not an artist so I'm probably doing a billion things wrong but I decided to do my own art for my current #1GAM project and I'm quite enjoying it :) #madewithunity #indiedev #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -16503,7 +16503,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Fri Jan 26 19:14:47 +0000 2018",
       "favorited" : false,
-      "full_text" : "I really like how the post processing stack works in Unity, after playing with it today I'll definitely be looking into using it more in the future. I probably won't make the sun so blindingly bright though #madewithunity #indiedev #gamedev https://t.co/H9BDe0CWMT",
+      "full_text" : "I really like how the post processing stack works in Unity, after playing with it today I'll definitely be looking into using it more in the future. I probably won't make the sun so blindingly bright though #madewithunity #indiedev #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -16646,7 +16646,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Fri Jan 12 15:34:27 +0000 2018",
       "favorited" : false,
-      "full_text" : "I've found out through #1GAM that pathfinding is one of my favourite things to do, it's fun just watching it test itself :) (although knowing my luck I'll find out Unity now has a 2D navmesh setting now that it's done) #GameDev  #indiedev #madewithunity https://t.co/YmziZrppZ0",
+      "full_text" : "I've found out through #1GAM that pathfinding is one of my favourite things to do, it's fun just watching it test itself :) (although knowing my luck I'll find out Unity now has a 2D navmesh setting now that it's done) #GameDev  #indiedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -16795,7 +16795,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Fri Jan 05 17:16:55 +0000 2018",
       "favorited" : false,
-      "full_text" : "Figured out how to record inputs to repeat a player's actions accurately. The next game may feature time travel :) #1GAM #gamedev #indiedev https://t.co/YdB5xEOat3",
+      "full_text" : "Figured out how to record inputs to repeat a player's actions accurately. The next game may feature time travel :) #1GAM #gamedev #indiedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -17026,7 +17026,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Dec 20 01:07:15 +0000 2017",
       "favorited" : false,
-      "full_text" : "Jam is now capable of slowing objects that travel through it, which means I don't have to spend Christmas thinking about jam now :) #1gam #gamedev #indiedev #UE4 https://t.co/ay4a85IDSb",
+      "full_text" : "Jam is now capable of slowing objects that travel through it, which means I don't have to spend Christmas thinking about jam now :) #1gam #gamedev #indiedev #UE4",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -17175,7 +17175,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Dec 17 18:46:18 +0000 2017",
       "favorited" : false,
-      "full_text" : "Taken a little while but I've managed to get jam painted on the floor :) #1gam #indiedev #Gamedev https://t.co/23Tak4O2vK",
+      "full_text" : "Taken a little while but I've managed to get jam painted on the floor :) #1gam #indiedev #Gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -17282,7 +17282,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Dec 03 22:56:23 +0000 2017",
       "favorited" : false,
-      "full_text" : "Here is my first #1GAM entry, STOP STEALING OUR BEANS. It's a 3D driving game where you have to balance cans of beans in the back of your trailer and return them to your UFO because the idea of a bean powered UFO made me laugh. https://t.co/xXXHYyHs9N",
+      "full_text" : "Here is my first #1GAM entry, STOP STEALING OUR BEANS. It's a 3D driving game where you have to balance cans of beans in the back of your trailer and return them to your UFO because the idea of a bean powered UFO made me laugh.",
       "lang" : "en"
     }
   },
@@ -17378,7 +17378,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Mon Nov 13 19:25:45 +0000 2017",
       "favorited" : false,
-      "full_text" : "I got a little bit too excited by my AI actually doing a U-Turn and not slamming straight into a building instead #1GAM #madewithunity #gamedev https://t.co/Y5LPxMYPuf",
+      "full_text" : "I got a little bit too excited by my AI actually doing a U-Turn and not slamming straight into a building instead #1GAM #madewithunity #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -17527,7 +17527,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Nov 11 20:43:16 +0000 2017",
       "favorited" : false,
-      "full_text" : "I like looking at the wireframe view a little too much #screenshotsaturday #1GAM #gamedev https://t.co/6poZQ7ivhq",
+      "full_text" : "I like looking at the wireframe view a little too much #screenshotsaturday #1GAM #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -17663,7 +17663,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Wed Nov 08 19:32:25 +0000 2017",
       "favorited" : false,
-      "full_text" : "Spent the past few hours building a basic road system using a 2D array of booleans. Probably not the best way to go about it but it'll do for now :) #1GAM #gamedev #madewithunity https://t.co/kPEsvliFKx",
+      "full_text" : "Spent the past few hours building a basic road system using a 2D array of booleans. Probably not the best way to go about it but it'll do for now :) #1GAM #gamedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -17842,7 +17842,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Oct 22 23:32:37 +0000 2017",
       "favorited" : false,
-      "full_text" : "Just found out how much a dynamic FOV improves the feel of acceleration #indiedev #gamedev #madewithunity https://t.co/apYtVrXjlX",
+      "full_text" : "Just found out how much a dynamic FOV improves the feel of acceleration #indiedev #gamedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -17998,7 +17998,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Oct 07 14:55:19 +0000 2017",
       "favorited" : false,
-      "full_text" : "My AI controller is now playing nice with courses made with the my track editor :) #screenshotsaturday #indiedev #gamedev #madewithunity https://t.co/hBIIoRS2yC",
+      "full_text" : "My AI controller is now playing nice with courses made with the my track editor :) #screenshotsaturday #indiedev #gamedev #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -18143,7 +18143,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Thu Sep 28 21:15:41 +0000 2017",
       "favorited" : false,
-      "full_text" : "Favourite bug I've had for a while, somehow forgot to assign the front verts in my track builder so I have cool triangles instead. https://t.co/DAxuGv3AZh",
+      "full_text" : "Favourite bug I've had for a while, somehow forgot to assign the front verts in my track builder so I have cool triangles instead.",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -18387,7 +18387,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sat Aug 19 20:01:57 +0000 2017",
       "favorited" : false,
-      "full_text" : "Spent today working on a death/ gameover transition animation. I hadn't realised how useful Unity's animation tools are #screenshotsaturday https://t.co/64ht5AdfhE",
+      "full_text" : "Spent today working on a death/ gameover transition animation. I hadn't realised how useful Unity's animation tools are #screenshotsaturday",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -18568,7 +18568,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Mon Aug 14 20:36:19 +0000 2017",
       "favorited" : false,
-      "full_text" : "Today I decided to work on an accelerometer based game, I've now spent the past hour spawning objects and flicking them everywhere #gamedev https://t.co/wkRwuRK3Z8",
+      "full_text" : "Today I decided to work on an accelerometer based game, I've now spent the past hour spawning objects and flicking them everywhere #gamedev",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -18753,7 +18753,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Thu Jul 27 20:31:17 +0000 2017",
       "favorited" : false,
-      "full_text" : "This is how normal tanks drive right? #gamedev #UE4 https://t.co/boDaXvrYZV",
+      "full_text" : "This is how normal tanks drive right? #gamedev #UE4",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
@@ -19139,7 +19139,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Tue Jan 17 18:28:59 +0000 2017",
       "favorited" : false,
-      "full_text" : "This is the interim demo for my final year project #madewithunity #gamedev https://t.co/bnzRs1FS3D",
+      "full_text" : "This is the interim demo for my final year project #madewithunity #gamedev",
       "lang" : "en"
     }
   },
@@ -19221,7 +19221,7 @@ let twitterContent =
       "possibly_sensitive" : false,
       "created_at" : "Sun Jan 01 18:58:40 +0000 2017",
       "favorited" : false,
-      "full_text" : "Level generator is starting to take shape for my final year project, need to add more obstacles for adaptive difficulty next #madewithunity https://t.co/QVTsXnXxi3",
+      "full_text" : "Level generator is starting to take shape for my final year project, need to add more obstacles for adaptive difficulty next #madewithunity",
       "lang" : "en",
       "extended_entities" : {
         "media" : [
