@@ -41,6 +41,10 @@
           {% include shadertoyViewer.html address=page.address %}
         {%- endif -%}
 
+        {%- if page.engine contains "webgpu-viewer" -%}
+          {% include webgpuViewer2.html demo=page.demo %}
+        {%- endif -%}
+
         <div id="page_title" class="page_title">
           <div class="navigation-wrapper" id="navigation-wrapper">
             <div class="post-title-container">
