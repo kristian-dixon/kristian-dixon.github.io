@@ -4,9 +4,26 @@ title: "Chaotic Attractors - WebGPU"
 date: 2025-01-21 21:37:00 +0001
 engine: "webgpu-viewer"
 demo: "particles"
+pagecount: 2
+tags: Featured
 ---
 
-
+<div class="post_control_container">
+    <p style="margin: 0px;font-weight: 700;text-align: center; font-size: 1.75rem;margin-bottom: 4px;">Attractor Settings</p>
+    <select name="paint_mode" id="paint_mode" class="in-post-inputfield" data-cmd-call='ChangeComputeProgram'>
+        <option value="Nose-Hoover Attractor">Nose-Hoover Attractor</option>
+        <option value="Three Cell CNN Attractor">Three Cell CNN Attractor</option>
+        <option value="Aizawa Attractor">Langford Attractor</option>
+        <option value="Arneodo Attractor">Arneodo Attractor</option>
+        <option value="Bouali Attractor">Bouali Attractor</option>
+        <option value="Burke-Shaw Attractor">Burke-Shaw Attractor</option>
+        <option value="Chen-Celikovsky Attractor">Chen-Celikovsky Attractor</option>
+        <option value="Dequan Li Attractor">Dequan Li Attractor</option>
+        <option value="Halvorsen Attractor">Halvorsen Attractor</option>
+        <!--<option value="Flow">Arneodo</option>-->
+    </select>
+    <button id="save_texture" class="in-post-button" data-cmd-call='ResetSim'> Reset Simulation </button>
+</div>
 
 
 <div markdown="1" class="pagnated-page-wrapper" data-page-index="0">
@@ -41,5 +58,36 @@ One thing I’d really like to get in to improve quality is support for multi-sa
 I’d also like to add support for post processing effects, I briefly mentioned above that I’d already planned for adding bloom through making the particles additive but I’ve not yet read into how to set up the multiple render targets that’ll be necessary to handle a bloom pass. 
 
 As there’s hundreds of attractors, I am planning to add more to this demo whenever I have downtime. I’d love to get to the point where every attractor is supported some day. To extend on this, I’d also like to make the constants that make up an attractor to be exposed for tweaking since I think it’d be a lot of fun to play around with however since there’s no standard nomenclature for the constants I’d like to figure out a clean way of doing it without trying to invent a standard myself as I don’t want to be disrespectful to the original authors. 
+
+</div>
+
+
+
+<div markdown="1" class="pagnated-page-wrapper hidden" data-page-index="1">
+
+# References
+
+As stated in the post, all of the chaotic attractors I've implemented have come thanks to the maths in this [website](http://www.3d-meier.de/tut19/Seite0.html) whilst I've tweaked some values such as spawn radius, the equations and constants all came from this resource. As a lot of the links in the reference list no longer work I also want to include as close to a source of the original authors as possible.
+
+The following is a list of sources for each attractor:
+
+Three Cell CNN Attractor - Arena, P., Caponetto, R., Fortuna, L., and Porto, D., Bifurcation and chaos in noninteger order cellular neural networks, International Journal of Bifurcation and Chaos in Applied Sciences and Engineering, 1998, 8, 1527-1539
+
+Langford Attractor - Langford, William. (1984). Numerical Studies of Torus Bifurcations. 70. 10.1007/978-3-0348-6256-1_19. 
+
+Arneodo Attractor - Arneodo, A., Coullet, P., & Tresser, C. (1980). Oscillators with chaotic behavior: An approach to the study of turbulence. Physics Letters A, 79(4), 259-263.
+
+Bouali Attractor - Safieddine Bouali. A Versatile Six-wing 3D Strange Attractor. 2019. hal-02306636
+
+Burke-Shaw Attractor - Shaw, Robert. (2014). Strange Attractors, Chaotic Behavior, and Information Flow. Zeitschrift für Naturforschung A. 36. 10.1515/zna-1981-0115. 
+
+Chen-Celikovsky Attractor - Celikovský, Sergej & Chen, Guanrong. (2002). ON A GENERALIZED LORENZ CANONICAL FORM OF CHAOTIC SYSTEMS. International Journal of Bifurcation and Chaos. 12. 1789-1812. 10.1142/S0218127402005467. 
+
+Dequan Li Attractor - Li, Dequan. (2008). A three-scroll chaotic attractor. Physics Letters A. 372. 387-393. 10.1016/j.physleta.2007.07.045. 
+
+Halvorsen Attractor - Sprott, J.C. (1994). Strange Attractors. Chaos, Solitons & Fractals, 4(3), 311-314
+
+Nose-Hoover Attractor - Hoover, William. (1985). Canonical Dynamics: Equilibrium Phase-Space Distributions. Phys. Rev. A: At., Mol., Opt. Phys.. 31. 1695. 10.1103/PhysRevA.31.1695. 
+
 
 </div>

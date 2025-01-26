@@ -684,6 +684,11 @@ a:visited{
     }
 }
 
+.post_control_container{
+  margin: 18px;
+  display: flex;
+  flex-direction: column;
+}
 
 
 .tooltip .tooltiptext {
@@ -747,6 +752,8 @@ a:visited{
     padding:8px;
     overflow-y:auto;
     width: 98%;
+
+    box-shadow: 0px -2px 20px black;
 
     img{
       width: 100%;
