@@ -1,13 +1,15 @@
 ---
-layout: post
+layout: portfolio_rethink
 title: "Multiple fog densities without depth sampling"
 date: 2024-08-18 21:37:00 +0001
 tags: Shaders Prototypes
 categories: GraphicsProgramming
 ---
 
-
+<div markdown="1" class="pagnated-page-wrapper" data-page-index="0">
 ![Image]({{"assets/screenshots/FogDensity.png" | relative_url}})
+
+Please note: This is a legacy post that was made for the old format of this website.
 
 ## Intro
 
@@ -40,3 +42,5 @@ Below is a video of the prototype version, for this I also decided to add a scro
 {% include youtubePlayer.html id="8EOW8XMUXxM" %}
 
 Thanks for reading :)
+
+</div>

@@ -1,10 +1,15 @@
 ---
-layout: post
+layout: portfolio_rethink
 title: "A novel approach to faking UV scrolling in a GLTF file"
 date: 2024-08-12 21:37:00 +0001
 tags: Prototypes Modelling
 categories: Experimental
 ---
+
+
+<div markdown="1" class="pagnated-page-wrapper" data-page-index="0">
+
+Please note: This is a legacy post that was made for the old format of this website.
 
 ## Intro
 
@@ -42,3 +47,4 @@ Thanks for reading :)
 <!-- {% assign explainer = site.posts | where:"title","Test" %}
 {{ explainer[0].excerpt }} -->
 
+</div>
