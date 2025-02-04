@@ -19,6 +19,7 @@ minima:
 remote_theme: jekyll/minima@0e58c18c1f943731e76bdbd681a7748c0b36340c
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
