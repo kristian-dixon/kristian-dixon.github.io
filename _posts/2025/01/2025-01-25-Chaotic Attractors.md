@@ -104,6 +104,8 @@ Like with my ThreeJS sandbox, which has been used for other demos on this websit
 
 One feature I’d really like to add that’ll really improve the visual quality is support for multi-sampling to get some basic antialiasing in. This was something I initially assumed would work out of the box like with WebGL but it requires a little more technical effort so I’d like to give it a bit more time instead of trying to cram the feature in for this post. To follow this on I’d also like to add support for post processing effects, I briefly mentioned above that I’d already planned for adding bloom through making the particles additive but I’ve not yet read into how to set up the multiple render targets that’ll be necessary to handle a bloom pass but it’ll likely become easier after adding MSAA support. 
 
+Note: Since writing this post I have backported a solution for bloom, a post for which will be uploaded in the coming days. 
+
 As there’s hundreds of attractors, I am planning to add more to this demo whenever I have downtime. I’d love to get to the point where every attractor is supported some day. To extend on this, I’d also like to make the constants that make up an attractor to be exposed for tweaking since I think it’d be a lot of fun to play around with however since there’s no standard nomenclature for the constants I’d like to figure out a clean way of doing it without trying to invent a standard myself as I don’t want to be disrespectful to the original authors.    
 
 --
