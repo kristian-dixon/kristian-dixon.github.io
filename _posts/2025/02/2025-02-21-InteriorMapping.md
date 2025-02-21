@@ -6,6 +6,8 @@ img: https://kristian-dixon.github.io/assets/images/post_thumbnails/mesh_paintin
 engine: threejs-viewer
 demo: interior_mapping
 pagecount: 3
+tags: Hidden
+categories: Hidden
 ---
 
 <div markdown="1" class="pagnated-page-wrapper" data-page-index="0">
