@@ -186,3 +186,23 @@ if(postSettings)
 else{
     settingsButton.style.display = "none";
 }
+
+
+//Page Analytics
+if(window.location.hostname !== 'localhost')
+{
+    let pathName = window.location.pathname;
+    if(pathName === "/")
+    {
+        pathName = "index.html";
+    }
+    pathName = pathName.replaceAll('/', '_');
+    console.log(pathName);
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', "https://abacus.jasoncameron.dev/hit/kristian-dixon.github.io/" + pathName);
+    xhr.responseType = "json";
+    xhr.onload = function() {
+        console.log('Total Page Views : ' + this.response.value)
+    }
+    xhr.send();
+}
