@@ -196,7 +196,9 @@ if(window.location.hostname !== 'localhost')
     {
         pathName = "index.html";
     }
-    pathName = pathName.replaceAll('/', '_');
+    pathName = pathName.split('/').pop();
+    pathName = pathName.replaceAll('(','');
+    pathName = pathName.replaceAll(')','');
     console.log(pathName);
     var xhr = new XMLHttpRequest();
     xhr.open('GET', "https://abacus.jasoncameron.dev/hit/kristian-dixon.github.io/" + pathName);
