@@ -483,6 +483,7 @@ input:checked + .slider:before {
     bottom: 0px;
     position: absolute;
     width: 100%;
+    pointer-events: none;
 }
 
 .embed-container
