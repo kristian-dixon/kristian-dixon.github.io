@@ -5,7 +5,7 @@ subtitle: Drag to rotate. Pinch/ scroll to zoom :)
 desc: A live demo that showcases Interior Mapping Using ThreeJS.
 img: https://kristian-dixon.github.io/assets/images/post_thumbnails/InteriorMapping.png
 engine: threejs-viewer
-demo: interior_mapping_ar
+demo: interior_mapping
 pagecount: 2
 ---
 
