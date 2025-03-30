@@ -101,6 +101,24 @@
 
                 {% assign posts = site.posts %}
                 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+                <div class="post-list-group">
+                  <b>Paid Work</b>
+                  <ul class="post-list">
+                    {%- for post in posts -%}
+                      {%- if post.categories contains "paid_work" -%}
+                        <li onclick="location.href=`{{ post.url | relative_url }}`;">
+                          <div style="margin: 0px;">
+                            <label style="text-align: left; font-weight: bold;" class="post-link" href="{{ post.url | relative_url }}">
+                                {{ post.title | escape }}
+                            </label>
+                          </div>
+                        </li>
+                      {%- endif -%}                  
+                  {%- endfor -%}
+                  </ul>
+                </div>
+
                 <div class="post-list-group">
                   <b>Featured Posts</b>
                   <ul class="post-list">
@@ -127,6 +145,10 @@
                 {% assign listDate = null %}
                 {%- for post in posts -%}
                   {%- if post.categories contains "Hidden" -%}
+                      {% continue %}
+                  {%- endif -%}
+
+                  {%- if post.categories contains "paid_work" -%}
                       {% continue %}
                   {%- endif -%}
 

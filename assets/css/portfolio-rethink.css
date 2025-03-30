@@ -171,12 +171,22 @@ iframe{
   padding: 8px;
   border-radius: 8px;
   margin-bottom:8px;
+  
   b{
     margin-bottom: 8px;
     margin-left: 4px;
     margin-top: 2px;
     display: inline-block;
   }
+
+  ul{
+    padding:unset;
+    margin:unset;
+  }
+}
+
+li{
+  margin-bottom: 4px;
 }
 
 .mini-portfolio{
@@ -538,10 +548,7 @@ input:checked + .slider:before {
   }
 }
 
-ul{
-  padding:unset;
-  margin:unset;
-}
+
 
 a{
   color:#93aefd;
@@ -746,6 +753,8 @@ a:visited{
 
   div.content-wrapper p{
     margin-top: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
   }
 
 
