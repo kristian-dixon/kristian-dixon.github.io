@@ -16,9 +16,9 @@ The Stage project was one of the larger projects I'd worked on in my time at VIS
 
 There are three main selling points that set Stage apart from the competition. 
 
-First we utilised VERTX, an in-house networking engine that had an internal CDN to allow the app to make use of dynamic content. Our expertise in producing networked applications, along with the majority of our team being game development focused allowed us to build a very good application that was constantly receiving positive feedback from our customers.
-The second was that we built the app around the concept of shared space multiplayer VR utilising a third party tracking solution to localise each user in the virtual space, ensuring that users wouldn't bump into each other. This was novel because at the time Meta hadn't yet released support for shared spatial anchors on the Quest devices so for a while we were the only education offering that provided support for multiplayer sessions in the same shared space.
-Finally, the last selling point was that we had a simple to use, web based experience editor. This was designed so that both teachers and students could create experiences. Having the option for students to make experiences 
+- We utilised VERTX, an in-house networking engine that had an internal CDN to allow the app to make use of dynamic content. Our expertise in producing networked applications, along with the majority of our team being game development focused allowed us to build a very good application that was constantly receiving positive feedback from our customers.
+- We built the app around the concept of shared space multiplayer VR utilising a third party tracking solution to localise each user in the virtual space, ensuring that users wouldn't bump into each other. (Pre-dating shared spatial anchors)
+- We had a simple to use, web based experience editor. This was designed so that both teachers and students could create experiences. Having the option for students to make experiences 
 
 
 
@@ -55,6 +55,7 @@ Due to gaps in the timeline, I'll split this section up into multiple bits. This
 - Assisted the development of virtual production systems, allowing for cameras in the app to stream video to NDI sources.
 - Provided support in the development of a feature to have Stage be usable in projection rooms.
 - Tested the viability of remote rendering support on Quest devices.
+- Mentored junior developers in the team.
 
 ### Technical Support Work (Pre June 2023)
 
