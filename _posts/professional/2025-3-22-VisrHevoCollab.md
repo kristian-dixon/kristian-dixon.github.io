@@ -1,7 +1,7 @@
 ---
 layout: portfolio_rethink
 category: paid_work
-title: VISR - Hevo-Collaboration
+title: VISR x Hevolus - Hevo-Collaboration
 img: https://kristian-dixon.github.io/assets/images/post_thumbnails/professional/hevocollab.jpg
 pagecount: 1
 engine: youtube-player
