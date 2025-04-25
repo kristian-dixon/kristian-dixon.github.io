@@ -195,7 +195,7 @@ arBtn?.addEventListener('click', (x)=>{
 
 let vrBtn = document.getElementById('vr_mode');
 vrBtn?.addEventListener('click', (x)=>{
-    sendToDemo("VR_REQUESTED", btn.value);
+    sendToDemo("VR_REQUESTED");
 })
 
 //Page Analytics
