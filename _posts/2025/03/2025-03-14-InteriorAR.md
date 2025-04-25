@@ -8,6 +8,7 @@ engine: threejs-viewer
 demo: interior_mapping_ar
 pagecount: 1
 AR_SUPPORTED: true
+VR_SUPPORTED: true
 ---
 
 <div markdown="1" class="pagnated-page-wrapper" data-page-index="0" data-cmd-call='showBuildingScene'>
