@@ -2,7 +2,7 @@
 layout: portfolio_rethink
 title: Interior Mapping AR
 subtitle: Drag to rotate. Pinch/ scroll to zoom :)
-desc: A live demo that AR Integration in my blog.
+desc: A live demo of AR Integration in my blog.
 img: https://kristian-dixon.github.io/assets/images/post_thumbnails/ar_interiorthumb.png
 engine: threejs-viewer
 demo: interior_mapping_ar
