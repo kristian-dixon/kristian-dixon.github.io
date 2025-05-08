@@ -159,6 +159,7 @@ iframe{
 {
   display: inline;
   margin: 0;
+  pointer-events: all;
 }
 
 .grey{

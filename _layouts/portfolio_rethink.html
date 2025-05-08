@@ -65,6 +65,19 @@
         <main class="page-content" aria-label="Content" id="page-content">
           <div style="width: 100%;">
             <div class="top_page_wrapper">
+
+              {%- if page.AR_SUPPORTED == true -%}
+              <button class="top_page_btn page_btn" id="ar_mode">
+                <label class=>AR View</label>
+              </button>
+              {%- endif -%}
+
+              {%- if page.VR_SUPPORTED == true -%}
+              <button class="top_page_btn page_btn" id="vr_mode">
+                <label class=>VR View</label>
+              </button>
+              {%- endif -%}
+
               <button class="top_page_btn page_btn active" id="display_written_content">
                 <label class=>About</label>
               </button>

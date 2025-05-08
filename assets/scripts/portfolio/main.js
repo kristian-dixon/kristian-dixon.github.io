@@ -187,6 +187,16 @@ else{
     settingsButton.style.display = "none";
 }
 
+//XR
+let arBtn = document.getElementById('ar_mode');
+arBtn?.addEventListener('click', (x)=>{
+    sendToDemo("AR_REQUESTED");
+})
+
+let vrBtn = document.getElementById('vr_mode');
+vrBtn?.addEventListener('click', (x)=>{
+    sendToDemo("VR_REQUESTED");
+})
 
 //Page Analytics
 if(window.location.hostname !== 'localhost')
