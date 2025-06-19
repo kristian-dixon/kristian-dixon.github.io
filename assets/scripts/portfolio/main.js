@@ -142,7 +142,7 @@ panelDisplayModes.forEach((displayMode)=>{
     //Add show/hide for each panel mode button press
     displayMode.button.addEventListener("click", (x)=>
     {
-        for(let i = 0; i < pageBtns.length; i++)
+        for(let i = 0; i < panelDisplayModes.length; i++)
         {
             panelDisplayModes[i].button?.classList.remove("active");
             panelDisplayModes[i].panel?.classList.add("hidden");
@@ -167,7 +167,7 @@ panelDisplayModes.forEach((displayMode)=>{
 
 
 let postSettings = document.getElementById('post_settings');
-
+let settingsButton = document.getElementById('display_settings');
 if(postSettings)
 {
     let postSettingsParent = document.getElementById('settings_parent');
