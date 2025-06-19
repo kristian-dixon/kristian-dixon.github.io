@@ -128,52 +128,42 @@ for(let i = 0; i < inPostButtons.length; i++)
     })
 }
 
-
-let writtenContentButton = document.getElementById('display_written_content');
-let postListButton = document.getElementById("display_post_list");
-let settingsButton = document.getElementById("display_settings");
-
-let writtenContentContainer = document.getElementById('post_content_container');
-let postListContainer = document.getElementById('post_list_container');
-let settingsContainer = document.getElementById('settings_container');
+let panelDisplayModes = 
+[
+    {button: document.getElementById('display_written_content'), panel: document.getElementById('post_content_container'), showPagnation:true},
+    {button: document.getElementById('display_post_list'), panel: document.getElementById('post_list_container')},
+    {button: document.getElementById('display_comments'), panel: document.getElementById('comments_container')},
+    {button: document.getElementById('display_settings'), panel: document.getElementById('settings_container')},
+]
 
 let pagnationButtons = document.getElementById("page_btn_container")
 
-writtenContentButton?.addEventListener('click', (x)=>{
-    writtenContentButton.classList.add('active');
-    postListButton?.classList.remove('active');
-    settingsButton?.classList.remove('active');
+panelDisplayModes.forEach((displayMode)=>{
+    //Add show/hide for each panel mode button press
+    displayMode.button.addEventListener("click", (x)=>
+    {
+        for(let i = 0; i < pageBtns.length; i++)
+        {
+            panelDisplayModes[i].button?.classList.remove("active");
+            panelDisplayModes[i].panel?.classList.add("hidden");
+        }
 
-    writtenContentContainer?.classList.remove('hidden');
-    postListContainer?.classList.add('hidden');
-    settingsContainer?.classList.add('hidden');
+        displayMode.button.classList.add("active");
+        displayMode.panel.classList.remove("hidden");
 
-    page_btn_container.classList.remove('hidden');
+        if(displayMode.showPagnation)
+        {
+            pagnationButtons.classList.remove("hidden");
+        }
+        else
+        {
+            pagnationButtons.classList.add("hidden");
+        }
+    })
 })
 
-postListButton?.addEventListener('click', (x)=>{
-    writtenContentButton.classList.remove('active');
-    postListButton?.classList.add('active');
-    settingsButton?.classList.remove('active');
 
-    writtenContentContainer?.classList.add('hidden');
-    postListContainer?.classList.remove('hidden');
-    settingsContainer?.classList.add('hidden');
 
-    page_btn_container.classList.add('hidden');
-})
-
-settingsButton?.addEventListener('click', (x)=>{
-    writtenContentButton.classList.remove('active');
-    postListButton?.classList.remove('active');
-    settingsButton?.classList.add('active');
-
-    writtenContentContainer?.classList.add('hidden');
-    postListContainer?.classList.add('hidden');
-    settingsContainer?.classList.remove('hidden');
-
-    page_btn_container.classList.add('hidden');
-})
 
 
 let postSettings = document.getElementById('post_settings');

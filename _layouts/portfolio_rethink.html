@@ -14,6 +14,22 @@
     <link rel="stylesheet" href="/assets/css/portfolio-rethink.css?v=7">
     <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico">
     <script type="text/javascript" src="/assets/scripts/portfolio/main.js" defer></script>
+
+    <script src="https://giscus.app/client.js"
+        data-repo="kristian-dixon/GiscusComments"
+        data-repo-id="R_kgDOO-cXCw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOO-cXC84Crta5"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async></script>
   </head>
 
   <body>
@@ -81,12 +97,17 @@
               <button class="top_page_btn page_btn active" id="display_written_content">
                 <label class=>About</label>
               </button>
+              <button class="top_page_btn page_btn" id="display_comments">
+                <label>Comments</label>
+              </button>
               <button class="top_page_btn page_btn" id="display_post_list">
                 <label>Posts</label>
               </button>
               <button class="top_page_btn page_btn" id="display_settings">
                 <label>Settings</label>
               </button>
+              
+
             </div> 
           </div>
              
@@ -201,6 +222,14 @@
 
 
                 
+              </div>
+            </div>
+
+            <div class="content-wrapper hidden" id="comments_container">
+              <div class="post-list-container" id="comments_parent">
+                <div class="giscus">
+
+                </div>
               </div>
             </div>
           </div>
