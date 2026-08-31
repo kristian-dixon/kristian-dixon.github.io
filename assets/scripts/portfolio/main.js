@@ -139,6 +139,7 @@ let panelDisplayModes =
 let pagnationButtons = document.getElementById("page_btn_container")
 
 panelDisplayModes.forEach((displayMode)=>{
+    if(!displayMode.button) return;
     //Add show/hide for each panel mode button press
     displayMode.button.addEventListener("click", (x)=>
     {
