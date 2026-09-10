@@ -81,6 +81,12 @@
 
         <main class="page-content" aria-label="Content" id="page-content">
           <div style="width: 100%;">
+            
+          </div>
+             
+              
+          <div class="content-panel" id="content-panel">
+            
             <div class="top_page_wrapper">
 
               {%- if page.AR_SUPPORTED == true -%}
@@ -98,9 +104,9 @@
               <button class="top_page_btn page_btn active" id="display_written_content">
                 <label class=>About</label>
               </button>
-              <button class="top_page_btn page_btn" id="display_comments">
+              <!-- <button class="top_page_btn page_btn" id="display_comments">
                 <label>Comments</label>
-              </button>
+              </button> -->
               <button class="top_page_btn page_btn" id="display_post_list">
                 <label>Posts</label>
               </button>
@@ -110,12 +116,22 @@
               
 
             </div> 
-          </div>
-             
-              
-          <div class="content-panel" id="content-panel">
+
+
             <div class="content-wrapper" id="post_content_container">
               {{ content }}
+
+              <div class="bottom_page_wrapper" id="page_btn_container">
+              {%- if page.pagecount > 1 -%} 
+                <h3 style="margin-right: 8px;">Page</h3>
+                {% assign pagecount = page.pagecount | plus: -1%}
+                {% for counter in (0..pagecount)%}
+                  <button class="post-controls page_btn bottom_page_btn" data-page-index={{counter}}>
+                    <label>{{counter | plus: 1}}</label>
+                  </button>    
+                {% endfor %}
+              {%- endif -%}
+            </div>
             </div>
 
             <div class="content-wrapper hidden" id="post_list_container"> 
@@ -216,6 +232,7 @@
                 {%- endif -%}
 
               </div>
+            
             </div>
 
             <div class="content-wrapper hidden" id="settings_container">
@@ -239,16 +256,7 @@
           </div>
     
           <div style="height: 32px;">
-            <div class="bottom_page_wrapper" id="page_btn_container">
-              {%- if page.pagecount > 1 -%} 
-                {% assign pagecount = page.pagecount | plus: -1%}
-                {% for counter in (0..pagecount)%}
-                  <button class="post-controls page_btn bottom_page_btn" data-page-index={{counter}}>
-                    <span>{{counter | plus: 1}}</span>
-                  </button>    
-                {% endfor %}
-              {%- endif -%}
-            </div>
+
           </div>
 
         </main>

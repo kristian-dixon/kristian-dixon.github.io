@@ -43,7 +43,12 @@ if(hidePostBtn)
 
 //Handling pagnation
 let changePage = (ctx)=>{ 
-    
+    let contentWrappers = document.getElementsByClassName("content-wrapper");
+    for(let i = 0; i < contentWrappers.length; i++){
+        contentWrappers[i].scrollTo(0,0);
+    }
+
+
     let pageIndex = ctx.getAttribute("data-page-index");
     if(!pageIndex)
         return;
@@ -175,7 +180,7 @@ if(postSettings)
     postSettingsParent.appendChild(postSettings);
 }
 else{
-    settingsButton.style.display = "none";
+    settingsButton.remove();
 }
 
 //XR

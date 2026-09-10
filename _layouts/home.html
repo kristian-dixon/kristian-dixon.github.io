@@ -56,9 +56,9 @@
 
         <div id="page_title" style="height:100%;" class="page_title">
           <div class="navigation-wrapper" id="navigation-wrapper" style="height: 100%; align-items: center;">
-            <div class="post-title-container">
+            <div class="post-title-container" style="margin-top:28px">
               <p class="post-title" style="font-size:3rem;">Kristian Dixon</p>
-              <p class="post-subtitle" style="font-size:1.2rem; margin: 4px 0px 8px 0px;text-shadow: 0px 0px 4px #000000, 0px 0px 12px #000000bd">Game Developer - Graphics Researcher - Software Engineer</p> 
+              <p class="post-subtitle" style="font-size:1.2rem; margin: 4px 0px 8px 0px;text-shadow: 0px 0px 4px #000000, 0px 0px 12px #000000bd">Game Developer - Graphics Programmer - Software Engineer</p> 
 
               {%- include social.html -%}     
 
@@ -72,6 +72,12 @@
 
         <main class="page-content" aria-label="Content" id="page-content">
           <div style="width: 100%;">
+            
+          </div>
+             
+              
+          <div class="content-panel" id="content-panel">
+
             <div class="top_page_wrapper">
               <button class="top_page_btn page_btn active" id="display_written_content">
                 <label class=>About</label>
@@ -83,10 +89,7 @@
                 <label>Settings</label>
               </button>
             </div> 
-          </div>
-             
-              
-          <div class="content-panel" id="content-panel">
+
             <div class="content-wrapper" id="post_content_container">
               {{ content }}
             </div>
