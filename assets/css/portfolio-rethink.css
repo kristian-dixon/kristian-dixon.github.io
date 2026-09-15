@@ -112,14 +112,9 @@ iframe{
 }
 
 .settings_group{
-  display: grid;
-  grid-template-columns: auto auto;
-  width: 70%;
+  width: 80%;
   margin: auto;
-  justify-content: space-between;
-  justify-items: end;
   margin-bottom: 16px;
-  grid-row-gap: 4px;
 
   padding-top:8px;
   label{
@@ -132,6 +127,17 @@ iframe{
     width: 100%;
   }
 
+  input:hover{
+    border-color: #0075ff
+  }
+
+  .settings_centred{
+    max-width: 85px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+  }
+
   button{
     max-width:85px;
     width:100%;
@@ -139,6 +145,90 @@ iframe{
 
   input[type=color]{
     height:100%;
+  }
+
+  .settings_entry{
+    background-color: #18171d;
+    border-radius: 8px;
+    height: 36px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    /* box-shadow: inset -2px 1px 3px #b2a6a6; */
+    box-shadow: inset 5px -3px 5px rgb(12 12 12 / 30%), inset -4px 3px 3px rgb(105 105 105 / 25%);
+
+
+
+    .color-picker-wrapper {
+      display: inline-block;
+      width:100%;
+      max-width: 85px;
+      height: 16px;
+      padding: 0;
+      border: 2px solid #e2e8f024;
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      transition: transform 0.1s ease, border-color 0.2s;
+    }
+
+    .color-picker-wrapper:hover {
+      border-color: #0975fa;
+    }
+
+    .color-picker-wrapper input[type="color"] {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      max-width: unset;
+      width: 140%;
+      height: 140%;
+      margin: -20%; 
+      border: none;
+      background: none;
+      cursor: pointer;
+
+      
+    }
+
+    .color-picker-wrapper input[type="color"]::-webkit-color-swatch-wrapper {
+      padding: 0;
+    }
+
+    .color-picker-wrapper input[type="color"]::-webkit-color-swatch {
+      border: none;
+    }
+
+    .color-picker-wrapper input[type="color"]::-moz-color-swatch {
+      border: none;
+    }
+
+
+    
+    /* Slider Modifications */
+    .switch {
+      width: 44px;
+      height: 23px;
+      margin-right:unset;
+    }
+
+    .slider:before {
+      height: 16px;
+      width: 16px;
+      left: 4px;
+      bottom: 3px;
+    }
+
+    input:checked + .slider:before{
+      transform:translateX(20px);
+      -ms-transform: translateX(20px);
+      -webkit-tranform: translateX(20px);
+    }
+
   }
 }
 
@@ -262,7 +352,7 @@ li{
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #0075ff;
 }
 
 input:focus + .slider {

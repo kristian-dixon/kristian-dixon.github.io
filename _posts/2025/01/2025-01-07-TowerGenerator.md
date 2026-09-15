@@ -84,48 +84,75 @@ Overall though, for a low poly building generator, I thought it was a fun toy to
 
 <label for="iterations_min">Generate Building</label> <button class="in-post-button" data-cmd-call='generate'> Click </button>
 
+<div class="settings_entry">
 <label for="iterations_min">Minimum Interations</label> 
 <input type="number" id="iterations_min" class="in-post-inputfield" data-cmd-call='set:iterationsMin' value="3"/>
+</div>
 
+<div class="settings_entry">
 <label for="iterations_max">Maximum Interations</label> 
 <input type="number" id="iterations_max" class="in-post-inputfield" data-cmd-call='set:iterationsMax' value="5"/>
+</div>
 
+<div class="settings_entry">
 <label for="segment_scale">Segment Scale</label> 
 <input type="number" id="segment_scale" class="in-post-inputfield" data-cmd-call='set:initialScale' value="10"/>
+</div>
 
+<div class="settings_entry">
 <label for="segment_scale_change">Per segment scale change</label> 
 <input type="number" id="segment_scale_change" class="in-post-inputfield" data-cmd-call='set:perSegmentScaleChange' value="10"/>
+</div>
 
+<div class="settings_entry">
 <label for="width_and_depth">Match Width and Depth</label> 
 <input type="range" id="width_and_depth" class="in-post-inputfield" data-cmd-call='set:matchWidthAndDepthChance' value="1.0" min="0.0" max="1.0" step="0.1"/>
+</div>
 
+<div class="settings_entry">
 <label for="height_min">Minimum Height Per Segment</label> 
 <input type="number" id="height_min" class="in-post-inputfield" data-cmd-call='set:heightMin' value="10.0"/>
+</div>
 
+<div class="settings_entry">
 <label for="height_max">Maximum Height Per Segment</label> 
 <input type="number" id="height_max" class="in-post-inputfield" data-cmd-call='set:heightMax' value="15.0"/>
+</div>
 
+<div class="settings_entry">
 <label for="height_max">Maximum Height Per Segment</label> 
 <input type="number" id="height_max" class="in-post-inputfield" data-cmd-call='set:heightMax' value="15.0"/>
+</div>
 
+<div class="settings_entry">
 <label for="expand_chance">Expand Chance</label> 
 <input type="range" id="expand_chance" class="in-post-inputfield" data-cmd-call='set:expandChance' value="0.2" min="0.0" max="1.0" step="0.1"/>
+</div>
 
+<div class="settings_entry">
 <label for="expand_min">Expand Amount Minimum</label> 
 <input type="number" id="expand_min" class="in-post-inputfield" data-cmd-call='set:expand_min' value="2.0"/>
+</div>
 
+<div class="settings_entry">
 <label for="expand_max">Expand Amount Maximum</label> 
 <input type="number" id="expand_max" class="in-post-inputfield" data-cmd-call='set:expand_max' value="3.0"/>
+</div>
 
+<div class="settings_entry">
 <label for="inset_chance">Inset Chance</label> 
 <input type="range" id="inset_chance" class="in-post-inputfield" data-cmd-call='set:insetChance' value="0.25" min="0.0" max="1.0" step="0.05"/>
+</div>
 
+<div class="settings_entry">
 <label for="taper_chance">Taper Chance</label> 
 <input type="range" id="taper_chance" class="in-post-inputfield" data-cmd-call='set:taperChance' value="0.1" min="0.0" max="1.0" step="0.05"/>
+</div>
 
+<div class="settings_entry">
 <label for="spire_chance">Spire Chance</label> 
 <input type="range" id="spireChance" class="in-post-inputfield" data-cmd-call='set:spireChance' value="0.2" min="0.0" max="1.0" step="0.05"/>
-
+</div>
 
 
 </div>

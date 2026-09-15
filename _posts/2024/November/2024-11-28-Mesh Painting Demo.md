@@ -120,16 +120,20 @@ Since I only care about where in worldspace the user has selected I wrote a func
 ## Brush Settings
 
 <div class="settings_group">
-
-<label for="brush_color">Colour</label> 
-<input type="color" id="brush_color" class="in-post-inputfield" data-cmd-call='setBrushColour' value="#FF0000"/>
-
-<label for="brush_alpha_strength">Alpha Strength</label> 
-<input type="number" id="brush_alpha_strength" class="in-post-inputfield" data-cmd-call='setBrushStrength' value="0.5"/>
-
-<label for="brush_alpha_radius">Radius</label> 
-<input type="number" id="brush_alpha_radius" class="in-post-inputfield" data-cmd-call='setBrushRadius' value="0.5"/>
-
+    <div class="settings_entry">
+        <label for="brush_color">Colour</label> 
+        <div class="color-picker-wrapper">
+            <input type="color" id="brush_color" class="in-post-inputfield" data-cmd-call='setBrushColour' value="#FF0000"/>
+        </div>
+    </div>
+    <div class="settings_entry">
+        <label for="brush_alpha_strength">Alpha Strength</label> 
+        <input type="number" id="brush_alpha_strength" class="in-post-inputfield" data-cmd-call='setBrushStrength' value="0.5"/>
+    </div>
+    <div class="settings_entry">
+        <label for="brush_alpha_radius">Radius</label> 
+        <input type="number" id="brush_alpha_radius" class="in-post-inputfield" data-cmd-call='setBrushRadius' value="0.5"/>
+    </div>
 </div>
 
 <div markdown="1">
@@ -139,16 +143,23 @@ Since I only care about where in worldspace the user has selected I wrote a func
 </div>
 
 <div class="settings_group">
-
-<label for="enable_camera_spin">Auto Rotate</label> 
-<input type="checkbox" id="enable_camera_spin" class="in-post-inputfield" data-cmd-call='setCameraOrbit' checked/>
-
-<label for="camera_pitch">Pitch</label> 
-<input type="range" id="camera_pitch" class="in-post-inputfield" data-cmd-call='setCameraPitch' value="0" min="-3.14" max="3.14" step="0.1"/>
-
-<label for="camera_yaw">Yaw</label> 
-<input type="range" id="camera_yaw" class="in-post-inputfield" data-cmd-call='setCameraYaw' value="0" min="-3.14" max="3.14" step="0.1"/>
-
+    <div class="settings_entry">
+        <label for="enable_camera_spin">Auto Rotate</label> 
+        <div class="settings_centred">
+            <label class="switch switch-center">
+                <input type="checkbox" id="enable_camera_spin" class="in-post-inputfield" data-cmd-call='setCameraOrbit' checked/>
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+    <div class="settings_entry">
+        <label for="camera_pitch">Pitch</label> 
+        <input type="range" id="camera_pitch" class="in-post-inputfield" data-cmd-call='setCameraPitch' value="0" min="-3.14" max="3.14" step="0.1"/>
+    </div>
+    <div class="settings_entry">
+        <label for="camera_yaw">Yaw</label> 
+        <input type="range" id="camera_yaw" class="in-post-inputfield" data-cmd-call='setCameraYaw' value="0" min="-3.14" max="3.14" step="0.1"/>
+    </div>
 </div>
 
 <div markdown="1">
@@ -158,15 +169,18 @@ Since I only care about where in worldspace the user has selected I wrote a func
 </div>
 
 <div class="settings_group">
-<label for="save_texture">Save Texture</label> 
-<button id="save_texture" class="in-post-button" data-cmd-call='export'> Click </button>
-
-<label for="import_texture">Import Texture</label>
-<input type="file" accept=".png" class="in-post-inputfield" data-cmd-call='loadTexture' value=""/>
-
-<label for="import_model">Import Model</label>
-<input type="file" accept=".glb" class="in-post-inputfield" data-cmd-call='loadModel'/>
-
+    <div class="settings_entry">
+        <label for="save_texture">Save Texture</label> 
+        <button id="save_texture" class="in-post-button" data-cmd-call='export'> Click </button>
+    </div>
+    <div class="settings_entry">
+        <label for="import_texture">Import Texture</label>
+        <input type="file" accept=".png" class="in-post-inputfield" data-cmd-call='loadTexture' value=""/>
+    </div>
+    <div class="settings_entry">
+        <label for="import_model">Import Model</label>
+        <input type="file" accept=".glb" class="in-post-inputfield" data-cmd-call='loadModel'/>
+    </div>
 </div>
 
 <div markdown="1">

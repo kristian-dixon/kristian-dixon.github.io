@@ -136,56 +136,71 @@ Note - Because of how the blog currently works I don't have a nice way to sync s
 ## Distortion Settings 
     
 <div class="settings_group">
-
-<label for='distortion_intensity'>Distortion Intensity - </label>
-<input type="range" id="distortion_intensity" class="in-post-inputfield" data-cmd-call='setDisplacementStrength' min='0' max='1' step='0.001' value='0'/>
-
-<label for='scrollspeedx'>Scroll Speed - X :</label>
-<input type="number" id="scrollspeedx" class="in-post-inputfield" data-cmd-call='setUVScrollSpeedX' value='0'/>
-<label for='scrollspeedy'>Scroll Speed Y :</label>
-<input type="number" id="scrollspeedy" class="in-post-inputfield" data-cmd-call='setUVScrollSpeedY' value='0'/>
-
-
-<label for='uvscalex'>UV Scale - X :</label>
-<input type="number" id="uvscalex" class="in-post-inputfield" data-cmd-call='setUVScaleX' value='1'/>
-<label for='uvscaley'>UV Scale Y :</label>
-<input type="number" id="uvscaley" class="in-post-inputfield" data-cmd-call='setUVScaleY' value='1'/>
-
-<label for='gradstrength'>Gradient Strength - </label>
-<input type="number" id="gradstrength" class="in-post-inputfield" data-cmd-call='setGradientStrength' value='1'/>
-
-<label>Render Gradient - </label>
-<input type="checkbox" data-cmd-call='setRenderGradient' class="in-post-inputfield" >
-
+    <div class="settings_entry">
+        <label for='distortion_intensity'>Distortion Intensity - </label>
+        <input type="range" id="distortion_intensity" class="in-post-inputfield" data-cmd-call='setDisplacementStrength' min='0' max='1' step='0.001' value='0'/>
+    </div>
+    <div class="settings_entry">
+        <label for='scrollspeedx'>Scroll Speed - X :</label>
+        <input type="number" id="scrollspeedx" class="in-post-inputfield" data-cmd-call='setUVScrollSpeedX' value='0'/>
+    </div>
+    <div class="settings_entry">
+        <label for='scrollspeedy'>Scroll Speed Y :</label>
+        <input type="number" id="scrollspeedy" class="in-post-inputfield" data-cmd-call='setUVScrollSpeedY' value='0'/>
+    </div>
+    <div class="settings_entry">
+        <label for='uvscalex'>UV Scale - X :</label>
+        <input type="number" id="uvscalex" class="in-post-inputfield" data-cmd-call='setUVScaleX' value='1'/>
+    </div>
+    <div class="settings_entry">
+        <label for='uvscaley'>UV Scale Y :</label>
+        <input type="number" id="uvscaley" class="in-post-inputfield" data-cmd-call='setUVScaleY' value='1'/>
+    </div>
+    <div class="settings_entry">
+        <label for='gradstrength'>Gradient Strength - </label>
+        <input type="number" id="gradstrength" class="in-post-inputfield" data-cmd-call='setGradientStrength' value='1'/>
+    </div>
+    <div class="settings_entry">
+        <label>Render Gradient - </label>
+        <label class="switch switch-center">
+            <input type="checkbox" data-cmd-call='setRenderGradient' class="in-post-inputfield" >
+            <span class="slider round"></span>
+        </label>
+    </div>
 </div>
 
 ## Drawing Settings
 
 <div class="settings_group">
-
-<label for="paint_mode">Paint Mode </label> 
-<select name="paint_mode" id="paint_mode" class="in-post-inputfield" data-cmd-call='setPaintMode'>
-<option value="None">None</option>
-<option value="Albedo">Albedo</option>
-<option value="Flow">Flow</option>
-</select>
-
-<!-- <label>Use Custom Albedo Texture - </label>
-<input type="checkbox" data-cmd-call='setRenderDrawnAlbedo' class="in-post-inputfield" > -->
-
-<label>Use Custom Flowmap - </label>
-<input type="checkbox" data-cmd-call='setRenderDrawnFlowmap' class="in-post-inputfield" >
-
-<label for="brush_color">Albedo only - Colour</label> 
-<input type="color" id="brush_color" class="in-post-inputfield" data-cmd-call='setBrushColour' value="#FF0000"/>
-
-
-<label for="import_texture">Import Albedo Texture</label>
-<input type="file" accept=".png" class="in-post-inputfield" data-cmd-call='loadTexture' value=""/>
-
-<label for="import_model">Import Flowmap</label>
-<input type="file" accept=".png" class="in-post-inputfield" data-cmd-call='importFlowmap'/>
-
+    <div class="settings_entry">
+        <label for="paint_mode">Paint Mode </label> 
+        <select name="paint_mode" id="paint_mode" class="in-post-inputfield" data-cmd-call='setPaintMode'>
+            <option value="None">None</option>
+            <option value="Albedo">Albedo</option>
+            <option value="Flow">Flow</option>
+        </select>
+    </div>
+    <div class="settings_entry">
+        <label>Use Custom Flowmap - </label>
+        <label class="switch switch-center">
+            <input type="checkbox" data-cmd-call='setRenderDrawnFlowmap' class="in-post-inputfield" >
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <div class="settings_entry">
+        <label for="brush_color">Albedo only - Colour</label> 
+        <div class="color-picker-wrapper">
+            <input type="color" id="brush_color" class="in-post-inputfield" data-cmd-call='setBrushColour' value="#FF0000"/>
+        </div>
+    </div>
+    <div class="settings_entry">
+        <label for="import_texture">Import Albedo Texture</label>
+        <input type="file" accept=".png" class="in-post-inputfield" data-cmd-call='loadTexture' value=""/>
+    </div>
+    <div class="settings_entry">
+        <label for="import_model">Import Flowmap</label>
+        <input type="file" accept=".png" class="in-post-inputfield" data-cmd-call='importFlowmap'/>
+    </div>
 </div>
 
 
